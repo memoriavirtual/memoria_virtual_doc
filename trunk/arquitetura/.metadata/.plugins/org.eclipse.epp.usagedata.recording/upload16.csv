@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.specification.version,sysinfo,,,"1.0",1261144481805
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1261144481805
+java.vm.version,sysinfo,,,"15.0-b02",1261144481805
+started,bundle,org.eclipse.emf.validation,1.3.0.v200901271722,"org.eclipse.emf.validation",1261144481993
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1261144482024
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1261144482040
+started,bundle,org.eclipse.xtend.typesystem.emf.ui,0.7.2.v200908120436,"org.eclipse.xtend.typesystem.emf.ui",1261144482040
+started,bundle,org.eclipse.equinox.p2.ui,1.0.101.R35x_v20090819,"org.eclipse.equinox.p2.ui",1261144485993
+started,bundle,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk",1261144485993
+started,bundle,org.eclipse.equinox.p2.metadata,1.0.100.v20090525,"org.eclipse.equinox.p2.metadata",1261144486040
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1261144487727
+started,bundle,org.eclipse.equinox.p2.extensionlocation,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.extensionlocation",1261144488633
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1261144532413
+executed,command,org.eclipse.equinox.p2.ui.sdk,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.install",1261144532428
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1261144536959
+activated,view,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.PackageExplorer",1261144536991
+closed,view,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.internal.introview",1261144537038
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1261144541100
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1261144580145
+started,bundle,org.eclipse.gmf.xpand.migration,1.0.0.v20090608-0720,"org.eclipse.gmf.xpand.migration",1261144580223
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1261144583676
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1261144583708
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1261144583864
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1261144592567
+started,bundle,org.eclipse.gmf.runtime.diagram.core,1.2.1.v20090729-2029,"org.eclipse.gmf.runtime.diagram.core",1261144618269
