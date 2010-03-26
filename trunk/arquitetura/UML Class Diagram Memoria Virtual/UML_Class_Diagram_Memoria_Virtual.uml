@@ -12,4 +12,5 @@
   <elementImport xmi:id="_dpUXMjkLEd-QIKkH29gu2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
   </elementImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_6fnMEDkWEd-JKcHXA53oow" name="package"/>
 </uml:Package>

@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:uml2tools.notation="http://www.eclipse.org/mdt/uml2tools/gmf/notation/ext/2008" xmi:id="_dpU-QDkLEd-QIKkH29gu2w" type="UMLClass" name="UML_Class_Diagram_Memoria_Virtual.umlclass" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_4gOHMDkWEd-JKcHXA53oow" type="2014" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4gRxkDkWEd-JKcHXA53oow" type="5020"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4gRxkTkWEd-JKcHXA53oow" type="5041"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4gTmwDkWEd-JKcHXA53oow" type="7032" collapsed="true">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_4gTmwTkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_4gTmwjkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_4gTmwzkWEd-JKcHXA53oow"/>
+    </children>
+    <element xmi:type="uml:Package" href="UML_Class_Diagram_Memoria_Virtual.uml#_dokwUDkLEd-QIKkH29gu2w"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4gOuQDkWEd-JKcHXA53oow"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_6jdxUDkWEd-JKcHXA53oow" type="2002" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6jeYYDkWEd-JKcHXA53oow" type="5004"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6jeYYTkWEd-JKcHXA53oow" type="7010">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6je_cDkWEd-JKcHXA53oow" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6je_cTkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6je_cjkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_6je_czkWEd-JKcHXA53oow"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6jg0oDkWEd-JKcHXA53oow" type="7011">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6jg0oTkWEd-JKcHXA53oow" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6jg0ojkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6jg0ozkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_6jg0pDkWEd-JKcHXA53oow"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_6jg0pTkWEd-JKcHXA53oow" type="7012">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_6jg0pjkWEd-JKcHXA53oow" showTitle="true"/>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_6jg0pzkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_6jg0qDkWEd-JKcHXA53oow"/>
+      <styles xmi:type="notation:CanonicalStyle" xmi:id="_6jg0qTkWEd-JKcHXA53oow"/>
+    </children>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6jdxUTkWEd-JKcHXA53oow"/>
+    <element xmi:type="uml:Package" href="UML_Class_Diagram_Memoria_Virtual.uml#_6fnMEDkWEd-JKcHXA53oow"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6jdxUjkWEd-JKcHXA53oow" x="224" y="156"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_dpU-QTkLEd-QIKkH29gu2w"/>
   <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_dpU-QjkLEd-QIKkH29gu2w"/>
   <styles xmi:type="notation:FilteringStyle" xmi:id="_dpU-QzkLEd-QIKkH29gu2w"/>
