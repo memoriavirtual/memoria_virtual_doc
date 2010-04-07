@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_rFdMMDkLEd-QIKkH29gu2w" name="UML_Use_Case_Diagram_Memoria_Virtual">
+  <ownedComment xmi:id="_5hDAUDuuEd-EyP6dBk_F8w">
+    <body>Admin Pode Realizar Buscar Apos a Validação de Login</body>
+  </ownedComment>
+  <ownedComment xmi:id="_ZzE9QDuvEd-EyP6dBk_F8w">
+    <body>Realizar Login no Sistema</body>
+  </ownedComment>
+  <ownedComment xmi:id="_fLKcQDuvEd-EyP6dBk_F8w">
+    <body>Realizar Busca Sem Login do Sistema</body>
+  </ownedComment>
+  <ownedComment xmi:id="_laLjQDuvEd-EyP6dBk_F8w">
+    <body>Exibir o Conteudo da Busca</body>
+  </ownedComment>
+  <ownedComment xmi:id="_q6vBwDuvEd-EyP6dBk_F8w">
+    <body>Exibir o Conteudo da Busca</body>
+  </ownedComment>
+  <ownedComment xmi:id="_XBRwcEIEEd-QVsucQ2w_Bg">
+    <body>UML Use Case Diagram Memoria Virtual</body>
+  </ownedComment>
   <elementImport xmi:id="_rGKW0DkLEd-QIKkH29gu2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
   </elementImport>
@@ -12,4 +30,36 @@
   <elementImport xmi:id="_rGKW0zkLEd-QIKkH29gu2w">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
   </elementImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_d4fa0DusEd-EyP6dBk_F8w" name="Usuario Comum"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_iD0LwDusEd-EyP6dBk_F8w" name="Usuario Administrador"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ojPGQDusEd-EyP6dBk_F8w" name="BuscaSimples">
+    <include xmi:id="_pb7MUDutEd-EyP6dBk_F8w" addition="_iw0mQDutEd-EyP6dBk_F8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0W1QIDusEd-EyP6dBk_F8w" name="BuscaCompleta">
+    <include xmi:id="_qrzf0DutEd-EyP6dBk_F8w" addition="_iw0mQDutEd-EyP6dBk_F8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_72ITQDusEd-EyP6dBk_F8w" name="RealizarLogin">
+    <extend xmi:id="_o_UTYDuuEd-EyP6dBk_F8w" extendedCase="_0W1QIDusEd-EyP6dBk_F8w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GjX5EDutEd-EyP6dBk_F8w" memberEnd="_GjYgIDutEd-EyP6dBk_F8w _GjZHMDutEd-EyP6dBk_F8w" navigableOwnedEnd="_GjZHMDutEd-EyP6dBk_F8w">
+    <ownedEnd xmi:id="_GjYgIDutEd-EyP6dBk_F8w" name="src" type="_ojPGQDusEd-EyP6dBk_F8w" association="_GjX5EDutEd-EyP6dBk_F8w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GjYgIjutEd-EyP6dBk_F8w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GjYgITutEd-EyP6dBk_F8w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_GjZHMDutEd-EyP6dBk_F8w" name="dst" type="_d4fa0DusEd-EyP6dBk_F8w" association="_GjX5EDutEd-EyP6dBk_F8w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GjZHMjutEd-EyP6dBk_F8w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GjZHMTutEd-EyP6dBk_F8w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_I2kqwDutEd-EyP6dBk_F8w" memberEnd="_I2kqwTutEd-EyP6dBk_F8w _I2lR0DutEd-EyP6dBk_F8w" navigableOwnedEnd="_I2lR0DutEd-EyP6dBk_F8w">
+    <ownedEnd xmi:id="_I2kqwTutEd-EyP6dBk_F8w" name="src" type="_72ITQDusEd-EyP6dBk_F8w" association="_I2kqwDutEd-EyP6dBk_F8w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2kqwzutEd-EyP6dBk_F8w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2kqwjutEd-EyP6dBk_F8w" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_I2lR0DutEd-EyP6dBk_F8w" name="dst" type="_iD0LwDusEd-EyP6dBk_F8w" association="_I2kqwDutEd-EyP6dBk_F8w">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I2lR0jutEd-EyP6dBk_F8w" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I2lR0TutEd-EyP6dBk_F8w" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iw0mQDutEd-EyP6dBk_F8w" name="ExibirBuscar"/>
 </uml:Package>
