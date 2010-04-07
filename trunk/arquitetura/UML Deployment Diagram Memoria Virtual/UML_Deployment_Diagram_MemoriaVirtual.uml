@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Fb4mITeHEd-4j4M5ryvh_g" name="UML_Deployment_Diagram_MemoriaVirtual">
+  <ownedComment xmi:id="_HqC6UDu6Ed-1B--QOQAHqw">
+    <body>Client View/Side</body>
+  </ownedComment>
+  <ownedComment xmi:id="_NLwPYDu6Ed-1B--QOQAHqw">
+    <body>Presentation Layer</body>
+  </ownedComment>
+  <ownedComment xmi:id="_SXi-0Du6Ed-1B--QOQAHqw">
+    <body>Application Layer</body>
+  </ownedComment>
+  <ownedComment xmi:id="_Zqdy0Du6Ed-1B--QOQAHqw">
+    <body>Persistence Layer</body>
+  </ownedComment>
+  <ownedComment xmi:id="_llZ60Du6Ed-1B--QOQAHqw">
+    <body>Serfver Side/View</body>
+  </ownedComment>
+  <ownedComment xmi:id="_WRTo4EIAEd-QVsucQ2w_Bg">
+    <body>UML Deployment Diagram Memoria Virtual</body>
+  </ownedComment>
   <elementImport xmi:id="_FjBI4DeHEd-4j4M5ryvh_g">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
   </elementImport>
@@ -12,4 +30,7 @@
   <elementImport xmi:id="_FjN9MjeHEd-4j4M5ryvh_g">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
   </elementImport>
+  <packagedElement xmi:type="uml:Node" xmi:id="_IVaA8Du5Ed-1B--QOQAHqw" name="Cataloging SubSystem"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_Q9db4Du5Ed-1B--QOQAHqw" name="Access/Navigation SubSystem"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_wdf7MDu5Ed-1B--QOQAHqw" name="Model"/>
 </uml:Package>
