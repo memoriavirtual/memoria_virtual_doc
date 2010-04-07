@@ -25,6 +25,7 @@
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_TivDwDuzEd-EyP6dBk_F8w" name="BuscaSimples">
+    <ownedAttribute xmi:id="_mKd48EILEd-QVsucQ2w_Bg" name="none" aggregation="composite"/>
     <ownedOperation xmi:id="_zqylUDuzEd-EyP6dBk_F8w" name="validaLogin">
       <ownedParameter xmi:id="_3ghgwDuzEd-EyP6dBk_F8w" direction="return"/>
     </ownedOperation>

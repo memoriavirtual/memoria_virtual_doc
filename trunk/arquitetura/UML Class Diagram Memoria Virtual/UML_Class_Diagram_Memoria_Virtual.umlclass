@@ -68,6 +68,10 @@
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_TjEa9DuzEd-EyP6dBk_F8w" type="5019"/>
     <children xmi:type="notation:BasicCompartment" xmi:id="_TjFCADuzEd-EyP6dBk_F8w" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_mLjeEEILEd-QVsucQ2w_Bg" type="3001">
+        <element xmi:type="uml:Property" href="UML_Class_Diagram_Memoria_Virtual.uml#_mKd48EILEd-QVsucQ2w_Bg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_mLjeEUILEd-QVsucQ2w_Bg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_TjFCATuzEd-EyP6dBk_F8w" showTitle="true"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_TjFCAjuzEd-EyP6dBk_F8w"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_TjFCAzuzEd-EyP6dBk_F8w"/>
