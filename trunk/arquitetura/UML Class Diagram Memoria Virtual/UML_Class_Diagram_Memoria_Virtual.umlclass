@@ -130,7 +130,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_ViFFUTuzEd-EyP6dBk_F8w"/>
     <element xmi:type="uml:Class" href="UML_Class_Diagram_Memoria_Virtual.uml#_Vhw8QDuzEd-EyP6dBk_F8w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ViFFUjuzEd-EyP6dBk_F8w" x="408" y="300"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ViFFUjuzEd-EyP6dBk_F8w" x="468" y="300"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_5exS8D4gEd-OgZsRbCt47w" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_5ex6AD4gEd-OgZsRbCt47w" type="5003">
