@@ -60,7 +60,7 @@
     </children>
     <styles xmi:type="notation:CanonicalStyle" xmi:id="_Q7sJATuzEd-EyP6dBk_F8w"/>
     <element xmi:type="uml:Class" href="UML_Class_Diagram_Memoria_Virtual.uml#_Q7WKwDuzEd-EyP6dBk_F8w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q7sJAjuzEd-EyP6dBk_F8w" x="24" y="168"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q7sJAjuzEd-EyP6dBk_F8w" x="24" y="180"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_TjEa8DuzEd-EyP6dBk_F8w" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_TjEa8zuzEd-EyP6dBk_F8w" type="5003">
