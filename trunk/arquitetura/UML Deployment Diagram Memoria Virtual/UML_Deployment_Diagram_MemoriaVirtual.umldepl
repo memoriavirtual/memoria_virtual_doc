@@ -189,7 +189,7 @@
   <children xmi:type="notation:Shape" xmi:id="_WRZvgEIAEd-QVsucQ2w_Bg" type="2008" fontName="Segoe UI" fontHeight="14" bold="true" fillColor="13369343" lineColor="6737151">
     <children xmi:type="notation:DecorationNode" xmi:id="_WRaWkEIAEd-QVsucQ2w_Bg" type="5024"/>
     <element xmi:type="uml:Comment" href="UML_Deployment_Diagram_MemoriaVirtual.uml#_WRTo4EIAEd-QVsucQ2w_Bg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WRZvgUIAEd-QVsucQ2w_Bg" y="144" height="38"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WRZvgUIAEd-QVsucQ2w_Bg" x="-12" y="144" height="38"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_mj-7QEICEd-QVsucQ2w_Bg" type="rectangle3D" fontName="Segoe UI" description="DataBase Management System" fillColor="10011046" transparency="0" lineColor="6737151" lineWidth="1">
     <children xmi:type="notation:BasicDecorationNode" xmi:id="_mkDzwEICEd-QVsucQ2w_Bg" type="DiagramName">
