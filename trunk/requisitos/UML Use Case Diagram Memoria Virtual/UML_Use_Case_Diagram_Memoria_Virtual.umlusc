@@ -66,7 +66,7 @@
   <children xmi:type="notation:Shape" xmi:id="_5hIf4DuuEd-EyP6dBk_F8w" type="2009" fontName="Segoe UI" fillColor="13369343" lineColor="6737151">
     <children xmi:type="notation:DecorationNode" xmi:id="_5hJG8DuuEd-EyP6dBk_F8w" type="5015"/>
     <element xmi:type="uml:Comment" href="UML_Use_Case_Diagram_Memoria_Virtual.uml#_5hDAUDuuEd-EyP6dBk_F8w"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5hIf4TuuEd-EyP6dBk_F8w" x="205" y="405" width="325" height="25"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5hIf4TuuEd-EyP6dBk_F8w" x="135" y="380" width="325" height="25"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_fLMRcDuvEd-EyP6dBk_F8w" type="2009" fontName="Segoe UI" fillColor="13369343" lineColor="6737151">
     <children xmi:type="notation:DecorationNode" xmi:id="_fLM4gDuvEd-EyP6dBk_F8w" type="5015"/>
