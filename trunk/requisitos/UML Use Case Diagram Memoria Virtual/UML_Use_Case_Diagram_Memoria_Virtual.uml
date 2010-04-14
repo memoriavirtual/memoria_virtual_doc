@@ -24,7 +24,7 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_d4fa0DusEd-EyP6dBk_F8w" name="Usuario Comum"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_iD0LwDusEd-EyP6dBk_F8w" name="Usuario Administrador"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_ojPGQDusEd-EyP6dBk_F8w" name="BuscaSimples"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_0W1QIDusEd-EyP6dBk_F8w" name="BuscaCompleta"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_0W1QIDusEd-EyP6dBk_F8w" name="BuscaCompleta ????"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_GjX5EDutEd-EyP6dBk_F8w" memberEnd="_GjYgIDutEd-EyP6dBk_F8w _GjZHMDutEd-EyP6dBk_F8w" navigableOwnedEnd="_GjZHMDutEd-EyP6dBk_F8w">
     <ownedEnd xmi:id="_GjYgIDutEd-EyP6dBk_F8w" name="src" type="_ojPGQDusEd-EyP6dBk_F8w" association="_GjX5EDutEd-EyP6dBk_F8w">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GjYgIjutEd-EyP6dBk_F8w" value="1"/>
