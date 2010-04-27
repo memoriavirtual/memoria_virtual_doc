@@ -33,4 +33,18 @@
   <packagedElement xmi:type="uml:Node" xmi:id="_IVaA8Du5Ed-1B--QOQAHqw" name="Cataloging SubSystem"/>
   <packagedElement xmi:type="uml:Node" xmi:id="_Q9db4Du5Ed-1B--QOQAHqw" name="Access/Navigation SubSystem"/>
   <packagedElement xmi:type="uml:Node" xmi:id="_wdf7MDu5Ed-1B--QOQAHqw" name="Model"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_sFIEYFHAEd-BFY9kMSEo_A" name="Controler / View"/>
+  <packagedElement xmi:type="uml:ExecutionEnvironment" xmi:id="_yj7T0FHAEd-BFY9kMSEo_A" name="Controler / View">
+    <ownedAttribute xmi:id="_H7KXIlHBEd-BFY9kMSEo_A" name="dst" type="_sFIEYFHAEd-BFY9kMSEo_A" association="_H7H64FHBEd-BFY9kMSEo_A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H7K-MVHBEd-BFY9kMSEo_A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H7K-MFHBEd-BFY9kMSEo_A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_H7H64FHBEd-BFY9kMSEo_A" memberEnd="_H7H64VHBEd-BFY9kMSEo_A _H7KXIlHBEd-BFY9kMSEo_A">
+    <ownedEnd xmi:id="_H7H64VHBEd-BFY9kMSEo_A" name="src" type="_yj7T0FHAEd-BFY9kMSEo_A" association="_H7H64FHBEd-BFY9kMSEo_A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H7KXIVHBEd-BFY9kMSEo_A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H7KXIFHBEd-BFY9kMSEo_A" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Device" xmi:id="_sfSbYFHBEd-BFY9kMSEo_A" name="DataBase Manangement System"/>
 </uml:Package>
