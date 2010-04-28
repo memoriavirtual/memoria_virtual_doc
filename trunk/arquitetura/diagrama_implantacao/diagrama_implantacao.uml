@@ -27,8 +27,8 @@
   <elementImport xmi:id="_FjN9MjeHEd-4j4M5ryvh_g">
     <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
   </elementImport>
-  <packagedElement xmi:type="uml:Node" xmi:id="_IVaA8Du5Ed-1B--QOQAHqw" name="Cataloging SubSystem"/>
-  <packagedElement xmi:type="uml:Node" xmi:id="_Q9db4Du5Ed-1B--QOQAHqw" name="Access/Navigation SubSystem"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_IVaA8Du5Ed-1B--QOQAHqw" name="Subsistema de Catalogação"/>
+  <packagedElement xmi:type="uml:Node" xmi:id="_Q9db4Du5Ed-1B--QOQAHqw" name="Subsistema de Acesso e Navegação"/>
   <packagedElement xmi:type="uml:Node" xmi:id="_wdf7MDu5Ed-1B--QOQAHqw" name="Modelo">
     <ownedAttribute xmi:id="_tgOK41LoEd-BHYHZL6Zhyw" name="dst" type="_JEiQ8FLoEd-BHYHZL6Zhyw" association="_tgNj0FLoEd-BHYHZL6Zhyw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tgOK5VLoEd-BHYHZL6Zhyw" value="1"/>
