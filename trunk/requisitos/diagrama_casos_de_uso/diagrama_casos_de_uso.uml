@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_rFdMMDkLEd-QIKkH29gu2w" name="UML_Use_Case_Diagram_Memoria_Virtual">
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_rFdMMDkLEd-QIKkH29gu2w" name="Diagrama de Casos de Uso">
   <ownedComment xmi:id="_5hDAUDuuEd-EyP6dBk_F8w">
     <body>Realiza busca e pode revisar, alterar e excluir os dados </body>
   </ownedComment>
