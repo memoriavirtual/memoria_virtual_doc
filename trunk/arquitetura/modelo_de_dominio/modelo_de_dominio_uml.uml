@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_YfuOwFVoEd-ilbfAd4tSGw" name="modelo_de_dominio_uml">
+  <elementImport xmi:id="_YgayUFVoEd-ilbfAd4tSGw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_YgayUVVoEd-ilbfAd4tSGw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_YgayUlVoEd-ilbfAd4tSGw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_YgbZYFVoEd-ilbfAd4tSGw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eNAhsFVoEd-ilbfAd4tSGw" name="BemPatrimonial">
+    <ownedAttribute xmi:id="__YxjAFVoEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_KKgKwFVqEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_mOEtwFVrEd-ilbfAd4tSGw" name="condicoesAcesso" aggregation="composite"/>
+    <ownedAttribute xmi:id="_oqqE8FVrEd-ilbfAd4tSGw" name="proprietarioAtual" aggregation="composite"/>
+    <ownedAttribute xmi:id="_p1kY4FVrEd-ilbfAd4tSGw" name="dataAquisicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_rT4J8FVrEd-ilbfAd4tSGw" name="origemAquisicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_sp9MEFVrEd-ilbfAd4tSGw" name="tipoAquisicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_tULNwFVrEd-ilbfAd4tSGw" name="valorAquisicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_uMEfEFVrEd-ilbfAd4tSGw" name="tituloAlternativo" aggregation="composite"/>
+    <ownedAttribute xmi:id="_u6nAEFVrEd-ilbfAd4tSGw" name="colecao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_vcLcEFVrEd-ilbfAd4tSGw" name="tituloComplementar" aggregation="composite"/>
+    <ownedAttribute xmi:id="_wJRLkFVrEd-ilbfAd4tSGw" name="condicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_yMrNwFVrEd-ilbfAd4tSGw" name="notasCodicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_-PoCQFVrEd-ilbfAd4tSGw" name="conteudo" aggregation="composite"/>
+    <ownedAttribute xmi:id="__OW7YFVrEd-ilbfAd4tSGw" name="numeroControle" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Af2_gFVsEd-ilbfAd4tSGw" name="data" aggregation="composite"/>
+    <ownedAttribute xmi:id="_A_locFVsEd-ilbfAd4tSGw" name="dimensoes" aggregation="composite"/>
+    <ownedAttribute xmi:id="_B1vNUFVsEd-ilbfAd4tSGw" name="numeroEdicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Cb4AQFVsEd-ilbfAd4tSGw" name="findingaid___" aggregation="composite"/>
+    <ownedAttribute xmi:id="_GzxNkFVsEd-ilbfAd4tSGw" name="gpsLongitude" aggregation="composite"/>
+    <ownedAttribute xmi:id="_IC224FVsEd-ilbfAd4tSGw" name="gpsLatitude" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Ka7hgFVsEd-ilbfAd4tSGw" name="instituicaoProtecao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_RHRdsFVsEd-ilbfAd4tSGw" name="historico" aggregation="composite"/>
+    <ownedAttribute xmi:id="_SGpQAFVsEd-ilbfAd4tSGw" name="legislacao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_SqOeMFVsEd-ilbfAd4tSGw" name="local" aggregation="composite"/>
+    <ownedAttribute xmi:id="_TGXnoFVsEd-ilbfAd4tSGw" name="notas" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Tk59wFVsEd-ilbfAd4tSGw" name="tituloOriginal" aggregation="composite"/>
+    <ownedAttribute xmi:id="_UHyBUFVsEd-ilbfAd4tSGw" name="outrasResposabilidades" aggregation="composite"/>
+    <ownedAttribute xmi:id="_VTgNkFVsEd-ilbfAd4tSGw" name="caracteristicasFisicas" aggregation="composite"/>
+    <ownedAttribute xmi:id="_WgN4UFVsEd-ilbfAd4tSGw" name="localizaçaoFisica" aggregation="composite"/>
+    <ownedAttribute xmi:id="_ZhreMFVsEd-ilbfAd4tSGw" name="protecao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_aJBLAFVsEd-ilbfAd4tSGw" name="numeroRegistro" aggregation="composite"/>
+    <ownedAttribute xmi:id="_a_op8FVsEd-ilbfAd4tSGw" name="numeroReedicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_blQfgFVsEd-ilbfAd4tSGw" name="condicoesReproducao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_cp3-MFVsEd-ilbfAd4tSGw" name="revisao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_dF-EUFVsEd-ilbfAd4tSGw" name="situacao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_dc26UFVsEd-ilbfAd4tSGw" name="suporte" aggregation="composite"/>
+    <ownedAttribute xmi:id="_dvosYFVsEd-ilbfAd4tSGw" name="titulo" aggregation="composite"/>
+    <ownedAttribute xmi:id="_eaHz0FVsEd-ilbfAd4tSGw" name="uso" aggregation="composite"/>
+    <ownedAttribute xmi:id="_e5nzQFVsEd-ilbfAd4tSGw" name="id_instituicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_3uyOoFVvEd-ilbfAd4tSGw" name="telefone" aggregation="composite"/>
+    <ownedAttribute xmi:id="_gEzQIFVwEd-ilbfAd4tSGw" name="assunto" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_7IojgFVoEd-ilbfAd4tSGw" name="Usuario">
+    <ownedAttribute xmi:id="_oEeZQFVsEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_pe7lEFVsEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_qRcnIFVsEd-ilbfAd4tSGw" name="ativo" aggregation="composite"/>
+    <ownedAttribute xmi:id="_ri5A4FVsEd-ilbfAd4tSGw" name="endereco" aggregation="composite"/>
+    <ownedAttribute xmi:id="_sRkr0FVsEd-ilbfAd4tSGw" name="dataContratacao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_tgbEkFVsEd-ilbfAd4tSGw" name="email" aggregation="composite"/>
+    <ownedAttribute xmi:id="_twpR4FVsEd-ilbfAd4tSGw" name="login" aggregation="composite"/>
+    <ownedAttribute xmi:id="_uIBQEFVsEd-ilbfAd4tSGw" name="nome" aggregation="composite"/>
+    <ownedAttribute xmi:id="_uV6iIFVsEd-ilbfAd4tSGw" name="senha" aggregation="composite"/>
+    <ownedAttribute xmi:id="_utGTEFVsEd-ilbfAd4tSGw" name="dataRegistro" aggregation="composite"/>
+    <ownedAttribute xmi:id="_vSbNsFVsEd-ilbfAd4tSGw" name="telefone" aggregation="composite"/>
+    <ownedAttribute xmi:id="_v6mA8FVsEd-ilbfAd4tSGw" name="numeroIdentificacao" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3MC1UFVsEd-ilbfAd4tSGw" name="Instituicao">
+    <ownedAttribute xmi:id="_5kZz0FVsEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_6NoXAFVsEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_6jOMgFVsEd-ilbfAd4tSGw" name="acronimos" aggregation="composite"/>
+    <ownedAttribute xmi:id="_7H_tgFVsEd-ilbfAd4tSGw" name="endereco" aggregation="composite"/>
+    <ownedAttribute xmi:id="_7ikwsFVsEd-ilbfAd4tSGw" name="cidade" aggregation="composite"/>
+    <ownedAttribute xmi:id="_7zLYgFVsEd-ilbfAd4tSGw" name="pais" aggregation="composite"/>
+    <ownedAttribute xmi:id="_8GHioFVsEd-ilbfAd4tSGw" name="email" aggregation="composite"/>
+    <ownedAttribute xmi:id="_8WuKcFVsEd-ilbfAd4tSGw" name="fax" aggregation="composite"/>
+    <ownedAttribute xmi:id="_8m24MFVsEd-ilbfAd4tSGw" name="localidade" aggregation="composite"/>
+    <ownedAttribute xmi:id="_9Bqk4FVsEd-ilbfAd4tSGw" name="nome" aggregation="composite"/>
+    <ownedAttribute xmi:id="_9cHsQFVsEd-ilbfAd4tSGw" name="caixa postal" aggregation="composite"/>
+    <ownedAttribute xmi:id="_-p3RwFVsEd-ilbfAd4tSGw" name="cep" aggregation="composite"/>
+    <ownedAttribute xmi:id="_A76M4FVtEd-ilbfAd4tSGw" name="nRegistro" aggregation="composite"/>
+    <ownedAttribute xmi:id="_BbqrAFVtEd-ilbfAd4tSGw" name="estado" aggregation="composite"/>
+    <ownedAttribute xmi:id="_B60FIFVtEd-ilbfAd4tSGw" name="unidade" aggregation="composite"/>
+    <ownedAttribute xmi:id="_CRFQEFVtEd-ilbfAd4tSGw" name="unidadeResponsavel" aggregation="composite"/>
+    <ownedAttribute xmi:id="_DCcbkFVtEd-ilbfAd4tSGw" name="funcaoUnidResp" aggregation="composite"/>
+    <ownedAttribute xmi:id="_D4Nl8FVtEd-ilbfAd4tSGw" name="URL" aggregation="composite"/>
+    <ownedAttribute xmi:id="_EME9IFVtEd-ilbfAd4tSGw" name="telefone" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nnOAEFVtEd-ilbfAd4tSGw" name="Revisa">
+    <ownedAttribute xmi:id="_oUWL0FVtEd-ilbfAd4tSGw" name="dataInicio" aggregation="composite"/>
+    <ownedAttribute xmi:id="_rxAf8FVtEd-ilbfAd4tSGw" name="dataFim" aggregation="composite"/>
+    <ownedAttribute xmi:id="_sKaecFVtEd-ilbfAd4tSGw" name="notas" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xW9b0FVtEd-ilbfAd4tSGw" name="Cataloga">
+    <ownedAttribute xmi:id="_y3sOwFVtEd-ilbfAd4tSGw" name="dataInicio" aggregation="composite"/>
+    <ownedAttribute xmi:id="_2fdmsFVtEd-ilbfAd4tSGw" name="dataFim" aggregation="composite"/>
+    <ownedAttribute xmi:id="_25U4MFVtEd-ilbfAd4tSGw" name="notas" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__dBXkFVtEd-ilbfAd4tSGw" name="Relatorios"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BZJGAFVuEd-ilbfAd4tSGw" name="Intervencao">
+    <ownedAttribute xmi:id="_HgxyoFVuEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_J3xfMFVuEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Kzh80FVuEd-ilbfAd4tSGw" name="data" aggregation="composite"/>
+    <ownedAttribute xmi:id="_N1q4IFVuEd-ilbfAd4tSGw" name="descricao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_OXaTQFVuEd-ilbfAd4tSGw" name="responsavel" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PM37oFVuEd-ilbfAd4tSGw" name="Multimidia">
+    <ownedAttribute xmi:id="_RHenIFVuEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_R7DZIFVuEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_SSC80FVuEd-ilbfAd4tSGw" name="descricao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Ss00UFVuEd-ilbfAd4tSGw" name="nome" aggregation="composite"/>
+    <ownedAttribute xmi:id="_TTZFEFVuEd-ilbfAd4tSGw" name="titulo" aggregation="composite"/>
+    <ownedAttribute xmi:id="_T7zI4FVuEd-ilbfAd4tSGw" name="tipo" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hsdcYFVuEd-ilbfAd4tSGw" name="Descritor">
+    <ownedAttribute xmi:id="_jLHywFVuEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_jp9D0FVuEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_kLHQIFVuEd-ilbfAd4tSGw" name="descritor" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_qjB0cFVuEd-ilbfAd4tSGw" name="FonteInformacao">
+    <ownedAttribute xmi:id="_sPxDEFVuEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_uEMOEFVuEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_uqZ5gFVuEd-ilbfAd4tSGw" name="bibliografia" aggregation="composite"/>
+    <ownedAttribute xmi:id="_voyNUFVuEd-ilbfAd4tSGw" name="tipoBibliografico" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ct5bMFVvEd-ilbfAd4tSGw" name="ResponsavelPesquisa">
+    <ownedAttribute xmi:id="_fINhgFVvEd-ilbfAd4tSGw" name="idBemPatrimonial" aggregation="composite"/>
+    <ownedAttribute xmi:id="_kB50UFVvEd-ilbfAd4tSGw" name="dataPesquisa" aggregation="composite"/>
+    <ownedAttribute xmi:id="_lITbsFVvEd-ilbfAd4tSGw" name="nomeResponsavel" aggregation="composite"/>
+    <ownedAttribute xmi:id="_ls26QFVvEd-ilbfAd4tSGw" name="notasPesquisador" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ee_xwFVwEd-ilbfAd4tSGw" name="UsuarioInstituicao">
+    <ownedAttribute xmi:id="_F0SJsFVwEd-ilbfAd4tSGw" name="IDInstituicao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_G5UfIFVwEd-ilbfAd4tSGw" name="IDUsuario" aggregation="composite"/>
+    <ownedAttribute xmi:id="_HelIUFVwEd-ilbfAd4tSGw" name="tipoUsuario" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_L0uCIFVwEd-ilbfAd4tSGw" name="Autoria">
+    <ownedAttribute xmi:id="_M6WNcFVwEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_NraeAFVwEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_OCL_QFVwEd-ilbfAd4tSGw" name="dataNasc" aggregation="composite"/>
+    <ownedAttribute xmi:id="_OkxH4FVwEd-ilbfAd4tSGw" name="dataObito" aggregation="composite"/>
+    <ownedAttribute xmi:id="_PLZDAFVwEd-ilbfAd4tSGw" name="nome" aggregation="composite"/>
+    <ownedAttribute xmi:id="_PlKN4FVwEd-ilbfAd4tSGw" name="pseudonimo" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TYnRYFVwEd-ilbfAd4tSGw" name="AutoriaBem">
+    <ownedAttribute xmi:id="_Vs2k4FVwEd-ilbfAd4tSGw" name="tipoAutoria" aggregation="composite"/>
+    <ownedAttribute xmi:id="_WfaqQFVwEd-ilbfAd4tSGw" name="IDAutoria" aggregation="composite"/>
+    <ownedAttribute xmi:id="_X1yAQFVwEd-ilbfAd4tSGw" name="IDBem" aggregation="composite"/>
+    <ownedAttribute xmi:id="_b11VUFVwEd-ilbfAd4tSGw" name="funcao" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mlt_cFVwEd-ilbfAd4tSGw" name="TipoBemPatrimonial">
+    <ownedAttribute xmi:id="_n92QAFVwEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
+    <ownedAttribute xmi:id="_ohkBEFVwEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>
+    <ownedAttribute xmi:id="_o2M0UFVwEd-ilbfAd4tSGw" name="tipoBemPatrimonial" aggregation="composite"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JJTIQFVxEd-ilbfAd4tSGw" memberEnd="_JJYn0FVxEd-ilbfAd4tSGw _JJYn01VxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_JJYn0FVxEd-ilbfAd4tSGw" name="src" type="_3MC1UFVsEd-ilbfAd4tSGw" association="_JJTIQFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JJYn0lVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JJYn0VVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_JJYn01VxEd-ilbfAd4tSGw" name="dst" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_JJTIQFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JJZO4FVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JJYn1FVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MStwQFVxEd-ilbfAd4tSGw" memberEnd="_MSuXUFVxEd-ilbfAd4tSGw _MSvlcFVxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_MSuXUFVxEd-ilbfAd4tSGw" name="src" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_MStwQFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MSu-YVVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MSu-YFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_MSvlcFVxEd-ilbfAd4tSGw" name="dst" type="_7IojgFVoEd-ilbfAd4tSGw" association="_MStwQFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MSwMgFVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MSvlcVVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NrrHQFVxEd-ilbfAd4tSGw" memberEnd="_NrruUFVxEd-ilbfAd4tSGw _Nrs8cVVxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_NrruUFVxEd-ilbfAd4tSGw" name="src" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_NrrHQFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nrs8cFVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NrsVYFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Nrs8cVVxEd-ilbfAd4tSGw" name="dst" type="_7IojgFVoEd-ilbfAd4tSGw" aggregation="shared" association="_NrrHQFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NrtjgVVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NrtjgFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_O0sk0FVxEd-ilbfAd4tSGw" memberEnd="_O0tL4FVxEd-ilbfAd4tSGw _O0uaAVVxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_O0tL4FVxEd-ilbfAd4tSGw" name="src" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_O0sk0FVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O0uaAFVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O0ty8FVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_O0uaAVVxEd-ilbfAd4tSGw" name="dst" type="_7IojgFVoEd-ilbfAd4tSGw" association="_O0sk0FVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_O0vBEVVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_O0vBEFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QBJw4FVxEd-ilbfAd4tSGw" memberEnd="_QBK_AFVxEd-ilbfAd4tSGw _QBM0MFVxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_QBK_AFVxEd-ilbfAd4tSGw" name="src" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_QBJw4FVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QBMNIFVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QBLmEFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_QBM0MFVxEd-ilbfAd4tSGw" name="dst" type="_7IojgFVoEd-ilbfAd4tSGw" association="_QBJw4FVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QBNbQVVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QBNbQFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QkRsEFVxEd-ilbfAd4tSGw" memberEnd="_QkSTIFVxEd-ilbfAd4tSGw _QkThQFVxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_QkSTIFVxEd-ilbfAd4tSGw" name="src" type="_7IojgFVoEd-ilbfAd4tSGw" association="_QkRsEFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QkS6MFVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QkSTIVVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_QkThQFVxEd-ilbfAd4tSGw" name="dst" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_QkRsEFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QktJ4FVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QkUIUFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RAMMAFVxEd-ilbfAd4tSGw" memberEnd="_RAMzEFVxEd-ilbfAd4tSGw _RAOBMFVxEd-ilbfAd4tSGw">
+    <ownedEnd xmi:id="_RAMzEFVxEd-ilbfAd4tSGw" name="src" type="_7IojgFVoEd-ilbfAd4tSGw" association="_RAMMAFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RANaIVVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RANaIFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_RAOBMFVxEd-ilbfAd4tSGw" name="dst" type="_7IojgFVoEd-ilbfAd4tSGw" association="_RAMMAFVxEd-ilbfAd4tSGw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RAOoQVVxEd-ilbfAd4tSGw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RAOoQFVxEd-ilbfAd4tSGw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>
