@@ -101,7 +101,6 @@
     <ownedAttribute xmi:id="_2fdmsFVtEd-ilbfAd4tSGw" name="dataFim" aggregation="composite"/>
     <ownedAttribute xmi:id="_25U4MFVtEd-ilbfAd4tSGw" name="notas" aggregation="composite"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="__dBXkFVtEd-ilbfAd4tSGw" name="Relatorios"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_BZJGAFVuEd-ilbfAd4tSGw" name="Intervencao">
     <ownedAttribute xmi:id="_HgxyoFVuEd-ilbfAd4tSGw" name="ID" aggregation="composite"/>
     <ownedAttribute xmi:id="_J3xfMFVuEd-ilbfAd4tSGw" name="versao" aggregation="composite"/>

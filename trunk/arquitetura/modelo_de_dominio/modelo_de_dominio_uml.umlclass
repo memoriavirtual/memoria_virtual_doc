@@ -462,33 +462,6 @@
     <element xmi:type="uml:Class" href="modelo_de_dominio_uml.uml#_xW9b0FVtEd-ilbfAd4tSGw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xXdLElVtEd-ilbfAd4tSGw" x="655" y="490" width="146" height="106"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="__dppsFVtEd-ilbfAd4tSGw" type="2001" fontName="Segoe UI">
-    <children xmi:type="notation:DecorationNode" xmi:id="__dqQwFVtEd-ilbfAd4tSGw" type="5003">
-      <styles xmi:type="notation:FontStyle" xmi:id="__d8koFVtEd-ilbfAd4tSGw" bold="true"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="__dqQwVVtEd-ilbfAd4tSGw" type="5019"/>
-    <children xmi:type="notation:BasicCompartment" xmi:id="__dqQwlVtEd-ilbfAd4tSGw" type="7001">
-      <styles xmi:type="notation:TitleStyle" xmi:id="__dqQw1VtEd-ilbfAd4tSGw" showTitle="true"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="__dqQxFVtEd-ilbfAd4tSGw"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="__dqQxVVtEd-ilbfAd4tSGw"/>
-      <styles xmi:type="notation:CanonicalStyle" xmi:id="__dqQxlVtEd-ilbfAd4tSGw"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="__dqQx1VtEd-ilbfAd4tSGw" type="7002">
-      <styles xmi:type="notation:TitleStyle" xmi:id="__dqQyFVtEd-ilbfAd4tSGw" showTitle="true"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="__dqQyVVtEd-ilbfAd4tSGw"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="__dqQylVtEd-ilbfAd4tSGw"/>
-      <styles xmi:type="notation:CanonicalStyle" xmi:id="__dqQy1VtEd-ilbfAd4tSGw"/>
-    </children>
-    <children xmi:type="notation:BasicCompartment" xmi:id="__dqQzFVtEd-ilbfAd4tSGw" type="7003">
-      <styles xmi:type="notation:TitleStyle" xmi:id="__dqQzVVtEd-ilbfAd4tSGw" showTitle="true"/>
-      <styles xmi:type="notation:SortingStyle" xmi:id="__dqQzlVtEd-ilbfAd4tSGw"/>
-      <styles xmi:type="notation:FilteringStyle" xmi:id="__dqQz1VtEd-ilbfAd4tSGw"/>
-      <styles xmi:type="notation:CanonicalStyle" xmi:id="__dqQ0FVtEd-ilbfAd4tSGw"/>
-    </children>
-    <styles xmi:type="notation:CanonicalStyle" xmi:id="__dppsVVtEd-ilbfAd4tSGw"/>
-    <element xmi:type="uml:Class" href="modelo_de_dominio_uml.uml#__dBXkFVtEd-ilbfAd4tSGw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__dppslVtEd-ilbfAd4tSGw" x="655" y="605" width="146" height="91"/>
-  </children>
   <children xmi:type="notation:Shape" xmi:id="_BZr4kFVuEd-ilbfAd4tSGw" type="2001" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_BZsfolVuEd-ilbfAd4tSGw" type="5003">
       <styles xmi:type="notation:FontStyle" xmi:id="_BZ57AFVuEd-ilbfAd4tSGw" bold="true"/>
