@@ -253,4 +253,17 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8jL1Y169Ed-Ecc5OhaXzFg" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_qce1sGNSEd-Im8GUZ9wp5Q" name="GerenciarDescritor">
+    <extensionPoint xmi:id="_vRPlMGNSEd-Im8GUZ9wp5Q" name="CDU16"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yCC44GNSEd-Im8GUZ9wp5Q" memberEnd="_yCDf8GNSEd-Im8GUZ9wp5Q _yCEHAGNSEd-Im8GUZ9wp5Q" navigableOwnedEnd="_yCEHAGNSEd-Im8GUZ9wp5Q">
+    <ownedEnd xmi:id="_yCDf8GNSEd-Im8GUZ9wp5Q" name="src" type="_qce1sGNSEd-Im8GUZ9wp5Q" association="_yCC44GNSEd-Im8GUZ9wp5Q">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yCDf8mNSEd-Im8GUZ9wp5Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yCDf8WNSEd-Im8GUZ9wp5Q" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_yCEHAGNSEd-Im8GUZ9wp5Q" name="dst" type="_iJoH0FhTEd-HutpRcU5DLg" association="_yCC44GNSEd-Im8GUZ9wp5Q">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yCEHAmNSEd-Im8GUZ9wp5Q" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yCEHAWNSEd-Im8GUZ9wp5Q" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Package>
