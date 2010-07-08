@@ -385,7 +385,7 @@
       <styles xmi:type="notation:CanonicalStyle" xmi:id="_26pMxYRSEd-08NHWrMiWOQ"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_26VDsIRSEd-08NHWrMiWOQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26olsYRSEd-08NHWrMiWOQ" x="75" y="575" width="211" height="66"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26olsYRSEd-08NHWrMiWOQ" x="75" y="575" width="196" height="66"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_-tX3UIRUEd-08NHWrMiWOQ" type="2003" fontName="Segoe UI">
     <children xmi:type="notation:DecorationNode" xmi:id="_-tX3UoRUEd-08NHWrMiWOQ" type="5003">
