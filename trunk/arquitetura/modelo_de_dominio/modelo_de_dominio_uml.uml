@@ -158,8 +158,8 @@
     <ownedAttribute xmi:id="_o2M0UFVwEd-ilbfAd4tSGw" name="tipoBemPatrimonial" aggregation="composite"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_kbCCsGMoEd-2OMN814rkmQ" memberEnd="_kbCCsWMoEd-2OMN814rkmQ _kbDQ0GMoEd-2OMN814rkmQ">
-    <ownedEnd xmi:id="_kbCCsWMoEd-2OMN814rkmQ" name="src" type="_3MC1UFVsEd-ilbfAd4tSGw" association="_kbCCsGMoEd-2OMN814rkmQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kbCpwWMoEd-2OMN814rkmQ" value="1"/>
+    <ownedEnd xmi:id="_kbCCsWMoEd-2OMN814rkmQ" name="" type="_3MC1UFVsEd-ilbfAd4tSGw" association="_kbCCsGMoEd-2OMN814rkmQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kbCpwWMoEd-2OMN814rkmQ" value="*"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kbCpwGMoEd-2OMN814rkmQ" value="1"/>
     </ownedEnd>
     <ownedEnd xmi:id="_kbDQ0GMoEd-2OMN814rkmQ" name="dst" type="_eNAhsFVoEd-ilbfAd4tSGw" association="_kbCCsGMoEd-2OMN814rkmQ">
