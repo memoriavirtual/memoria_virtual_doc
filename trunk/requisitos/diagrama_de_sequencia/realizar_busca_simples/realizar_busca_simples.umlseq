@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:uml2t.seqd.notation="http://www.eclipse.org/mdt/uml2tools/sequence-diagram/notation/2008" xmi:id="_KlX_UNbDEd-QENBqajRNZw" type="UMLSequence" name="realizar_busca_simples.umlseq" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ASwqkNbEEd-QENBqajRNZw" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ASwqk9bEEd-QENBqajRNZw" type="5002"/>
+    <children xmi:type="notation:Shape" xmi:id="_GPLlsNbEEd-QENBqajRNZw" type="3001" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_GPLlstbEEd-QENBqajRNZw" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_GPLls9bEEd-QENBqajRNZw" type="5005"/>
+      <element xmi:type="uml:Lifeline" href="realizar_busca_simples.uml#_GOu5wNbEEd-QENBqajRNZw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GPLlsdbEEd-QENBqajRNZw" x="43" y="28" width="98" height="300"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_JrD2sNbEEd-QENBqajRNZw" type="3001" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_JrD2stbEEd-QENBqajRNZw" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_JrD2s9bEEd-QENBqajRNZw" type="5005"/>
+      <element xmi:type="uml:Lifeline" href="realizar_busca_simples.uml#_Jqw7wNbEEd-QENBqajRNZw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JrD2sdbEEd-QENBqajRNZw" x="451" y="28" width="98" height="300"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_BkLncNbKEd-QENBqajRNZw" type="3001" fontName="Segoe UI">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BkLnctbKEd-QENBqajRNZw" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BkLnc9bKEd-QENBqajRNZw" type="5005"/>
+      <element xmi:type="uml:Lifeline" href="realizar_busca_simples.uml#_Bj4FcNbKEd-QENBqajRNZw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BkLncdbKEd-QENBqajRNZw" x="247" y="28" width="100" height="300"/>
+    </children>
+    <styles xmi:type="uml2t.seqd.notation:SDModelStorageStyle" xmi:id="_ASwqkdbEEd-QENBqajRNZw"/>
+    <element xmi:type="uml:Interaction" href="realizar_busca_simples.uml#_ASdvoNbEEd-QENBqajRNZw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ASwqktbEEd-QENBqajRNZw" x="24" y="24" width="601" height="421"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KlX_UdbDEd-QENBqajRNZw"/>
+  <element xmi:type="uml:Package" href="realizar_busca_simples.uml#_Kk7TYNbDEd-QENBqajRNZw"/>
+</notation:Diagram>

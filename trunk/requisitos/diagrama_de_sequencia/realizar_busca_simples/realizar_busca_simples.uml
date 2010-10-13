@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Kk7TYNbDEd-QENBqajRNZw">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_ASdvoNbEEd-QENBqajRNZw" name="realizar_busca_simples">
+    <lifeline xmi:id="_GOu5wNbEEd-QENBqajRNZw" name=":usuario_comum" coveredBy="_jJJd0NbIEd-QENBqajRNZw _jJTO0tbIEd-QENBqajRNZw"/>
+    <lifeline xmi:id="_Jqw7wNbEEd-QENBqajRNZw" name=":memoria_virtual" coveredBy="_jJJd0dbIEd-QENBqajRNZw _jJTO0dbIEd-QENBqajRNZw"/>
+    <lifeline xmi:id="_Bj4FcNbKEd-QENBqajRNZw" name=":bem_patrimonio"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jJJd0NbIEd-QENBqajRNZw" name="invocation-1-start" covered="_GOu5wNbEEd-QENBqajRNZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jJJd0dbIEd-QENBqajRNZw" name="execution-1-start" covered="_Jqw7wNbEEd-QENBqajRNZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jJTO0dbIEd-QENBqajRNZw" name="execution-1-finish" covered="_Jqw7wNbEEd-QENBqajRNZw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jJTO0tbIEd-QENBqajRNZw" name="invocation-1-finish" covered="_GOu5wNbEEd-QENBqajRNZw"/>
+  </packagedElement>
+</uml:Package>
