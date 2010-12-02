@@ -25,10 +25,10 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jej_oPwPEd-XeKo0Pc7Hdg" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:BehaviorExecutionSpecification" href="realizarLogin.uml#_JcaDgPwPEd-XeKo0Pc7Hdg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JefHIfwPEd-XeKo0Pc7Hdg" x="42" y="29" width="16" height="193"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JefHIfwPEd-XeKo0Pc7Hdg" x="83" y="29" width="16" height="139"/>
         </children>
         <element xmi:type="uml:Lifeline" href="realizarLogin.uml#_jJGoAPwLEd-fetgvrW1lDA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jJPx8fwLEd-fetgvrW1lDA" x="2" y="40" height="289"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jJPx8fwLEd-fetgvrW1lDA" x="2" y="40" width="181" height="277"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_lmyycPwLEd-fetgvrW1lDA" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lmzZgPwLEd-fetgvrW1lDA" source="ShadowFigure">
@@ -52,10 +52,10 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LLyWcvwPEd-XeKo0Pc7Hdg" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:BehaviorExecutionSpecification" href="realizarLogin.uml#_LKumgPwPEd-XeKo0Pc7Hdg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LLvTIfwPEd-XeKo0Pc7Hdg" x="42" y="53" width="16" height="133"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LLvTIfwPEd-XeKo0Pc7Hdg" x="76" y="41" width="16" height="118"/>
         </children>
         <element xmi:type="uml:Lifeline" href="realizarLogin.uml#_lmpogPwLEd-fetgvrW1lDA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lmyycfwLEd-fetgvrW1lDA" x="374" y="40" height="277"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lmyycfwLEd-fetgvrW1lDA" x="362" y="40" width="169" height="277"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_nrE-YPwLEd-fetgvrW1lDA" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nrFlcPwLEd-fetgvrW1lDA" source="ShadowFigure">
@@ -79,7 +79,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUWp5PwPEd-XeKo0Pc7Hdg" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:BehaviorExecutionSpecification" href="realizarLogin.uml#_OTYZgPwPEd-XeKo0Pc7Hdg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUU0sfwPEd-XeKo0Pc7Hdg" x="59" y="53" width="16" height="109"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUU0sfwPEd-XeKo0Pc7Hdg" x="59" y="41" width="16" height="109"/>
         </children>
         <element xmi:type="uml:Lifeline" href="realizarLogin.uml#_nq70cPwLEd-fetgvrW1lDA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nrE-YfwLEd-fetgvrW1lDA" x="689" y="40" width="135" height="277"/>
@@ -131,7 +131,7 @@
     <element xmi:type="uml:Message" href="realizarLogin.uml#_mZ5tkPwPEd-XeKo0Pc7Hdg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ma3W4_wPEd-XeKo0Pc7Hdg" points="[-1, -1, 316, 0]$[-317, -1, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEPwPEd-XeKo0Pc7Hdg" id="(0.0625,0.9763313609467456)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEfwPEd-XeKo0Pc7Hdg" id="(0.9375,0.7979274611398963)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEfwPEd-XeKo0Pc7Hdg" id="(0.9375,0.923728813559322)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_I0GQ4PwQEd-DF68nrr3Dfw" type="4005" source="_LLvTIPwPEd-XeKo0Pc7Hdg" target="_JefHIPwPEd-XeKo0Pc7Hdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_I0IGEPwQEd-DF68nrr3Dfw" type="6003">
@@ -145,6 +145,6 @@
     <element xmi:type="uml:Message" href="realizarLogin.uml#_IwNPYPwQEd-DF68nrr3Dfw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_I0GQ4_wQEd-DF68nrr3Dfw" points="[-6, 0, 356, -11]$[-362, 11, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I0M-kPwQEd-DF68nrr3Dfw" id="(0.375,0.9624060150375939)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I0M-kfwQEd-DF68nrr3Dfw" id="(1.0,0.7951219512195122)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I0M-kfwQEd-DF68nrr3Dfw" id="(0.5,0.9712230215827338)"/>
   </edges>
 </notation:Diagram>

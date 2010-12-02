@@ -3,7 +3,7 @@
   <packagedElement xmi:type="uml:Interaction" xmi:id="_h1j8gvwLEd-fetgvrW1lDA" name="interaction1">
     <lifeline xmi:id="_jJGoAPwLEd-fetgvrW1lDA" name="Usuario Catalogador &lt;&lt;ator>>" coveredBy="_IEt30fwPEd-XeKo0Pc7Hdg _IL8hMPwPEd-XeKo0Pc7Hdg _IL9IQPwPEd-XeKo0Pc7Hdg _Irfj8PwPEd-XeKo0Pc7Hdg _IsBIYPwPEd-XeKo0Pc7Hdg _IsBvcPwPEd-XeKo0Pc7Hdg _JcaDgPwPEd-XeKo0Pc7Hdg _Jc06QPwPEd-XeKo0Pc7Hdg _Jc2vcPwPEd-XeKo0Pc7Hdg _Y_Cq8PwPEd-XeKo0Pc7Hdg _IyWkcPwQEd-DF68nrr3Dfw _WoTAkPwQEd-DF68nrr3Dfw _WpEcoPwQEd-DF68nrr3Dfw _WpFqwPwQEd-DF68nrr3Dfw _jrz6MPwQEd-DF68nrr3Dfw _vpAE8PwQEd-DF68nrr3Dfw"/>
     <lifeline xmi:id="_lmpogPwLEd-fetgvrW1lDA" name=":RealizarLogin &lt;&lt;controle>>" coveredBy="_LKumgPwPEd-XeKo0Pc7Hdg _LLHBAPwPEd-XeKo0Pc7Hdg _LLIPIPwPEd-XeKo0Pc7Hdg _Y_ORIPwPEd-XeKo0Pc7Hdg _iGNq0PwPEd-XeKo0Pc7Hdg _maaq8PwPEd-XeKo0Pc7Hdg _Ix7GoPwQEd-DF68nrr3Dfw"/>
-    <lifeline xmi:id="_nq70cPwLEd-fetgvrW1lDA" name=":Usuario" coveredBy="_OTYZgPwPEd-XeKo0Pc7Hdg _OTvl4PwPEd-XeKo0Pc7Hdg _OTw0APwPEd-XeKo0Pc7Hdg _iGYp8PwPEd-XeKo0Pc7Hdg _maPEwPwPEd-XeKo0Pc7Hdg _YoJYcPwQEd-DF68nrr3Dfw _YomEYPwQEd-DF68nrr3Dfw _Yon5kPwQEd-DF68nrr3Dfw _jsBVkPwQEd-DF68nrr3Dfw _voz3sPwQEd-DF68nrr3Dfw"/>
+    <lifeline xmi:id="_nq70cPwLEd-fetgvrW1lDA" name=":Usuario &lt;&lt;entidade>>" coveredBy="_OTYZgPwPEd-XeKo0Pc7Hdg _OTvl4PwPEd-XeKo0Pc7Hdg _OTw0APwPEd-XeKo0Pc7Hdg _iGYp8PwPEd-XeKo0Pc7Hdg _maPEwPwPEd-XeKo0Pc7Hdg _YoJYcPwQEd-DF68nrr3Dfw _YomEYPwQEd-DF68nrr3Dfw _Yon5kPwQEd-DF68nrr3Dfw _jsBVkPwQEd-DF68nrr3Dfw _voz3sPwQEd-DF68nrr3Dfw"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_IEt30fwPEd-XeKo0Pc7Hdg" name="BehaviorExecSpec" covered="_jJGoAPwLEd-fetgvrW1lDA" start="_IL8hMPwPEd-XeKo0Pc7Hdg" finish="_IL9IQPwPEd-XeKo0Pc7Hdg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_IL8hMPwPEd-XeKo0Pc7Hdg" name="BehaviorExecSpecStart" covered="_jJGoAPwLEd-fetgvrW1lDA" event="_IFAywPwPEd-XeKo0Pc7Hdg" execution="_IEt30fwPEd-XeKo0Pc7Hdg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_IL9IQPwPEd-XeKo0Pc7Hdg" name="BehaviorExecSpecFinish" covered="_jJGoAPwLEd-fetgvrW1lDA" event="_ILOvgPwPEd-XeKo0Pc7Hdg" execution="_IEt30fwPEd-XeKo0Pc7Hdg"/>
@@ -37,8 +37,8 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_jsBVkPwQEd-DF68nrr3Dfw" name="MessageRecv4" covered="_nq70cPwLEd-fetgvrW1lDA" event="_jr0hQPwQEd-DF68nrr3Dfw" message="_jrVZEPwQEd-DF68nrr3Dfw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_voz3sPwQEd-DF68nrr3Dfw" name="MessageSend5" covered="_nq70cPwLEd-fetgvrW1lDA" event="_vonqcPwQEd-DF68nrr3Dfw" message="_voaPEPwQEd-DF68nrr3Dfw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vpAE8PwQEd-DF68nrr3Dfw" name="MessageRecv5" covered="_jJGoAPwLEd-fetgvrW1lDA" event="_vo0ewPwQEd-DF68nrr3Dfw" message="_voaPEPwQEd-DF68nrr3Dfw"/>
-    <message xmi:id="_Y-rekPwPEd-XeKo0Pc7Hdg" name="realizarLogin (login, senha)" receiveEvent="_Y_ORIPwPEd-XeKo0Pc7Hdg" sendEvent="_Y_Cq8PwPEd-XeKo0Pc7Hdg"/>
-    <message xmi:id="_iF3skPwPEd-XeKo0Pc7Hdg" name="realizarLogin(Login, Senha);" receiveEvent="_iGYp8PwPEd-XeKo0Pc7Hdg" sendEvent="_iGNq0PwPEd-XeKo0Pc7Hdg"/>
+    <message xmi:id="_Y-rekPwPEd-XeKo0Pc7Hdg" name="realizarLogin (Login, Senha)" receiveEvent="_Y_ORIPwPEd-XeKo0Pc7Hdg" sendEvent="_Y_Cq8PwPEd-XeKo0Pc7Hdg"/>
+    <message xmi:id="_iF3skPwPEd-XeKo0Pc7Hdg" name="realizarLogin (Login, Senha);" receiveEvent="_iGYp8PwPEd-XeKo0Pc7Hdg" sendEvent="_iGNq0PwPEd-XeKo0Pc7Hdg"/>
     <message xmi:id="_mZ5tkPwPEd-XeKo0Pc7Hdg" name=":Usuario" messageSort="reply" receiveEvent="_maaq8PwPEd-XeKo0Pc7Hdg" sendEvent="_maPEwPwPEd-XeKo0Pc7Hdg"/>
     <message xmi:id="_IwNPYPwQEd-DF68nrr3Dfw" name=":Usuario" messageSort="reply" receiveEvent="_IyWkcPwQEd-DF68nrr3Dfw" sendEvent="_Ix7GoPwQEd-DF68nrr3Dfw"/>
     <message xmi:id="_jrVZEPwQEd-DF68nrr3Dfw" name="5. realizarLogOFF();" receiveEvent="_jsBVkPwQEd-DF68nrr3Dfw" sendEvent="_jrz6MPwQEd-DF68nrr3Dfw"/>
