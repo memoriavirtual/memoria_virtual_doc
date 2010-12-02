@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_92WswPwWEd-DF68nrr3Dfw" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_92Yh8vwWEd-DF68nrr3Dfw" name="realizarLogOFF">
+    <lifeline xmi:id="_-_LWAPwWEd-DF68nrr3Dfw" name=":Usuario" coveredBy="_FUmnAPwXEd-DF68nrr3Dfw _FU-acPwXEd-DF68nrr3Dfw _FU-acfwXEd-DF68nrr3Dfw _I9ickPwXEd-DF68nrr3Dfw _L-iIYPwXEd-DF68nrr3Dfw"/>
+    <lifeline xmi:id="_BZNIcPwXEd-DF68nrr3Dfw" name=":SistemaMemoriaVirtual" coveredBy="_GeSy8PwXEd-DF68nrr3Dfw _GemU8PwXEd-DF68nrr3Dfw _Gem8APwXEd-DF68nrr3Dfw _I9s0oPwXEd-DF68nrr3Dfw _L-WiMPwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_FUmnAPwXEd-DF68nrr3Dfw" name="BehaviorExecSpec" covered="_-_LWAPwWEd-DF68nrr3Dfw" start="_FU-acPwXEd-DF68nrr3Dfw" finish="_FU-acfwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_FU-acPwXEd-DF68nrr3Dfw" name="BehaviorExecSpecStart" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_FUmnAfwXEd-DF68nrr3Dfw" execution="_FUmnAPwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_FU-acfwXEd-DF68nrr3Dfw" name="BehaviorExecSpecFinish" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_FU0pcPwXEd-DF68nrr3Dfw" execution="_FUmnAPwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_GeSy8PwXEd-DF68nrr3Dfw" name="BehaviorExecSpec1" covered="_BZNIcPwXEd-DF68nrr3Dfw" start="_GemU8PwXEd-DF68nrr3Dfw" finish="_Gem8APwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_GemU8PwXEd-DF68nrr3Dfw" name="BehaviorExecSpec1Start" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_GeTaAPwXEd-DF68nrr3Dfw" execution="_GeSy8PwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Gem8APwXEd-DF68nrr3Dfw" name="BehaviorExecSpec1Finish" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_Gecj8PwXEd-DF68nrr3Dfw" execution="_GeSy8PwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_I9ickPwXEd-DF68nrr3Dfw" name="MessageSend" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_I9YrkPwXEd-DF68nrr3Dfw" message="_I9JbAPwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_I9s0oPwXEd-DF68nrr3Dfw" name="MessageRecv" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_I9jDoPwXEd-DF68nrr3Dfw" message="_I9JbAPwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L-WiMPwXEd-DF68nrr3Dfw" name="MessageSend1" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_L-MKIPwXEd-DF68nrr3Dfw" message="_L-ByEPwXEd-DF68nrr3Dfw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L-iIYPwXEd-DF68nrr3Dfw" name="MessageRecv1" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_L-XJQPwXEd-DF68nrr3Dfw" message="_L-ByEPwXEd-DF68nrr3Dfw"/>
+    <message xmi:id="_I9JbAPwXEd-DF68nrr3Dfw" name="1. realizarLogOFF();" receiveEvent="_I9s0oPwXEd-DF68nrr3Dfw" sendEvent="_I9ickPwXEd-DF68nrr3Dfw"/>
+    <message xmi:id="_L-ByEPwXEd-DF68nrr3Dfw" name="2. Sair do Sistema Memoria Virtual" messageSort="reply" receiveEvent="_L-iIYPwXEd-DF68nrr3Dfw" sendEvent="_L-WiMPwXEd-DF68nrr3Dfw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_FUmnAfwXEd-DF68nrr3Dfw" name="ExecutionEvent"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_FU0pcPwXEd-DF68nrr3Dfw" name="ExecutionEvent1"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_GeTaAPwXEd-DF68nrr3Dfw" name="ExecutionEvent2"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_Gecj8PwXEd-DF68nrr3Dfw" name="ExecutionEvent3"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_I9YrkPwXEd-DF68nrr3Dfw" name="SendOperationEvent"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_I9jDoPwXEd-DF68nrr3Dfw" name="ReceiveOperationEvent"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_L-MKIPwXEd-DF68nrr3Dfw" name="SendOperationEvent1"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_L-XJQPwXEd-DF68nrr3Dfw" name="ReceiveOperationEvent1"/>
+</uml:Model>
