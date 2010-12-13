@@ -41,7 +41,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zFnvQfwwEd-8ctcSDUfcSg" x="42" y="220" width="16" height="134"/>
         </children>
         <element xmi:type="uml:Lifeline" href="cadastrarInstituicao.uml#_Uf9NgPwwEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UgKB0fwwEd-8ctcSDUfcSg" x="12" y="28" height="541"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UgKB0fwwEd-8ctcSDUfcSg" x="12" y="28" height="445"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_YppmwPwwEd-8ctcSDUfcSg" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ypq04PwwEd-8ctcSDUfcSg" source="ShadowFigure">
@@ -81,7 +81,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_z6zq0fwwEd-8ctcSDUfcSg" x="64" y="221" width="16" height="133"/>
         </children>
         <element xmi:type="uml:Lifeline" href="cadastrarInstituicao.uml#_YpYhAPwwEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YppmwfwwEd-8ctcSDUfcSg" x="338" y="28" width="145" height="541"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YppmwfwwEd-8ctcSDUfcSg" x="338" y="28" width="145" height="445"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_6XrnoPwwEd-8ctcSDUfcSg" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6XsOsPwwEd-8ctcSDUfcSg" source="ShadowFigure">
@@ -108,12 +108,12 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ZnMAfwwEd-8ctcSDUfcSg" x="42" y="221" width="16" height="121"/>
         </children>
         <element xmi:type="uml:Lifeline" href="cadastrarInstituicao.uml#_6XgogPwwEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6XrnofwwEd-8ctcSDUfcSg" x="662" y="28" height="553"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6XrnofwwEd-8ctcSDUfcSg" x="662" y="28" height="445"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sI1OMfwuEd-8ctcSDUfcSg"/>
     </children>
     <element xmi:type="uml:Interaction" href="cadastrarInstituicao.uml#_sIyK4PwuEd-8ctcSDUfcSg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sI0AEfwuEd-8ctcSDUfcSg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sI0AEfwuEd-8ctcSDUfcSg" height="601"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_sIxj0fwuEd-8ctcSDUfcSg"/>
   <element xmi:type="uml:Interaction" href="cadastrarInstituicao.uml#_sIyK4PwuEd-8ctcSDUfcSg"/>

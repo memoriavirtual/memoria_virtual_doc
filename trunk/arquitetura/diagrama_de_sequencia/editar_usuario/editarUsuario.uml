@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_MUMhQPwVEd-DF68nrr3Dfw" name="model">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_MUNvYvwVEd-DF68nrr3Dfw" name="editarUsuario">
-    <lifeline xmi:id="_GVoL4fwnEd-8ctcSDUfcSg" name=":UsuarioComum" coveredBy="_Y92EMPwnEd-8ctcSDUfcSg _Y-iAsPwnEd-8ctcSDUfcSg _Y-jO0PwnEd-8ctcSDUfcSg _h56AQPwnEd-8ctcSDUfcSg _f9I8IPwoEd-8ctcSDUfcSg _m5EzgPwoEd-8ctcSDUfcSg _m5itkPwoEd-8ctcSDUfcSg _m5jUoPwoEd-8ctcSDUfcSg _r_1R8PwoEd-8ctcSDUfcSg _B6ImEPwpEd-8ctcSDUfcSg"/>
-    <lifeline xmi:id="_JwPRkPwnEd-8ctcSDUfcSg" name=":SistemaMemoriaVirtual" coveredBy="_cP_xcPwnEd-8ctcSDUfcSg _cQeSkPwnEd-8ctcSDUfcSg _cQfgsPwnEd-8ctcSDUfcSg _cdbJcPwnEd-8ctcSDUfcSg _cd6RoPwnEd-8ctcSDUfcSg _cd64sPwnEd-8ctcSDUfcSg _dFG0gPwnEd-8ctcSDUfcSg _dFqOIPwnEd-8ctcSDUfcSg _dFq1MPwnEd-8ctcSDUfcSg _h6HboPwnEd-8ctcSDUfcSg _riJs4PwnEd-8ctcSDUfcSg _8981YPwnEd-8ctcSDUfcSg _f89V8PwoEd-8ctcSDUfcSg _oukVgPwoEd-8ctcSDUfcSg _ou8I8PwoEd-8ctcSDUfcSg _ou9XEPwoEd-8ctcSDUfcSg _sACGQPwoEd-8ctcSDUfcSg _0pdaMPwoEd-8ctcSDUfcSg _7nsXoPwoEd-8ctcSDUfcSg _B55VgPwpEd-8ctcSDUfcSg"/>
-    <lifeline xmi:id="_SAt6APwnEd-8ctcSDUfcSg" name=":Usuario" coveredBy="_d9ywAPwnEd-8ctcSDUfcSg _d-JVUPwnEd-8ctcSDUfcSg _d-J8YPwnEd-8ctcSDUfcSg _riY9cPwnEd-8ctcSDUfcSg _89woIPwnEd-8ctcSDUfcSg _pt5EgPwoEd-8ctcSDUfcSg _puWXgPwoEd-8ctcSDUfcSg _puW-kPwoEd-8ctcSDUfcSg _0psqwPwoEd-8ctcSDUfcSg _7ndHEPwoEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_GVoL4fwnEd-8ctcSDUfcSg" name="Usuario Comum &lt;&lt;ator>>" coveredBy="_Y92EMPwnEd-8ctcSDUfcSg _Y-iAsPwnEd-8ctcSDUfcSg _Y-jO0PwnEd-8ctcSDUfcSg _h56AQPwnEd-8ctcSDUfcSg _f9I8IPwoEd-8ctcSDUfcSg _m5EzgPwoEd-8ctcSDUfcSg _m5itkPwoEd-8ctcSDUfcSg _m5jUoPwoEd-8ctcSDUfcSg _r_1R8PwoEd-8ctcSDUfcSg _B6ImEPwpEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_JwPRkPwnEd-8ctcSDUfcSg" name=":editarUsuario &lt;&lt;controle>>" coveredBy="_cP_xcPwnEd-8ctcSDUfcSg _cQeSkPwnEd-8ctcSDUfcSg _cQfgsPwnEd-8ctcSDUfcSg _cdbJcPwnEd-8ctcSDUfcSg _cd6RoPwnEd-8ctcSDUfcSg _cd64sPwnEd-8ctcSDUfcSg _dFG0gPwnEd-8ctcSDUfcSg _dFqOIPwnEd-8ctcSDUfcSg _dFq1MPwnEd-8ctcSDUfcSg _h6HboPwnEd-8ctcSDUfcSg _riJs4PwnEd-8ctcSDUfcSg _8981YPwnEd-8ctcSDUfcSg _f89V8PwoEd-8ctcSDUfcSg _oukVgPwoEd-8ctcSDUfcSg _ou8I8PwoEd-8ctcSDUfcSg _ou9XEPwoEd-8ctcSDUfcSg _sACGQPwoEd-8ctcSDUfcSg _0pdaMPwoEd-8ctcSDUfcSg _7nsXoPwoEd-8ctcSDUfcSg _B55VgPwpEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_SAt6APwnEd-8ctcSDUfcSg" name=":Usuario &lt;&lt;entidade>>" coveredBy="_d9ywAPwnEd-8ctcSDUfcSg _d-JVUPwnEd-8ctcSDUfcSg _d-J8YPwnEd-8ctcSDUfcSg _riY9cPwnEd-8ctcSDUfcSg _89woIPwnEd-8ctcSDUfcSg _pt5EgPwoEd-8ctcSDUfcSg _puWXgPwoEd-8ctcSDUfcSg _puW-kPwoEd-8ctcSDUfcSg _0psqwPwoEd-8ctcSDUfcSg _7ndHEPwoEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Y92EMPwnEd-8ctcSDUfcSg" name="BehaviorExecSpec" covered="_GVoL4fwnEd-8ctcSDUfcSg" start="_Y-iAsPwnEd-8ctcSDUfcSg" finish="_Y-jO0PwnEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Y-iAsPwnEd-8ctcSDUfcSg" name="BehaviorExecSpecStart" covered="_GVoL4fwnEd-8ctcSDUfcSg" event="_Y9_1MPwnEd-8ctcSDUfcSg" execution="_Y92EMPwnEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Y-jO0PwnEd-8ctcSDUfcSg" name="BehaviorExecSpecFinish" covered="_GVoL4fwnEd-8ctcSDUfcSg" event="_Y-Ps0PwnEd-8ctcSDUfcSg" execution="_Y92EMPwnEd-8ctcSDUfcSg"/>
@@ -44,14 +44,14 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7nsXoPwoEd-8ctcSDUfcSg" name="MessageRecv6" covered="_JwPRkPwnEd-8ctcSDUfcSg" event="_7nduIPwoEd-8ctcSDUfcSg" message="_7nEskPwoEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_B55VgPwpEd-8ctcSDUfcSg" name="MessageSend7" covered="_JwPRkPwnEd-8ctcSDUfcSg" event="_B5uWYPwpEd-8ctcSDUfcSg" message="_B5hiEPwpEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_B6ImEPwpEd-8ctcSDUfcSg" name="MessageRecv7" covered="_GVoL4fwnEd-8ctcSDUfcSg" event="_B558kPwpEd-8ctcSDUfcSg" message="_B5hiEPwpEd-8ctcSDUfcSg"/>
-    <message xmi:id="_h5ODwPwnEd-8ctcSDUfcSg" name="1. iniciarEditarUsuario();" receiveEvent="_h6HboPwnEd-8ctcSDUfcSg" sendEvent="_h56AQPwnEd-8ctcSDUfcSg"/>
-    <message xmi:id="_rhzuoPwnEd-8ctcSDUfcSg" name="2. Usuario := recuperarDadosUsuario();" receiveEvent="_riY9cPwnEd-8ctcSDUfcSg" sendEvent="_riJs4PwnEd-8ctcSDUfcSg"/>
-    <message xmi:id="_89XmkPwnEd-8ctcSDUfcSg" name="3. Retorna dados do usuario" messageSort="reply" receiveEvent="_8981YPwnEd-8ctcSDUfcSg" sendEvent="_89woIPwnEd-8ctcSDUfcSg"/>
-    <message xmi:id="_f8h4IPwoEd-8ctcSDUfcSg" name="4. Solicitar a edição dos dados do usuario" messageSort="reply" receiveEvent="_f9I8IPwoEd-8ctcSDUfcSg" sendEvent="_f89V8PwoEd-8ctcSDUfcSg"/>
-    <message xmi:id="_r_eFkPwoEd-8ctcSDUfcSg" name="5. editarDadosUsuario(Usuario);" receiveEvent="_sACGQPwoEd-8ctcSDUfcSg" sendEvent="_r_1R8PwoEd-8ctcSDUfcSg"/>
-    <message xmi:id="_0pE_sPwoEd-8ctcSDUfcSg" name="6. validarEdicao(Usuario);" receiveEvent="_0psqwPwoEd-8ctcSDUfcSg" sendEvent="_0pdaMPwoEd-8ctcSDUfcSg"/>
-    <message xmi:id="_7nEskPwoEd-8ctcSDUfcSg" name="7. Edição realizada com sucesso" messageSort="reply" receiveEvent="_7nsXoPwoEd-8ctcSDUfcSg" sendEvent="_7ndHEPwoEd-8ctcSDUfcSg"/>
-    <message xmi:id="_B5hiEPwpEd-8ctcSDUfcSg" name="8. Dados Atualizados" messageSort="reply" receiveEvent="_B6ImEPwpEd-8ctcSDUfcSg" sendEvent="_B55VgPwpEd-8ctcSDUfcSg"/>
+    <message xmi:id="_h5ODwPwnEd-8ctcSDUfcSg" name="iniciarEditarUsuario();" receiveEvent="_h6HboPwnEd-8ctcSDUfcSg" sendEvent="_h56AQPwnEd-8ctcSDUfcSg"/>
+    <message xmi:id="_rhzuoPwnEd-8ctcSDUfcSg" name="Usuario := recuperarDadosUsuario();" receiveEvent="_riY9cPwnEd-8ctcSDUfcSg" sendEvent="_riJs4PwnEd-8ctcSDUfcSg"/>
+    <message xmi:id="_89XmkPwnEd-8ctcSDUfcSg" name=":Usuario" messageSort="reply" receiveEvent="_8981YPwnEd-8ctcSDUfcSg" sendEvent="_89woIPwnEd-8ctcSDUfcSg"/>
+    <message xmi:id="_f8h4IPwoEd-8ctcSDUfcSg" name=":Usuario" messageSort="reply" receiveEvent="_f9I8IPwoEd-8ctcSDUfcSg" sendEvent="_f89V8PwoEd-8ctcSDUfcSg"/>
+    <message xmi:id="_r_eFkPwoEd-8ctcSDUfcSg" name="editarUsuario(Usuario);" receiveEvent="_sACGQPwoEd-8ctcSDUfcSg" sendEvent="_r_1R8PwoEd-8ctcSDUfcSg"/>
+    <message xmi:id="_0pE_sPwoEd-8ctcSDUfcSg" name="validarEditarUsuario(Usuario);" receiveEvent="_0psqwPwoEd-8ctcSDUfcSg" sendEvent="_0pdaMPwoEd-8ctcSDUfcSg"/>
+    <message xmi:id="_7nEskPwoEd-8ctcSDUfcSg" name=":validadeEditarUsuario" messageSort="reply" receiveEvent="_7nsXoPwoEd-8ctcSDUfcSg" sendEvent="_7ndHEPwoEd-8ctcSDUfcSg"/>
+    <message xmi:id="_B5hiEPwpEd-8ctcSDUfcSg" name=":validadeEditarUsuario" messageSort="reply" receiveEvent="_B6ImEPwpEd-8ctcSDUfcSg" sendEvent="_B55VgPwpEd-8ctcSDUfcSg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_Y9_1MPwnEd-8ctcSDUfcSg" name="ExecutionEvent"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_Y-Ps0PwnEd-8ctcSDUfcSg" name="ExecutionEvent1"/>

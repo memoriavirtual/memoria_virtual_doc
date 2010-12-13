@@ -2,8 +2,8 @@
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_92WswPwWEd-DF68nrr3Dfw" name="model">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_92Yh8vwWEd-DF68nrr3Dfw" name="realizarLogOFF">
     <lifeline xmi:id="_-_LWAPwWEd-DF68nrr3Dfw" name="Usuario Catalogador &lt;&lt;ator>>" coveredBy="_FUmnAPwXEd-DF68nrr3Dfw _FU-acPwXEd-DF68nrr3Dfw _FU-acfwXEd-DF68nrr3Dfw _I9ickPwXEd-DF68nrr3Dfw _L-iIYPwXEd-DF68nrr3Dfw _v9jGUP45Ed-pbJcYSjHExw"/>
-    <lifeline xmi:id="_BZNIcPwXEd-DF68nrr3Dfw" name=":realizarLogOFF &lt;&lt;controle>>" coveredBy="_GeSy8PwXEd-DF68nrr3Dfw _GemU8PwXEd-DF68nrr3Dfw _Gem8APwXEd-DF68nrr3Dfw _I9s0oPwXEd-DF68nrr3Dfw _L-WiMPwXEd-DF68nrr3Dfw _mcj4QP45Ed-pbJcYSjHExw _pdyNkP45Ed-pbJcYSjHExw _v9W5EP45Ed-pbJcYSjHExw"/>
-    <lifeline xmi:id="_Vgpwwf45Ed-pbJcYSjHExw" name=":Usuario &lt;&lt;entidade>>" coveredBy="_joLFEP45Ed-pbJcYSjHExw _jqk40P45Ed-pbJcYSjHExw _jqlf4P45Ed-pbJcYSjHExw _mczv4P45Ed-pbJcYSjHExw _md4G4P45Ed-pbJcYSjHExw _meWoAP45Ed-pbJcYSjHExw _meXPEP45Ed-pbJcYSjHExw _pdlZQP45Ed-pbJcYSjHExw"/>
+    <lifeline xmi:id="_BZNIcPwXEd-DF68nrr3Dfw" name=":realizarLogOFF &lt;&lt;controle>>" coveredBy="_GeSy8PwXEd-DF68nrr3Dfw _GemU8PwXEd-DF68nrr3Dfw _Gem8APwXEd-DF68nrr3Dfw _I9s0oPwXEd-DF68nrr3Dfw _L-WiMPwXEd-DF68nrr3Dfw _mcj4QP45Ed-pbJcYSjHExw _pdyNkP45Ed-pbJcYSjHExw _v9W5EP45Ed-pbJcYSjHExw _TkMAsALyEeCgKMND0a9-yw"/>
+    <lifeline xmi:id="_Vgpwwf45Ed-pbJcYSjHExw" name=":Usuario &lt;&lt;entidade>>" coveredBy="_joLFEP45Ed-pbJcYSjHExw _jqk40P45Ed-pbJcYSjHExw _jqlf4P45Ed-pbJcYSjHExw _mczv4P45Ed-pbJcYSjHExw _md4G4P45Ed-pbJcYSjHExw _meWoAP45Ed-pbJcYSjHExw _meXPEP45Ed-pbJcYSjHExw _pdlZQP45Ed-pbJcYSjHExw _TkW_0ALyEeCgKMND0a9-yw"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_FUmnAPwXEd-DF68nrr3Dfw" name="BehaviorExecSpec" covered="_-_LWAPwWEd-DF68nrr3Dfw" start="_FU-acPwXEd-DF68nrr3Dfw" finish="_FU-acfwXEd-DF68nrr3Dfw"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_FU-acPwXEd-DF68nrr3Dfw" name="BehaviorExecSpecStart" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_FUmnAfwXEd-DF68nrr3Dfw" execution="_FUmnAPwXEd-DF68nrr3Dfw"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_FU-acfwXEd-DF68nrr3Dfw" name="BehaviorExecSpecFinish" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_FU0pcPwXEd-DF68nrr3Dfw" execution="_FUmnAPwXEd-DF68nrr3Dfw"/>
@@ -26,11 +26,14 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pdyNkP45Ed-pbJcYSjHExw" name="MessageRecv3" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_pdmAUP45Ed-pbJcYSjHExw" message="_pdMXsP45Ed-pbJcYSjHExw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v9W5EP45Ed-pbJcYSjHExw" name="MessageSend4" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_v9LS4P45Ed-pbJcYSjHExw" message="_v8_FoP45Ed-pbJcYSjHExw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_v9jGUP45Ed-pbJcYSjHExw" name="MessageRecv4" covered="_-_LWAPwWEd-DF68nrr3Dfw" event="_v9XgIP45Ed-pbJcYSjHExw" message="_v8_FoP45Ed-pbJcYSjHExw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TkMAsALyEeCgKMND0a9-yw" name="MessageSend5" covered="_BZNIcPwXEd-DF68nrr3Dfw" event="_TkAagALyEeCgKMND0a9-yw" message="_Tj00UALyEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TkW_0ALyEeCgKMND0a9-yw" name="MessageRecv5" covered="_Vgpwwf45Ed-pbJcYSjHExw" event="_TkMnwALyEeCgKMND0a9-yw" message="_Tj00UALyEeCgKMND0a9-yw"/>
     <message xmi:id="_I9JbAPwXEd-DF68nrr3Dfw" name="realizarLogOFF();" receiveEvent="_I9s0oPwXEd-DF68nrr3Dfw" sendEvent="_I9ickPwXEd-DF68nrr3Dfw"/>
     <message xmi:id="_L-ByEPwXEd-DF68nrr3Dfw" name="" messageSort="reply" receiveEvent="_L-iIYPwXEd-DF68nrr3Dfw" sendEvent="_L-WiMPwXEd-DF68nrr3Dfw"/>
     <message xmi:id="_mb80QP45Ed-pbJcYSjHExw" name="realizarLogOFF();" receiveEvent="_mczv4P45Ed-pbJcYSjHExw" sendEvent="_mcj4QP45Ed-pbJcYSjHExw"/>
-    <message xmi:id="_pdMXsP45Ed-pbJcYSjHExw" name=":void" messageSort="reply" receiveEvent="_pdyNkP45Ed-pbJcYSjHExw" sendEvent="_pdlZQP45Ed-pbJcYSjHExw"/>
-    <message xmi:id="_v8_FoP45Ed-pbJcYSjHExw" name=":void" messageSort="reply" receiveEvent="_v9jGUP45Ed-pbJcYSjHExw" sendEvent="_v9W5EP45Ed-pbJcYSjHExw"/>
+    <message xmi:id="_pdMXsP45Ed-pbJcYSjHExw" name=":logOFF" messageSort="reply" receiveEvent="_pdyNkP45Ed-pbJcYSjHExw" sendEvent="_pdlZQP45Ed-pbJcYSjHExw"/>
+    <message xmi:id="_v8_FoP45Ed-pbJcYSjHExw" name=":logOFF" messageSort="reply" receiveEvent="_v9jGUP45Ed-pbJcYSjHExw" sendEvent="_v9W5EP45Ed-pbJcYSjHExw"/>
+    <message xmi:id="_Tj00UALyEeCgKMND0a9-yw" name="realizarLogOFF();" receiveEvent="_TkW_0ALyEeCgKMND0a9-yw" sendEvent="_TkMAsALyEeCgKMND0a9-yw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_FUmnAfwXEd-DF68nrr3Dfw" name="ExecutionEvent"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_FU0pcPwXEd-DF68nrr3Dfw" name="ExecutionEvent1"/>
@@ -50,4 +53,6 @@
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_pdmAUP45Ed-pbJcYSjHExw" name="ReceiveOperationEvent3"/>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_v9LS4P45Ed-pbJcYSjHExw" name="SendOperationEvent4"/>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_v9XgIP45Ed-pbJcYSjHExw" name="ReceiveOperationEvent4"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_TkAagALyEeCgKMND0a9-yw" name="SendOperationEvent5"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_TkMnwALyEeCgKMND0a9-yw" name="ReceiveOperationEvent5"/>
 </uml:Model>

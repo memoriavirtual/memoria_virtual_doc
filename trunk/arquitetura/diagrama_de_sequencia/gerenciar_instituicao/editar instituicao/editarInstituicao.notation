@@ -50,7 +50,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_al9bEfwzEd-8ctcSDUfcSg" x="42" y="245" width="16" height="133"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editarInstituicao.uml#_leI7APwyEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_leVvUfwyEd-8ctcSDUfcSg" x="12" y="40" height="541"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_leVvUfwyEd-8ctcSDUfcSg" x="12" y="40" height="481"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_qNC6IPwyEd-8ctcSDUfcSg" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qNDhMPwyEd-8ctcSDUfcSg" source="ShadowFigure">
@@ -90,7 +90,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bZqv8fwzEd-8ctcSDUfcSg" x="63" y="245" width="16" height="133"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editarInstituicao.uml#_qM37APwyEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qNC6IfwyEd-8ctcSDUfcSg" x="314" y="40" width="143" height="541"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qNC6IfwyEd-8ctcSDUfcSg" x="314" y="40" width="143" height="481"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_ufCTwPwyEd-8ctcSDUfcSg" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ufC60PwyEd-8ctcSDUfcSg" source="ShadowFigure">
@@ -130,12 +130,12 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cD0gMfwzEd-8ctcSDUfcSg" x="42" y="245" width="16" height="121"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editarInstituicao.uml#_ue6_APwyEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufCTwfwyEd-8ctcSDUfcSg" x="686" y="40" height="541"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufCTwfwyEd-8ctcSDUfcSg" x="686" y="40" height="469"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eazbJvwyEd-8ctcSDUfcSg"/>
     </children>
     <element xmi:type="uml:Interaction" href="editarInstituicao.uml#_eaxl8vwyEd-8ctcSDUfcSg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eayNAfwyEd-8ctcSDUfcSg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eayNAfwyEd-8ctcSDUfcSg" height="613"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_eaxl8fwyEd-8ctcSDUfcSg"/>
   <element xmi:type="uml:Interaction" href="editarInstituicao.uml#_eaxl8vwyEd-8ctcSDUfcSg"/>

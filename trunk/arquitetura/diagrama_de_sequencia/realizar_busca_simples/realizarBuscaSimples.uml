@@ -5,8 +5,9 @@
       <body>realizar busca simples</body>
     </ownedComment>
     <lifeline xmi:id="_7HZxAPwHEd-fetgvrW1lDA" name="Usuario Comum &lt;&lt;ator>>" coveredBy="_JuOQcPwIEd-fetgvrW1lDA _JuhLYPwIEd-fetgvrW1lDA _JuhycPwIEd-fetgvrW1lDA _iye_IPwIEd-fetgvrW1lDA _F7tLoPwJEd-fetgvrW1lDA _NxnX8PwJEd-fetgvrW1lDA _Nx8IEPwJEd-fetgvrW1lDA _Nx8vIPwJEd-fetgvrW1lDA _SMzJ0PwJEd-fetgvrW1lDA _dWrBQPwJEd-fetgvrW1lDA _hm118PwJEd-fetgvrW1lDA _hnJ_APwJEd-fetgvrW1lDA _hnKmEPwJEd-fetgvrW1lDA _lObnsPwJEd-fetgvrW1lDA _F_phYPwSEd-DF68nrr3Dfw _Sb2jYPwSEd-DF68nrr3Dfw"/>
-    <lifeline xmi:id="_-lQX8PwHEd-fetgvrW1lDA" name=":realizarBuscaSimples &lt;&lt;controle>>" coveredBy="_MYqdcPwIEd-fetgvrW1lDA _MY9YYPwIEd-fetgvrW1lDA _MY9_cPwIEd-fetgvrW1lDA _iyowIPwIEd-fetgvrW1lDA _qRwNEPwIEd-fetgvrW1lDA _qR6lIPwIEd-fetgvrW1lDA _F7jaoPwJEd-fetgvrW1lDA _PwpQcPwJEd-fetgvrW1lDA _Pw9ZgPwJEd-fetgvrW1lDA _Pw9ZgfwJEd-fetgvrW1lDA _SM_-IPwJEd-fetgvrW1lDA _dWgpMPwJEd-fetgvrW1lDA _jQSgAPwJEd-fetgvrW1lDA _jQnQIPwJEd-fetgvrW1lDA _jQnQIfwJEd-fetgvrW1lDA _lOl_wPwJEd-fetgvrW1lDA _F_1uoPwSEd-DF68nrr3Dfw _JK1rAPwSEd-DF68nrr3Dfw _JLCfUPwSEd-DF68nrr3Dfw _ScCJkPwSEd-DF68nrr3Dfw _vDA7QP46Ed-pbJcYSjHExw _zvLvcP46Ed-pbJcYSjHExw __Fe5UP46Ed-pbJcYSjHExw _NJ7rgP47Ed-pbJcYSjHExw"/>
+    <lifeline xmi:id="_-lQX8PwHEd-fetgvrW1lDA" name=":realizarBuscaSimples &lt;&lt;controle>>" coveredBy="_MYqdcPwIEd-fetgvrW1lDA _MY9YYPwIEd-fetgvrW1lDA _MY9_cPwIEd-fetgvrW1lDA _iyowIPwIEd-fetgvrW1lDA _qRwNEPwIEd-fetgvrW1lDA _qR6lIPwIEd-fetgvrW1lDA _F7jaoPwJEd-fetgvrW1lDA _PwpQcPwJEd-fetgvrW1lDA _Pw9ZgPwJEd-fetgvrW1lDA _Pw9ZgfwJEd-fetgvrW1lDA _SM_-IPwJEd-fetgvrW1lDA _dWgpMPwJEd-fetgvrW1lDA _jQSgAPwJEd-fetgvrW1lDA _jQnQIPwJEd-fetgvrW1lDA _jQnQIfwJEd-fetgvrW1lDA _lOl_wPwJEd-fetgvrW1lDA _F_1uoPwSEd-DF68nrr3Dfw _JK1rAPwSEd-DF68nrr3Dfw _JLCfUPwSEd-DF68nrr3Dfw _ScCJkPwSEd-DF68nrr3Dfw _vDA7QP46Ed-pbJcYSjHExw _zvLvcP46Ed-pbJcYSjHExw __Fe5UP46Ed-pbJcYSjHExw _NJ7rgP47Ed-pbJcYSjHExw _NWc2oALzEeCgKMND0a9-yw _eFJBgALzEeCgKMND0a9-yw"/>
     <lifeline xmi:id="_b-0RkP46Ed-pbJcYSjHExw" name=":BemPatrimonial &lt;&lt;entidade>>" coveredBy="_pAn7AP46Ed-pbJcYSjHExw _pBDY0P46Ed-pbJcYSjHExw _pBJfcP46Ed-pbJcYSjHExw _vDNIgP46Ed-pbJcYSjHExw _zu_iMP46Ed-pbJcYSjHExw _8raDkP46Ed-pbJcYSjHExw _8rzFIP46Ed-pbJcYSjHExw _8r0TQP46Ed-pbJcYSjHExw __FrtoP46Ed-pbJcYSjHExw _NJu3MP47Ed-pbJcYSjHExw"/>
+    <lifeline xmi:id="_2jQysALyEeCgKMND0a9-yw" name=":validarPalavraBusca &lt;&lt;controle>>" coveredBy="_J3h4sALzEeCgKMND0a9-yw _J4BA4ALzEeCgKMND0a9-yw _J4CPAALzEeCgKMND0a9-yw _NWpq8ALzEeCgKMND0a9-yw _eE37wALzEeCgKMND0a9-yw"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_JuOQcPwIEd-fetgvrW1lDA" name="BehaviorExecSpec" covered="_7HZxAPwHEd-fetgvrW1lDA" start="_JuhLYPwIEd-fetgvrW1lDA" finish="_JuhycPwIEd-fetgvrW1lDA"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_JuhLYPwIEd-fetgvrW1lDA" name="BehaviorExecSpecStart" covered="_7HZxAPwHEd-fetgvrW1lDA" event="_JuO3gPwIEd-fetgvrW1lDA" execution="_JuOQcPwIEd-fetgvrW1lDA"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_JuhycPwIEd-fetgvrW1lDA" name="BehaviorExecSpecFinish" covered="_7HZxAPwHEd-fetgvrW1lDA" event="_JuYBcPwIEd-fetgvrW1lDA" execution="_JuOQcPwIEd-fetgvrW1lDA"/>
@@ -57,6 +58,13 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__FrtoP46Ed-pbJcYSjHExw" name="MessageRecv101" covered="_b-0RkP46Ed-pbJcYSjHExw" event="__FfgYP46Ed-pbJcYSjHExw" message="__FAYMP46Ed-pbJcYSjHExw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NJu3MP47Ed-pbJcYSjHExw" name="MessageSend1011" covered="_b-0RkP46Ed-pbJcYSjHExw" event="_NJeYgP47Ed-pbJcYSjHExw" message="_NJQ9IP47Ed-pbJcYSjHExw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NJ7rgP47Ed-pbJcYSjHExw" name="MessageRecv1011" covered="_-lQX8PwHEd-fetgvrW1lDA" event="_NJveQP47Ed-pbJcYSjHExw" message="_NJQ9IP47Ed-pbJcYSjHExw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_J3h4sALzEeCgKMND0a9-yw" name="BehaviorExecSpec8" covered="_2jQysALyEeCgKMND0a9-yw" start="_J4BA4ALzEeCgKMND0a9-yw" finish="_J4CPAALzEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_J4BA4ALzEeCgKMND0a9-yw" name="BehaviorExecSpec8Start" covered="_2jQysALyEeCgKMND0a9-yw" event="_J3h4sQLzEeCgKMND0a9-yw" execution="_J3h4sALzEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_J4CPAALzEeCgKMND0a9-yw" name="BehaviorExecSpec8Finish" covered="_2jQysALyEeCgKMND0a9-yw" event="_J3wiMALzEeCgKMND0a9-yw" execution="_J3h4sALzEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NWc2oALzEeCgKMND0a9-yw" name="MessageSend10111" covered="_-lQX8PwHEd-fetgvrW1lDA" event="_NWQpYALzEeCgKMND0a9-yw" message="_NWB_4ALzEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NWpq8ALzEeCgKMND0a9-yw" name="MessageRecv10111" covered="_2jQysALyEeCgKMND0a9-yw" event="_NWddsALzEeCgKMND0a9-yw" message="_NWB_4ALzEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eE37wALzEeCgKMND0a9-yw" name="MessageSend101111" covered="_2jQysALyEeCgKMND0a9-yw" event="_eEuKwALzEeCgKMND0a9-yw" message="_eEfhQALzEeCgKMND0a9-yw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eFJBgALzEeCgKMND0a9-yw" name="MessageRecv101111" covered="_-lQX8PwHEd-fetgvrW1lDA" event="_eE4i0ALzEeCgKMND0a9-yw" message="_eEfhQALzEeCgKMND0a9-yw"/>
     <message xmi:id="_iyK2EPwIEd-fetgvrW1lDA" name="rr" messageSort="asynchCall" receiveEvent="_iyowIPwIEd-fetgvrW1lDA" sendEvent="_iye_IPwIEd-fetgvrW1lDA"/>
     <message xmi:id="_qRcrEPwIEd-fetgvrW1lDA" name="2. validarID(Id_BemPatrimonial);" messageSort="asynchCall" receiveEvent="_qR6lIPwIEd-fetgvrW1lDA" sendEvent="_qRwNEPwIEd-fetgvrW1lDA"/>
     <message xmi:id="_F7PRkPwJEd-fetgvrW1lDA" name=": Id_BemPatrimonial" messageSort="reply" receiveEvent="_F7tLoPwJEd-fetgvrW1lDA" sendEvent="_F7jaoPwJEd-fetgvrW1lDA"/>
@@ -70,6 +78,8 @@
     <message xmi:id="_zunHsP46Ed-pbJcYSjHExw" name=":Id_BemPatrimonial" messageSort="reply" receiveEvent="_zvLvcP46Ed-pbJcYSjHExw" sendEvent="_zu_iMP46Ed-pbJcYSjHExw"/>
     <message xmi:id="__FAYMP46Ed-pbJcYSjHExw" name="realizarBuscaSimples(Id_BemPatrimonial);" receiveEvent="__FrtoP46Ed-pbJcYSjHExw" sendEvent="__Fe5UP46Ed-pbJcYSjHExw"/>
     <message xmi:id="_NJQ9IP47Ed-pbJcYSjHExw" name="Lista BemPatrimonial" messageSort="reply" receiveEvent="_NJ7rgP47Ed-pbJcYSjHExw" sendEvent="_NJu3MP47Ed-pbJcYSjHExw"/>
+    <message xmi:id="_NWB_4ALzEeCgKMND0a9-yw" name="validarID(Id_BemPatrimonial);" receiveEvent="_NWpq8ALzEeCgKMND0a9-yw" sendEvent="_NWc2oALzEeCgKMND0a9-yw"/>
+    <message xmi:id="_eEfhQALzEeCgKMND0a9-yw" name=": Id_BemPatrimonial" messageSort="reply" receiveEvent="_eFJBgALzEeCgKMND0a9-yw" sendEvent="_eE37wALzEeCgKMND0a9-yw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_JuO3gPwIEd-fetgvrW1lDA" name="ExecutionEvent"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_JuYBcPwIEd-fetgvrW1lDA" name="ExecutionEvent1"/>
@@ -113,4 +123,10 @@
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="__FfgYP46Ed-pbJcYSjHExw" name="ReceiveOperationEvent101"/>
   <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_NJeYgP47Ed-pbJcYSjHExw" name="SendOperationEvent1011"/>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_NJveQP47Ed-pbJcYSjHExw" name="ReceiveOperationEvent1011"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_J3h4sQLzEeCgKMND0a9-yw" name="ExecutionEvent10111111"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_J3wiMALzEeCgKMND0a9-yw" name="ExecutionEvent101111111"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_NWQpYALzEeCgKMND0a9-yw" name="SendOperationEvent10111"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_NWddsALzEeCgKMND0a9-yw" name="ReceiveOperationEvent10111"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_eEuKwALzEeCgKMND0a9-yw" name="SendOperationEvent101111"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_eE4i0ALzEeCgKMND0a9-yw" name="ReceiveOperationEvent101111"/>
 </uml:Model>

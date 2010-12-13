@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_eaw-4PwyEd-8ctcSDUfcSg" name="model">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_eaxl8vwyEd-8ctcSDUfcSg" name="editarInstituicao">
-    <lifeline xmi:id="_leI7APwyEd-8ctcSDUfcSg" name=":Administrador" coveredBy="_0tVCAPwyEd-8ctcSDUfcSg _0tokAPwyEd-8ctcSDUfcSg _0tpLEPwyEd-8ctcSDUfcSg _A1jYEPwzEd-8ctcSDUfcSg _VdAkQPwzEd-8ctcSDUfcSg _akusAPwzEd-8ctcSDUfcSg _alTTwPwzEd-8ctcSDUfcSg _alT60PwzEd-8ctcSDUfcSg _jctZUPwzEd-8ctcSDUfcSg _8_Kf4PwzEd-8ctcSDUfcSg"/>
-    <lifeline xmi:id="_qM37APwyEd-8ctcSDUfcSg" name=":SistemaMemoriaVirtual" coveredBy="_1jIBkPwyEd-8ctcSDUfcSg _1jktgPwyEd-8ctcSDUfcSg _1jl7oPwyEd-8ctcSDUfcSg _A1uXMPwzEd-8ctcSDUfcSg _GjekMPwzEd-8ctcSDUfcSg _RnPMkPwzEd-8ctcSDUfcSg _VcwsoPwzEd-8ctcSDUfcSg _bYiHgPwzEd-8ctcSDUfcSg _bZAooPwzEd-8ctcSDUfcSg _bZBPsPwzEd-8ctcSDUfcSg _jc4YcPwzEd-8ctcSDUfcSg _r0SIQPwzEd-8ctcSDUfcSg _2C-J0PwzEd-8ctcSDUfcSg _8_AH0PwzEd-8ctcSDUfcSg"/>
-    <lifeline xmi:id="_ue6_APwyEd-8ctcSDUfcSg" name=":Instituicao" coveredBy="_2zdBAPwyEd-8ctcSDUfcSg _20I9gPwyEd-8ctcSDUfcSg _20JkkPwyEd-8ctcSDUfcSg _Gjo8QPwzEd-8ctcSDUfcSg _Rm_U8PwzEd-8ctcSDUfcSg _cCfqgPwzEd-8ctcSDUfcSg _cC5TIPwzEd-8ctcSDUfcSg _cC56MPwzEd-8ctcSDUfcSg _r0ducPwzEd-8ctcSDUfcSg _2CzxwPwzEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_leI7APwyEd-8ctcSDUfcSg" name="Administrador &lt;&lt;ator>>" coveredBy="_0tVCAPwyEd-8ctcSDUfcSg _0tokAPwyEd-8ctcSDUfcSg _0tpLEPwyEd-8ctcSDUfcSg _A1jYEPwzEd-8ctcSDUfcSg _VdAkQPwzEd-8ctcSDUfcSg _akusAPwzEd-8ctcSDUfcSg _alTTwPwzEd-8ctcSDUfcSg _alT60PwzEd-8ctcSDUfcSg _jctZUPwzEd-8ctcSDUfcSg _8_Kf4PwzEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_qM37APwyEd-8ctcSDUfcSg" name=":gerenciarInstituicao &lt;&lt;controle>>" coveredBy="_1jIBkPwyEd-8ctcSDUfcSg _1jktgPwyEd-8ctcSDUfcSg _1jl7oPwyEd-8ctcSDUfcSg _A1uXMPwzEd-8ctcSDUfcSg _GjekMPwzEd-8ctcSDUfcSg _RnPMkPwzEd-8ctcSDUfcSg _VcwsoPwzEd-8ctcSDUfcSg _bYiHgPwzEd-8ctcSDUfcSg _bZAooPwzEd-8ctcSDUfcSg _bZBPsPwzEd-8ctcSDUfcSg _jc4YcPwzEd-8ctcSDUfcSg _r0SIQPwzEd-8ctcSDUfcSg _2C-J0PwzEd-8ctcSDUfcSg _8_AH0PwzEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_ue6_APwyEd-8ctcSDUfcSg" name=":Instituicao &lt;&lt;entidade>>" coveredBy="_2zdBAPwyEd-8ctcSDUfcSg _20I9gPwyEd-8ctcSDUfcSg _20JkkPwyEd-8ctcSDUfcSg _Gjo8QPwzEd-8ctcSDUfcSg _Rm_U8PwzEd-8ctcSDUfcSg _cCfqgPwzEd-8ctcSDUfcSg _cC5TIPwzEd-8ctcSDUfcSg _cC56MPwzEd-8ctcSDUfcSg _r0ducPwzEd-8ctcSDUfcSg _2CzxwPwzEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_0tVCAPwyEd-8ctcSDUfcSg" name="BehaviorExecSpec" covered="_leI7APwyEd-8ctcSDUfcSg" start="_0tokAPwyEd-8ctcSDUfcSg" finish="_0tpLEPwyEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_0tokAPwyEd-8ctcSDUfcSg" name="BehaviorExecSpecStart" covered="_leI7APwyEd-8ctcSDUfcSg" event="_0tVpEPwyEd-8ctcSDUfcSg" execution="_0tVCAPwyEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_0tpLEPwyEd-8ctcSDUfcSg" name="BehaviorExecSpecFinish" covered="_leI7APwyEd-8ctcSDUfcSg" event="_0tezAPwyEd-8ctcSDUfcSg" execution="_0tVCAPwyEd-8ctcSDUfcSg"/>
@@ -38,14 +38,14 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2C-J0PwzEd-8ctcSDUfcSg" name="MessageRecv6" covered="_qM37APwyEd-8ctcSDUfcSg" event="_2C0Y0PwzEd-8ctcSDUfcSg" message="_2CZiEPwzEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8_AH0PwzEd-8ctcSDUfcSg" name="MessageSend7" covered="_qM37APwyEd-8ctcSDUfcSg" event="_8-1IsPwzEd-8ctcSDUfcSg" message="_8-mfMPwzEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8_Kf4PwzEd-8ctcSDUfcSg" name="MessageRecv7" covered="_leI7APwyEd-8ctcSDUfcSg" event="_8_Au4PwzEd-8ctcSDUfcSg" message="_8-mfMPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_A1P2EPwzEd-8ctcSDUfcSg" name="1. iniciarEditarInstituicao();" receiveEvent="_A1uXMPwzEd-8ctcSDUfcSg" sendEvent="_A1jYEPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_GjJ0EPwzEd-8ctcSDUfcSg" name="2. Instituicao := recuperarInstituicao(NomeInstituicao);" receiveEvent="_Gjo8QPwzEd-8ctcSDUfcSg" sendEvent="_GjekMPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_Rmm6cPwzEd-8ctcSDUfcSg" name="3. Retorna a instituição" messageSort="reply" receiveEvent="_RnPMkPwzEd-8ctcSDUfcSg" sendEvent="_Rm_U8PwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_VcTZoPwzEd-8ctcSDUfcSg" name="4. Solicitar a edição de dados da instituição" messageSort="reply" receiveEvent="_VdAkQPwzEd-8ctcSDUfcSg" sendEvent="_VcwsoPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_jcXbEPwzEd-8ctcSDUfcSg" name="5. editarInstituicao(Instituicao);" receiveEvent="_jc4YcPwzEd-8ctcSDUfcSg" sendEvent="_jctZUPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_rz8xEPwzEd-8ctcSDUfcSg" name="6. validarEditarInstituicao(Instituicao);" receiveEvent="_r0ducPwzEd-8ctcSDUfcSg" sendEvent="_r0SIQPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_2CZiEPwzEd-8ctcSDUfcSg" name="7. Confirma a operação" messageSort="reply" receiveEvent="_2C-J0PwzEd-8ctcSDUfcSg" sendEvent="_2CzxwPwzEd-8ctcSDUfcSg"/>
-    <message xmi:id="_8-mfMPwzEd-8ctcSDUfcSg" name="8. Instituição atualizada" messageSort="reply" receiveEvent="_8_Kf4PwzEd-8ctcSDUfcSg" sendEvent="_8_AH0PwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_A1P2EPwzEd-8ctcSDUfcSg" name="iniciarEditarInstituicao(NomeInstituicao);" receiveEvent="_A1uXMPwzEd-8ctcSDUfcSg" sendEvent="_A1jYEPwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_GjJ0EPwzEd-8ctcSDUfcSg" name=" Instituicao := recuperarInstituicao(NomeInstituicao);" receiveEvent="_Gjo8QPwzEd-8ctcSDUfcSg" sendEvent="_GjekMPwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_Rmm6cPwzEd-8ctcSDUfcSg" name=":Instituicao" messageSort="reply" receiveEvent="_RnPMkPwzEd-8ctcSDUfcSg" sendEvent="_Rm_U8PwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_VcTZoPwzEd-8ctcSDUfcSg" name=":Instituicao" messageSort="reply" receiveEvent="_VdAkQPwzEd-8ctcSDUfcSg" sendEvent="_VcwsoPwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_jcXbEPwzEd-8ctcSDUfcSg" name="editarInstituicao(Instituicao);" receiveEvent="_jc4YcPwzEd-8ctcSDUfcSg" sendEvent="_jctZUPwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_rz8xEPwzEd-8ctcSDUfcSg" name="validarEditarInstituicao(Instituicao);" receiveEvent="_r0ducPwzEd-8ctcSDUfcSg" sendEvent="_r0SIQPwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_2CZiEPwzEd-8ctcSDUfcSg" name=":validadeeditarInstituicao" messageSort="reply" receiveEvent="_2C-J0PwzEd-8ctcSDUfcSg" sendEvent="_2CzxwPwzEd-8ctcSDUfcSg"/>
+    <message xmi:id="_8-mfMPwzEd-8ctcSDUfcSg" name=":validadeeditarInstituicao" messageSort="reply" receiveEvent="_8_Kf4PwzEd-8ctcSDUfcSg" sendEvent="_8_AH0PwzEd-8ctcSDUfcSg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_0tVpEPwyEd-8ctcSDUfcSg" name="ExecutionEvent"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_0tezAPwyEd-8ctcSDUfcSg" name="ExecutionEvent1"/>

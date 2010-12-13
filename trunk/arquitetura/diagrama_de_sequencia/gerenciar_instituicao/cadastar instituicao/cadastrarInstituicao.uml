@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_sIq2IPwuEd-8ctcSDUfcSg" name="model">
   <packagedElement xmi:type="uml:Interaction" xmi:id="_sIyK4PwuEd-8ctcSDUfcSg" name="cadastrarInstituicao">
-    <lifeline xmi:id="_Uf9NgPwwEd-8ctcSDUfcSg" name=":Administrador" coveredBy="_jpR9EPwwEd-8ctcSDUfcSg _jpk4APwwEd-8ctcSDUfcSg _jpk4AfwwEd-8ctcSDUfcSg _mb5OoPwwEd-8ctcSDUfcSg _vTT7QPwwEd-8ctcSDUfcSg _zEwMkPwwEd-8ctcSDUfcSg _zFIAAPwwEd-8ctcSDUfcSg _zFInEPwwEd-8ctcSDUfcSg _BK8rMPwxEd-8ctcSDUfcSg _ERpg8PwyEd-8ctcSDUfcSg"/>
-    <lifeline xmi:id="_YpYhAPwwEd-8ctcSDUfcSg" name="::SistemaMemoriaVirtual" coveredBy="_kVhYAPwwEd-8ctcSDUfcSg _kV4kYPwwEd-8ctcSDUfcSg _kV4kYfwwEd-8ctcSDUfcSg _mcH4IPwwEd-8ctcSDUfcSg _vTI8IPwwEd-8ctcSDUfcSg _z566APwwEd-8ctcSDUfcSg _z6OcAPwwEd-8ctcSDUfcSg _z6PDEPwwEd-8ctcSDUfcSg _BLHDQPwxEd-8ctcSDUfcSg _IEANsPwxEd-8ctcSDUfcSg _R14-gPwxEd-8ctcSDUfcSg _ERUJwPwyEd-8ctcSDUfcSg"/>
-    <lifeline xmi:id="_6XgogPwwEd-8ctcSDUfcSg" name=":Instituicao" coveredBy="_-YsmAPwwEd-8ctcSDUfcSg _-ZFAgPwwEd-8ctcSDUfcSg _-ZFnkPwwEd-8ctcSDUfcSg _IELz4PwxEd-8ctcSDUfcSg _R1t_YPwxEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_Uf9NgPwwEd-8ctcSDUfcSg" name="Administrador &lt;&lt;ator>>" coveredBy="_jpR9EPwwEd-8ctcSDUfcSg _jpk4APwwEd-8ctcSDUfcSg _jpk4AfwwEd-8ctcSDUfcSg _mb5OoPwwEd-8ctcSDUfcSg _vTT7QPwwEd-8ctcSDUfcSg _zEwMkPwwEd-8ctcSDUfcSg _zFIAAPwwEd-8ctcSDUfcSg _zFInEPwwEd-8ctcSDUfcSg _BK8rMPwxEd-8ctcSDUfcSg _ERpg8PwyEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_YpYhAPwwEd-8ctcSDUfcSg" name="::gerenciarInstituicao &lt;&lt;controle>>" coveredBy="_kVhYAPwwEd-8ctcSDUfcSg _kV4kYPwwEd-8ctcSDUfcSg _kV4kYfwwEd-8ctcSDUfcSg _mcH4IPwwEd-8ctcSDUfcSg _vTI8IPwwEd-8ctcSDUfcSg _z566APwwEd-8ctcSDUfcSg _z6OcAPwwEd-8ctcSDUfcSg _z6PDEPwwEd-8ctcSDUfcSg _BLHDQPwxEd-8ctcSDUfcSg _IEANsPwxEd-8ctcSDUfcSg _R14-gPwxEd-8ctcSDUfcSg _ERUJwPwyEd-8ctcSDUfcSg"/>
+    <lifeline xmi:id="_6XgogPwwEd-8ctcSDUfcSg" name=":Instituicao &lt;&lt;entidade>>" coveredBy="_-YsmAPwwEd-8ctcSDUfcSg _-ZFAgPwwEd-8ctcSDUfcSg _-ZFnkPwwEd-8ctcSDUfcSg _IELz4PwxEd-8ctcSDUfcSg _R1t_YPwxEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_jpR9EPwwEd-8ctcSDUfcSg" name="BehaviorExecSpec" covered="_Uf9NgPwwEd-8ctcSDUfcSg" start="_jpk4APwwEd-8ctcSDUfcSg" finish="_jpk4AfwwEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_jpk4APwwEd-8ctcSDUfcSg" name="BehaviorExecSpecStart" covered="_Uf9NgPwwEd-8ctcSDUfcSg" event="_jpR9EfwwEd-8ctcSDUfcSg" execution="_jpR9EPwwEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_jpk4AfwwEd-8ctcSDUfcSg" name="BehaviorExecSpecFinish" covered="_Uf9NgPwwEd-8ctcSDUfcSg" event="_jpbuEPwwEd-8ctcSDUfcSg" execution="_jpR9EPwwEd-8ctcSDUfcSg"/>
@@ -31,12 +31,12 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_R14-gPwxEd-8ctcSDUfcSg" name="MessageRecv4" covered="_YpYhAPwwEd-8ctcSDUfcSg" event="_R1umcPwxEd-8ctcSDUfcSg" message="_R1XaEPwxEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ERUJwPwyEd-8ctcSDUfcSg" name="MessageSend5" covered="_YpYhAPwwEd-8ctcSDUfcSg" event="_ERE5MPwyEd-8ctcSDUfcSg" message="_EQ1ooPwyEd-8ctcSDUfcSg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ERpg8PwyEd-8ctcSDUfcSg" name="MessageRecv5" covered="_Uf9NgPwwEd-8ctcSDUfcSg" event="_ERUw0PwyEd-8ctcSDUfcSg" message="_EQ1ooPwyEd-8ctcSDUfcSg"/>
-    <message xmi:id="_mblsoPwwEd-8ctcSDUfcSg" name="1. iniciarCadastro();" receiveEvent="_mcH4IPwwEd-8ctcSDUfcSg" sendEvent="_mb5OoPwwEd-8ctcSDUfcSg"/>
-    <message xmi:id="_vSv6kPwwEd-8ctcSDUfcSg" name="2. Retorna planilha de cadastro" messageSort="reply" receiveEvent="_vTT7QPwwEd-8ctcSDUfcSg" sendEvent="_vTI8IPwwEd-8ctcSDUfcSg"/>
-    <message xmi:id="_BKn7EPwxEd-8ctcSDUfcSg" name="3. preencherCadastro(DadosInstituicao);" receiveEvent="_BLHDQPwxEd-8ctcSDUfcSg" sendEvent="_BK8rMPwxEd-8ctcSDUfcSg"/>
-    <message xmi:id="_IDsEoPwxEd-8ctcSDUfcSg" name="4. criarInstituicao(DadosInstuicao);" receiveEvent="_IELz4PwxEd-8ctcSDUfcSg" sendEvent="_IEANsPwxEd-8ctcSDUfcSg"/>
-    <message xmi:id="_R1XaEPwxEd-8ctcSDUfcSg" name="5. Criação da nova instituição" messageSort="reply" receiveEvent="_R14-gPwxEd-8ctcSDUfcSg" sendEvent="_R1t_YPwxEd-8ctcSDUfcSg"/>
-    <message xmi:id="_EQ1ooPwyEd-8ctcSDUfcSg" name="6. Nova Instituição" messageSort="reply" receiveEvent="_ERpg8PwyEd-8ctcSDUfcSg" sendEvent="_ERUJwPwyEd-8ctcSDUfcSg"/>
+    <message xmi:id="_mblsoPwwEd-8ctcSDUfcSg" name="iniciarCadastrarInstituicao();" receiveEvent="_mcH4IPwwEd-8ctcSDUfcSg" sendEvent="_mb5OoPwwEd-8ctcSDUfcSg"/>
+    <message xmi:id="_vSv6kPwwEd-8ctcSDUfcSg" name="Planilha de cadastro" messageSort="reply" receiveEvent="_vTT7QPwwEd-8ctcSDUfcSg" sendEvent="_vTI8IPwwEd-8ctcSDUfcSg"/>
+    <message xmi:id="_BKn7EPwxEd-8ctcSDUfcSg" name="preencherCadastro(DadosInstituicao);" receiveEvent="_BLHDQPwxEd-8ctcSDUfcSg" sendEvent="_BK8rMPwxEd-8ctcSDUfcSg"/>
+    <message xmi:id="_IDsEoPwxEd-8ctcSDUfcSg" name="cadastrarInstituicao(DadosInstuicao);" receiveEvent="_IELz4PwxEd-8ctcSDUfcSg" sendEvent="_IEANsPwxEd-8ctcSDUfcSg"/>
+    <message xmi:id="_R1XaEPwxEd-8ctcSDUfcSg" name=":validadeCadastrarInstituição" messageSort="reply" receiveEvent="_R14-gPwxEd-8ctcSDUfcSg" sendEvent="_R1t_YPwxEd-8ctcSDUfcSg"/>
+    <message xmi:id="_EQ1ooPwyEd-8ctcSDUfcSg" name=":validadeCadastrarInstituição" messageSort="reply" receiveEvent="_ERpg8PwyEd-8ctcSDUfcSg" sendEvent="_ERUJwPwyEd-8ctcSDUfcSg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_jpR9EfwwEd-8ctcSDUfcSg" name="ExecutionEvent"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_jpbuEPwwEd-8ctcSDUfcSg" name="ExecutionEvent1"/>
