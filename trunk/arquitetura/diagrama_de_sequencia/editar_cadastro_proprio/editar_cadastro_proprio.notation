@@ -50,7 +50,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s12qsRQ0EeCha8w-2_vyag" x="45" y="275" width="16" height="176"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_cadastro_proprio.uml#_mPXtoBQuEeCha8w-2_vyag"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mPqokRQuEeCha8w-2_vyag" x="35" y="18" width="106" height="563"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mPqokRQuEeCha8w-2_vyag" x="35" y="18" width="106" height="553"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_sLMy4RQuEeCha8w-2_vyag" type="3001" fontHeight="8" transparency="0" gradient="8421504, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sLMy5RQuEeCha8w-2_vyag" source="displayNameLabelIcon">
@@ -130,7 +130,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vy8t8RQ0EeCha8w-2_vyag" x="59" y="278" width="16" height="171"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_cadastro_proprio.uml#_0MGHMBQuEeCha8w-2_vyag"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0MGHMhQuEeCha8w-2_vyag" x="765" y="15" width="135" height="571"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0MGHMhQuEeCha8w-2_vyag" x="765" y="15" width="135" height="556"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NGC4xBQuEeCha8w-2_vyag"/>
     </children>
