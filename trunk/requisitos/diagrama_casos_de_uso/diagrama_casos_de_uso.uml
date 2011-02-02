@@ -32,7 +32,6 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="__XzCQFg_Ed-dS4rfVeGnrA" name="RealizarLogin">
     <extensionPoint xmi:id="_wO6psIRUEd-08NHWrMiWOQ" name="CDU 16"/>
-    <extensionPoint xmi:id="_vr5B8CczEeCyjZW9ufGewQ" name="CDU 02"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_BDg9MFhAEd-dS4rfVeGnrA" name="CatalogarBens">
     <extend xmi:id="_XESX0FrUEd-f0uHfeM-rSw" extendedCase="_JyvpQFrUEd-f0uHfeM-rSw"/>
@@ -129,6 +128,10 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_izvdAVhtEd-xx65kEYsUvg" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_BnxBUFrTEd-f0uHfeM-rSw" name="RealizarBuscaCompleta">
+    <include xmi:id="_Q1MYUFrUEd-f0uHfeM-rSw" addition="_JyvpQFrUEd-f0uHfeM-rSw"/>
+    <extensionPoint xmi:id="_DvQSQFrTEd-f0uHfeM-rSw" name="CDU 02"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_urg9QFrTEd-f0uHfeM-rSw" name="GerenciarInstituicao">
     <extensionPoint xmi:id="_oekkwIRSEd-08NHWrMiWOQ" name="CDU 09"/>
   </packagedElement>
@@ -140,6 +143,16 @@
     <ownedEnd xmi:id="_0tSSc1rTEd-f0uHfeM-rSw" name="dst" type="_vmOP0FhTEd-HutpRcU5DLg" association="_0tRrYFrTEd-f0uHfeM-rSw">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0tS5gFrTEd-f0uHfeM-rSw" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0tSSdFrTEd-f0uHfeM-rSw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9d-sAFrTEd-f0uHfeM-rSw" memberEnd="_9d-sAVrTEd-f0uHfeM-rSw _9d_TElrTEd-f0uHfeM-rSw" navigableOwnedEnd="_9d_TElrTEd-f0uHfeM-rSw">
+    <ownedEnd xmi:id="_9d-sAVrTEd-f0uHfeM-rSw" name="src" type="_BnxBUFrTEd-f0uHfeM-rSw" association="_9d-sAFrTEd-f0uHfeM-rSw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9d_TEVrTEd-f0uHfeM-rSw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9d_TEFrTEd-f0uHfeM-rSw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_9d_TElrTEd-f0uHfeM-rSw" name="dst" type="_JBiuQFhBEd-dS4rfVeGnrA" association="_9d-sAFrTEd-f0uHfeM-rSw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9d_6IFrTEd-f0uHfeM-rSw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9d_TE1rTEd-f0uHfeM-rSw" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_BQZ0wFrUEd-f0uHfeM-rSw" name="ListarBens">
@@ -167,14 +180,14 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_QSH0QF61Ed-Ecc5OhaXzFg" name="GerenciarAutoria">
     <extend xmi:id="_fIpFQIRUEd-08NHWrMiWOQ" extendedCase="_BDg9MFhAEd-dS4rfVeGnrA"/>
-    <extensionPoint xmi:id="_Tr8PwF61Ed-Ecc5OhaXzFg" name="CDU 16"/>
+    <extensionPoint xmi:id="_Tr8PwF61Ed-Ecc5OhaXzFg" name="CDU 13"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_SvyXQF66Ed-Ecc5OhaXzFg" name="GerenciarIntervencao">
-    <extensionPoint xmi:id="_UqTjMF66Ed-Ecc5OhaXzFg" name="CDU 18"/>
+    <extensionPoint xmi:id="_UqTjMF66Ed-Ecc5OhaXzFg" name="CDU 15"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_XUSdMF66Ed-Ecc5OhaXzFg" name="GerenciarArquivosAnexos">
     <extend xmi:id="_mOXKwIRUEd-08NHWrMiWOQ" extendedCase="_BDg9MFhAEd-dS4rfVeGnrA"/>
-    <extensionPoint xmi:id="_Y6hbMF66Ed-Ecc5OhaXzFg" name="CDU 15"/>
+    <extensionPoint xmi:id="_Y6hbMF66Ed-Ecc5OhaXzFg" name="CDU 14"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_COZhMF69Ed-Ecc5OhaXzFg" memberEnd="_COr1EF69Ed-Ecc5OhaXzFg _CPDogF69Ed-Ecc5OhaXzFg" navigableOwnedEnd="_CPDogF69Ed-Ecc5OhaXzFg">
     <ownedEnd xmi:id="_COr1EF69Ed-Ecc5OhaXzFg" name="src" type="_SvyXQF66Ed-Ecc5OhaXzFg" association="_COZhMF69Ed-Ecc5OhaXzFg">
@@ -187,7 +200,7 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_UVR7QIRSEd-08NHWrMiWOQ" name="ObterNovaSenha">
-    <extensionPoint xmi:id="_XvexQIRSEd-08NHWrMiWOQ" name="CDU 19"/>
+    <extensionPoint xmi:id="_XvexQIRSEd-08NHWrMiWOQ" name="CDU 17"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_czvVUIRSEd-08NHWrMiWOQ" memberEnd="_czwjcIRSEd-08NHWrMiWOQ _czxxkYRSEd-08NHWrMiWOQ" navigableOwnedEnd="_czxxkYRSEd-08NHWrMiWOQ">
     <ownedEnd xmi:id="_czwjcIRSEd-08NHWrMiWOQ" name="src" type="_UVR7QIRSEd-08NHWrMiWOQ" association="_czvVUIRSEd-08NHWrMiWOQ">
@@ -202,9 +215,8 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_rdnIwIRSEd-08NHWrMiWOQ" name="ExcluirUsuario">
     <extensionPoint xmi:id="_xlXxMIRSEd-08NHWrMiWOQ" name="CDU 10"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_zskuQIRSEd-08NHWrMiWOQ" name="EditarCadastroProprio">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zskuQIRSEd-08NHWrMiWOQ" name="EditarUsuario">
     <extensionPoint xmi:id="_1RIRQIRSEd-08NHWrMiWOQ" name="CDU 11"/>
-    <extensionPoint xmi:id="_MHdDoCc0EeCyjZW9ufGewQ" name="CDU 13"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_26VDsIRSEd-08NHWrMiWOQ" name="CadastrarUsuario">
     <extensionPoint xmi:id="_66mbMIRSEd-08NHWrMiWOQ" name="CDU 12"/>
@@ -219,6 +231,16 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TyhXAYRTEd-08NHWrMiWOQ" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Wew60IRTEd-08NHWrMiWOQ" memberEnd="_Wexh4IRTEd-08NHWrMiWOQ _Wexh44RTEd-08NHWrMiWOQ" navigableOwnedEnd="_Wexh44RTEd-08NHWrMiWOQ">
+    <ownedEnd xmi:id="_Wexh4IRTEd-08NHWrMiWOQ" name="src" type="_zskuQIRSEd-08NHWrMiWOQ" association="_Wew60IRTEd-08NHWrMiWOQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wexh4oRTEd-08NHWrMiWOQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Wexh4YRTEd-08NHWrMiWOQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Wexh44RTEd-08NHWrMiWOQ" name="dst" type="_iJoH0FhTEd-HutpRcU5DLg" association="_Wew60IRTEd-08NHWrMiWOQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WeyI8YRTEd-08NHWrMiWOQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WeyI8IRTEd-08NHWrMiWOQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_b788QIRTEd-08NHWrMiWOQ" memberEnd="_b79jUIRTEd-08NHWrMiWOQ _b79jU4RTEd-08NHWrMiWOQ" navigableOwnedEnd="_b79jU4RTEd-08NHWrMiWOQ">
     <ownedEnd xmi:id="_b79jUIRTEd-08NHWrMiWOQ" name="src" type="_vmOP0FhTEd-HutpRcU5DLg" association="_b788QIRTEd-08NHWrMiWOQ">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b79jUoRTEd-08NHWrMiWOQ" value="1"/>
@@ -231,42 +253,6 @@
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_-tH_sIRUEd-08NHWrMiWOQ" name="GerenciarDescritor">
     <extend xmi:id="_DQ9XQIRVEd-08NHWrMiWOQ" extendedCase="_BDg9MFhAEd-dS4rfVeGnrA"/>
-    <extensionPoint xmi:id="_Ari0MIRVEd-08NHWrMiWOQ" name="CDU 17"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_I4n3gCcxEeCyjZW9ufGewQ" name="RealizarLogoff">
-    <extensionPoint xmi:id="_xlSMgCczEeCyjZW9ufGewQ" name="CDU 14"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_L8_AYCcxEeCyjZW9ufGewQ" memberEnd="_L9A1kCcxEeCyjZW9ufGewQ _L9BcoScxEeCyjZW9ufGewQ" navigableOwnedEnd="_L9BcoScxEeCyjZW9ufGewQ">
-    <ownedEnd xmi:id="_L9A1kCcxEeCyjZW9ufGewQ" name="src" type="_I4n3gCcxEeCyjZW9ufGewQ" association="_L8_AYCcxEeCyjZW9ufGewQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9BcoCcxEeCyjZW9ufGewQ" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L9A1kScxEeCyjZW9ufGewQ" value="1"/>
-    </ownedEnd>
-    <ownedEnd xmi:id="_L9BcoScxEeCyjZW9ufGewQ" name="dst" type="_iJoH0FhTEd-HutpRcU5DLg" association="_L8_AYCcxEeCyjZW9ufGewQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L9BcoycxEeCyjZW9ufGewQ" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_L9BcoicxEeCyjZW9ufGewQ" value="1"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Z1-JcCcxEeCyjZW9ufGewQ" name="EditarCadastroUsuário">
-    <extensionPoint xmi:id="_C_4bICc0EeCyjZW9ufGewQ" name="CDU 11"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_qmoqQCcxEeCyjZW9ufGewQ" memberEnd="_qmoqQScxEeCyjZW9ufGewQ _qmpRUScxEeCyjZW9ufGewQ" navigableOwnedEnd="_qmpRUScxEeCyjZW9ufGewQ">
-    <ownedEnd xmi:id="_qmoqQScxEeCyjZW9ufGewQ" name="src" type="_Z1-JcCcxEeCyjZW9ufGewQ" association="_qmoqQCcxEeCyjZW9ufGewQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qmpRUCcxEeCyjZW9ufGewQ" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qmoqQicxEeCyjZW9ufGewQ" value="1"/>
-    </ownedEnd>
-    <ownedEnd xmi:id="_qmpRUScxEeCyjZW9ufGewQ" name="dst" type="_vmOP0FhTEd-HutpRcU5DLg" association="_qmoqQCcxEeCyjZW9ufGewQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qmpRUycxEeCyjZW9ufGewQ" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qmpRUicxEeCyjZW9ufGewQ" value="1"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_MguX4Cc3EeCyjZW9ufGewQ" memberEnd="_Mgu-8Cc3EeCyjZW9ufGewQ _MgvmACc3EeCyjZW9ufGewQ" navigableOwnedEnd="_MgvmACc3EeCyjZW9ufGewQ">
-    <ownedEnd xmi:id="_Mgu-8Cc3EeCyjZW9ufGewQ" name="src" type="_zskuQIRSEd-08NHWrMiWOQ" association="_MguX4Cc3EeCyjZW9ufGewQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mgu-8ic3EeCyjZW9ufGewQ" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Mgu-8Sc3EeCyjZW9ufGewQ" value="1"/>
-    </ownedEnd>
-    <ownedEnd xmi:id="_MgvmACc3EeCyjZW9ufGewQ" name="dst" type="_iJoH0FhTEd-HutpRcU5DLg" association="_MguX4Cc3EeCyjZW9ufGewQ">
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MgvmAic3EeCyjZW9ufGewQ" value="1"/>
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MgvmASc3EeCyjZW9ufGewQ" value="1"/>
-    </ownedEnd>
+    <extensionPoint xmi:id="_Ari0MIRVEd-08NHWrMiWOQ" name="CDU 18"/>
   </packagedElement>
 </uml:Package>
