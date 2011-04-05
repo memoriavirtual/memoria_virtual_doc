@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Y4mzYF-GEeCN4rDPzmVTyg" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_Y4mzYV-GEeCN4rDPzmVTyg" type="2001" fontName="Segoe UI" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y4mzYl-GEeCN4rDPzmVTyg" source="ShadowFigure">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y4mzY1-GEeCN4rDPzmVTyg" key="ShadowFigure_Value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y4mzZF-GEeCN4rDPzmVTyg" source="displayNameLabelIcon">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y4mzZV-GEeCN4rDPzmVTyg" key="displayNameLabelIcon_value" value="false"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y4mzZl-GEeCN4rDPzmVTyg" source="QualifiedName">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y4mzZ1-GEeCN4rDPzmVTyg" key="QualifiedNameDepth" value="1000"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y4mzaF-GEeCN4rDPzmVTyg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y4mzaV-GEeCN4rDPzmVTyg" type="7001">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4mzal-GEeCN4rDPzmVTyg"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="enviarConvite.uml#_Y4llQF-GEeCN4rDPzmVTyg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4mza1-GEeCN4rDPzmVTyg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_Y4mzbF-GEeCN4rDPzmVTyg"/>
+  <element xmi:type="uml:Interaction" href="enviarConvite.uml#_Y4llQF-GEeCN4rDPzmVTyg"/>
+</notation:Diagram>
