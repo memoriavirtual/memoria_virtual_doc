@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Ogqm8GB9EeCWAtwB1MdlQA" name="model">
+  <packagedElement xmi:type="uml:Class" xmi:id="_PHYosGB9EeCWAtwB1MdlQA" name="Usuario"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QE-SUGB9EeCWAtwB1MdlQA" name="Sistema">
+    <ownedAttribute xmi:id="_aHjKgGB9EeCWAtwB1MdlQA" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_aHk_sGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHjKgWB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aHjKgmB9EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_m7QGgGB9EeCWAtwB1MdlQA" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_m7WNIGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m7U_AGB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m7UX8GB9EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_0w_HQGB9EeCWAtwB1MdlQA" name="convite" type="_m7WNIGB9EeCWAtwB1MdlQA" association="_0xCKkGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0w_HQWB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0w_HQmB9EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_3MrGkGB9EeCWAtwB1MdlQA" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_3MvYAGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3MrGkWB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3MrGkmB9EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_qVN2gGB-EeCWAtwB1MdlQA" name="grupo" type="_9ZRywGB9EeCWAtwB1MdlQA" association="_qVQ50GB-EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qVN2gWB-EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qVN2gmB-EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aHk_sGB9EeCWAtwB1MdlQA" name="sistema_usuario_0" memberEnd="_aHk_sWB9EeCWAtwB1MdlQA _aHjKgGB9EeCWAtwB1MdlQA">
+    <ownedEnd xmi:id="_aHk_sWB9EeCWAtwB1MdlQA" name="sistema" type="_QE-SUGB9EeCWAtwB1MdlQA" association="_aHk_sGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aHk_smB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aHk_s2B9EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_m7WNIGB9EeCWAtwB1MdlQA" name="Convite" memberEnd="_m7WNIWB9EeCWAtwB1MdlQA _m7QGgGB9EeCWAtwB1MdlQA">
+    <ownedAttribute xmi:id="_2RjiIGB9EeCWAtwB1MdlQA" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_2RpBsGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2RjiIWB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2RjiImB9EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+    <ownedEnd xmi:id="_m7WNIWB9EeCWAtwB1MdlQA" name="sistema" type="_QE-SUGB9EeCWAtwB1MdlQA" association="_m7WNIGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_m7WNImB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_m7WNI2B9EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0xCKkGB9EeCWAtwB1MdlQA" name="sistema_convite_0" memberEnd="_0xCKkWB9EeCWAtwB1MdlQA _0w_HQGB9EeCWAtwB1MdlQA">
+    <ownedEnd xmi:id="_0xCKkWB9EeCWAtwB1MdlQA" name="sistema" type="_QE-SUGB9EeCWAtwB1MdlQA" association="_0xCKkGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0xCKkmB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0xCKk2B9EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2RpBsGB9EeCWAtwB1MdlQA" name="convite_usuario_0" memberEnd="_2RpBsWB9EeCWAtwB1MdlQA _2RjiIGB9EeCWAtwB1MdlQA">
+    <ownedEnd xmi:id="_2RpBsWB9EeCWAtwB1MdlQA" name="convite" type="_m7WNIGB9EeCWAtwB1MdlQA" association="_2RpBsGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2RpBsmB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2RpBs2B9EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3MvYAGB9EeCWAtwB1MdlQA" name="sistema_usuario_1" memberEnd="_3MvYAWB9EeCWAtwB1MdlQA _3MrGkGB9EeCWAtwB1MdlQA">
+    <ownedEnd xmi:id="_3MvYAWB9EeCWAtwB1MdlQA" name="sistema" type="_QE-SUGB9EeCWAtwB1MdlQA" association="_3MvYAGB9EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3MvYAmB9EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3MvYA2B9EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9ZRywGB9EeCWAtwB1MdlQA" name="Grupo">
+    <ownedAttribute xmi:id="_qvYqAGB-EeCWAtwB1MdlQA" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_qvZ4IGB-EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qvZREGB-EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qvZREWB-EeCWAtwB1MdlQA" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qVQ50GB-EeCWAtwB1MdlQA" name="sistema_grupo_0" memberEnd="_qVQ50WB-EeCWAtwB1MdlQA _qVN2gGB-EeCWAtwB1MdlQA">
+    <ownedEnd xmi:id="_qVQ50WB-EeCWAtwB1MdlQA" name="sistema" type="_QE-SUGB9EeCWAtwB1MdlQA" association="_qVQ50GB-EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qVQ50mB-EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qVQ502B-EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qvZ4IGB-EeCWAtwB1MdlQA" name="grupo_usuario_0" memberEnd="_qvZ4IWB-EeCWAtwB1MdlQA _qvYqAGB-EeCWAtwB1MdlQA">
+    <ownedEnd xmi:id="_qvZ4IWB-EeCWAtwB1MdlQA" name="grupo" type="_9ZRywGB9EeCWAtwB1MdlQA" association="_qvZ4IGB-EeCWAtwB1MdlQA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qvZ4ImB-EeCWAtwB1MdlQA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qvZ4I2B-EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
