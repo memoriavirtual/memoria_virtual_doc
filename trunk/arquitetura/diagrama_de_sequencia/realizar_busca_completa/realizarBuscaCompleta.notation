@@ -90,7 +90,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_73JrkfwKEd-fetgvrW1lDA" x="107" y="245" width="16" height="133"/>
         </children>
         <element xmi:type="uml:Lifeline" href="realizarBuscaCompleta.uml#_HhmV8PwKEd-fetgvrW1lDA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HhwuAfwKEd-fetgvrW1lDA" x="326" y="28" width="229" height="469"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HhwuAfwKEd-fetgvrW1lDA" x="326" y="28" width="229" height="457"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_8iIFAALKEeCgKMND0a9-yw" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8iKhQALKEeCgKMND0a9-yw" source="ShadowFigure">

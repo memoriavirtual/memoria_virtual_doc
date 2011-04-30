@@ -144,7 +144,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J4rvQQLzEeCgKMND0a9-yw" x="95" y="29" width="16" height="106"/>
         </children>
         <element xmi:type="uml:Lifeline" href="realizarBuscaSimples.uml#_2jQysALyEeCgKMND0a9-yw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2jdnAQLyEeCgKMND0a9-yw" x="650" y="76" width="205" height="421"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2jdnAQLyEeCgKMND0a9-yw" x="650" y="76" width="205" height="409"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vrLlVvwHEd-fetgvrW1lDA"/>
     </children>

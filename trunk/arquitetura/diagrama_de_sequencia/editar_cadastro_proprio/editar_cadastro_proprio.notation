@@ -90,7 +90,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uA9L4RQ0EeCha8w-2_vyag" x="95" y="278" width="16" height="171"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_cadastro_proprio.uml#_sLMy4BQuEeCha8w-2_vyag"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLMy4hQuEeCha8w-2_vyag" x="340" y="15" width="206" height="556"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLMy4hQuEeCha8w-2_vyag" x="340" y="15" width="206" height="544"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_0MGHMRQuEeCha8w-2_vyag" type="3001" fontHeight="8" transparency="0" gradient="8421504, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0MGHNRQuEeCha8w-2_vyag" source="displayNameLabelIcon">

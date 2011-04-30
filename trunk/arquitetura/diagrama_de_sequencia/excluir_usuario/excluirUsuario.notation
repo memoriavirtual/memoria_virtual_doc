@@ -50,7 +50,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AFhi8fwrEd-8ctcSDUfcSg" x="65" y="221" width="16" height="121"/>
         </children>
         <element xmi:type="uml:Lifeline" href="excluirUsuario.uml#_DDiBoPwqEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DDuO4fwqEd-8ctcSDUfcSg" x="146" y="52" width="147" height="601"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DDuO4fwqEd-8ctcSDUfcSg" x="146" y="52" width="147" height="589"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_FOTQEPwqEd-8ctcSDUfcSg" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FOT3IPwqEd-8ctcSDUfcSg" source="ShadowFigure">

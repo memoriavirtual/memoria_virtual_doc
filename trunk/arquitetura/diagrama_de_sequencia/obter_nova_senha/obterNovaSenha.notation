@@ -90,7 +90,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="__-Hngfw3Ed-8ctcSDUfcSg" x="82" y="257" width="16" height="133"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_QWyUgPw3Ed-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QW8skfw3Ed-8ctcSDUfcSg" x="374" y="40" width="181" height="493"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QW8skfw3Ed-8ctcSDUfcSg" x="374" y="40" width="181" height="481"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_6P2OcALMEeCgKMND0a9-yw" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6P3ckALMEeCgKMND0a9-yw" source="ShadowFigure">

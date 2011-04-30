@@ -108,7 +108,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-ZnMAfwwEd-8ctcSDUfcSg" x="42" y="221" width="16" height="121"/>
         </children>
         <element xmi:type="uml:Lifeline" href="cadastrarInstituicao.uml#_6XgogPwwEd-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6XrnofwwEd-8ctcSDUfcSg" x="662" y="28" height="445"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6XrnofwwEd-8ctcSDUfcSg" x="662" y="28" height="433"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sI1OMfwuEd-8ctcSDUfcSg"/>
     </children>

@@ -81,7 +81,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Md83Mfw2Ed-8ctcSDUfcSg" x="64" y="233" width="16" height="145"/>
         </children>
         <element xmi:type="uml:Lifeline" href="excluirInstituicao.uml#_kbN-EPw1Ed-8ctcSDUfcSg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kbXIAfw1Ed-8ctcSDUfcSg" x="314" y="52" width="145" height="481"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kbXIAfw1Ed-8ctcSDUfcSg" x="314" y="52" width="145" height="469"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_pALXAPw1Ed-8ctcSDUfcSg" type="3001" fontName="Segoe UI" transparency="0" gradient="12632256, 16777215, 0" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pAMlIPw1Ed-8ctcSDUfcSg" source="ShadowFigure">
