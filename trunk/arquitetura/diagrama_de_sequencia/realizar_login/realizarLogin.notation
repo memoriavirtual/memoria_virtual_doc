@@ -215,7 +215,7 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JwU-QFu4EeCSt92mzECm7Q" id="(0.8125,0.05363984674329502)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JwVlUFu4EeCSt92mzECm7Q" id="(0.0,0.1111111111111111)"/>
   </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_JchcAFu5EeCSt92mzECm7Q" type="4005" source="_BXC_IFu4EeCSt92mzECm7Q" target="_nrE-YPwLEd-fetgvrW1lDA">
+  <edges xmi:type="notation:Edge" xmi:id="_JchcAFu5EeCSt92mzECm7Q" type="4005" source="_BXC_IFu4EeCSt92mzECm7Q" target="_OUU0sPwPEd-XeKo0Pc7Hdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_JciDEFu5EeCSt92mzECm7Q" type="6003">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_JciDEVu5EeCSt92mzECm7Q" x="1" y="-13"/>
     </children>
@@ -227,7 +227,7 @@
     <element xmi:type="uml:Message" href="realizarLogin.uml#_JcQWQFu5EeCSt92mzECm7Q"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JchcA1u5EeCSt92mzECm7Q" points="[-1, 0, 183, -37]$[-184, 37, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jc7EoFu5EeCSt92mzECm7Q" id="(0.0625,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jc7EoVu5EeCSt92mzECm7Q" id="(1.0,0.22580645161290322)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jc7EoVu5EeCSt92mzECm7Q" id="(0.625,0.32950191570881227)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_f8vOAF9FEeCN4rDPzmVTyg" type="4003" source="_OUU0sPwPEd-XeKo0Pc7Hdg" target="_UlHWgFu4EeCSt92mzECm7Q">
     <children xmi:type="notation:DecorationNode" xmi:id="_f8vOBF9FEeCN4rDPzmVTyg" type="6001">
@@ -243,7 +243,7 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f9L58F9FEeCN4rDPzmVTyg" id="(0.75,0.46360153256704983)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f9L58V9FEeCN4rDPzmVTyg" id="(0.5,0.0)"/>
   </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_JqoocF9GEeCN4rDPzmVTyg" type="4005" source="_UlHWgFu4EeCSt92mzECm7Q" target="_nrE-YPwLEd-fetgvrW1lDA">
+  <edges xmi:type="notation:Edge" xmi:id="_JqoocF9GEeCN4rDPzmVTyg" type="4005" source="_UlHWgFu4EeCSt92mzECm7Q" target="_OUU0sPwPEd-XeKo0Pc7Hdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_JqoodF9GEeCN4rDPzmVTyg" type="6003">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_JqoodV9GEeCN4rDPzmVTyg" x="1" y="-13"/>
     </children>
@@ -255,6 +255,6 @@
     <element xmi:type="uml:Message" href="realizarLogin.uml#_JqVGcF9GEeCN4rDPzmVTyg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jqooc19GEeCN4rDPzmVTyg" points="[-10, 0, 401, -17]$[-412, 25, -1, 8]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JrYPUF9GEeCN4rDPzmVTyg" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JrYPUV9GEeCN4rDPzmVTyg" id="(1.0,0.44821731748726656)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JrYPUV9GEeCN4rDPzmVTyg" id="(0.625,0.7816091954022989)"/>
   </edges>
 </notation:Diagram>
