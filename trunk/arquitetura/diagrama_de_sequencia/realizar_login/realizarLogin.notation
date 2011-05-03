@@ -79,7 +79,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OUWp5PwPEd-XeKo0Pc7Hdg" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:BehaviorExecutionSpecification" href="realizarLogin.uml#_OTYZgPwPEd-XeKo0Pc7Hdg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUU0sfwPEd-XeKo0Pc7Hdg" x="59" y="49" width="16" height="261"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OUU0sfwPEd-XeKo0Pc7Hdg" x="59" y="49" width="16" height="271"/>
         </children>
         <element xmi:type="uml:Lifeline" href="realizarLogin.uml#_nq70cPwLEd-fetgvrW1lDA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nrE-YfwLEd-fetgvrW1lDA" x="689" y="40" width="135" height="624"/>
@@ -173,7 +173,7 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iG2kAPwPEd-XeKo0Pc7Hdg" id="(0.9375,0.005988023952095809)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iG2kAfwPEd-XeKo0Pc7Hdg" id="(0.0,0.0)"/>
   </edges>
-  <edges xmi:type="notation:Edge" xmi:id="_ma3W4PwPEd-XeKo0Pc7Hdg" type="4005" source="_OUU0sPwPEd-XeKo0Pc7Hdg" target="_lmyycPwLEd-fetgvrW1lDA">
+  <edges xmi:type="notation:Edge" xmi:id="_ma3W4PwPEd-XeKo0Pc7Hdg" type="4005" source="_OUU0sPwPEd-XeKo0Pc7Hdg" target="_LLvTIPwPEd-XeKo0Pc7Hdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_ma4lAPwPEd-XeKo0Pc7Hdg" type="6003">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_ma4lAfwPEd-XeKo0Pc7Hdg" x="1" y="-13"/>
     </children>
@@ -184,8 +184,8 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_ma3W4vwPEd-XeKo0Pc7Hdg" fontName="Segoe UI"/>
     <element xmi:type="uml:Message" href="realizarLogin.uml#_mZ5tkPwPEd-XeKo0Pc7Hdg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ma3W4_wPEd-XeKo0Pc7Hdg" points="[-1, -1, 316, 0]$[-317, -1, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEPwPEd-XeKo0Pc7Hdg" id="(0.5,0.5977011494252874)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEfwPEd-XeKo0Pc7Hdg" id="(1.0,0.5606326889279437)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEPwPEd-XeKo0Pc7Hdg" id="(0.5,0.5756457564575646)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mbgQEfwPEd-XeKo0Pc7Hdg" id="(0.1875,0.8203592814371258)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_I0GQ4PwQEd-DF68nrr3Dfw" type="4005" source="_LLvTIPwPEd-XeKo0Pc7Hdg" target="_JefHIPwPEd-XeKo0Pc7Hdg">
     <children xmi:type="notation:DecorationNode" xmi:id="_I0IGEPwQEd-DF68nrr3Dfw" type="6003">
@@ -212,7 +212,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_JwCDUlu4EeCSt92mzECm7Q" fontName="Segoe UI"/>
     <element xmi:type="uml:Message" href="realizarLogin.uml#_JvyywFu4EeCSt92mzECm7Q"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JwCDU1u4EeCSt92mzECm7Q" points="[1, -14, -185, -14]$[186, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JwU-QFu4EeCSt92mzECm7Q" id="(0.8125,0.05363984674329502)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JwU-QFu4EeCSt92mzECm7Q" id="(0.8125,0.05166051660516605)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JwVlUFu4EeCSt92mzECm7Q" id="(0.0,0.1111111111111111)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_JchcAFu5EeCSt92mzECm7Q" type="4005" source="_BXC_IFu4EeCSt92mzECm7Q" target="_OUU0sPwPEd-XeKo0Pc7Hdg">
@@ -227,7 +227,7 @@
     <element xmi:type="uml:Message" href="realizarLogin.uml#_JcQWQFu5EeCSt92mzECm7Q"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_JchcA1u5EeCSt92mzECm7Q" points="[-1, 0, 183, -37]$[-184, 37, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jc7EoFu5EeCSt92mzECm7Q" id="(0.0625,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jc7EoVu5EeCSt92mzECm7Q" id="(0.625,0.32950191570881227)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jc7EoVu5EeCSt92mzECm7Q" id="(0.625,0.3173431734317343)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_f8vOAF9FEeCN4rDPzmVTyg" type="4003" source="_OUU0sPwPEd-XeKo0Pc7Hdg" target="_UlHWgFu4EeCSt92mzECm7Q">
     <children xmi:type="notation:DecorationNode" xmi:id="_f8vOBF9FEeCN4rDPzmVTyg" type="6001">
@@ -240,7 +240,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_f8vOAl9FEeCN4rDPzmVTyg" fontName="Segoe UI"/>
     <element xmi:type="uml:Message" href="realizarLogin.uml#_f69FUV9FEeCN4rDPzmVTyg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f8vOA19FEeCN4rDPzmVTyg" points="[0, 0, -401, -13]$[401, 17, 0, 4]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f9L58F9FEeCN4rDPzmVTyg" id="(0.75,0.46360153256704983)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f9L58F9FEeCN4rDPzmVTyg" id="(0.75,0.44649446494464945)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f9L58V9FEeCN4rDPzmVTyg" id="(0.5,0.0)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_JqoocF9GEeCN4rDPzmVTyg" type="4005" source="_UlHWgFu4EeCSt92mzECm7Q" target="_OUU0sPwPEd-XeKo0Pc7Hdg">
@@ -255,6 +255,6 @@
     <element xmi:type="uml:Message" href="realizarLogin.uml#_JqVGcF9GEeCN4rDPzmVTyg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Jqooc19GEeCN4rDPzmVTyg" points="[-10, 0, 401, -17]$[-412, 25, -1, 8]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JrYPUF9GEeCN4rDPzmVTyg" id="(0.5,1.0)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JrYPUV9GEeCN4rDPzmVTyg" id="(0.625,0.7816091954022989)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JrYPUV9GEeCN4rDPzmVTyg" id="(0.625,0.7527675276752768)"/>
   </edges>
 </notation:Diagram>
