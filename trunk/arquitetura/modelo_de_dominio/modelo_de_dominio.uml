@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Ogqm8GB9EeCWAtwB1MdlQA" name="model">
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Ogqm8GB9EeCWAtwB1MdlQA" name="model">
   <packagedElement xmi:type="uml:Class" xmi:id="_PHYosGB9EeCWAtwB1MdlQA" name="Usuario"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_QE-SUGB9EeCWAtwB1MdlQA" name="Sistema">
     <ownedAttribute xmi:id="_aHjKgGB9EeCWAtwB1MdlQA" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_aHk_sGB9EeCWAtwB1MdlQA">
@@ -62,6 +62,18 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qvZREGB-EeCWAtwB1MdlQA" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qvZREWB-EeCWAtwB1MdlQA" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_Hu-wYXZ5EeCAB-LG1BC73g" name="nome" visibility="public" isUnique="false">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QKZdgHZ5EeCAB-LG1BC73g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QKY2cHZ5EeCAB-LG1BC73g" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_QKbSsHZ5EeCAB-LG1BC73g">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fNlI0HZ5EeCAB-LG1BC73g" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_fNmW8HZ5EeCAB-LG1BC73g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fNlI0XZ5EeCAB-LG1BC73g" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fNlI0nZ5EeCAB-LG1BC73g"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_UaARgHZ5EeCAB-LG1BC73g" name="metodo1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_qVQ50GB-EeCWAtwB1MdlQA" name="sistema_grupo_0" memberEnd="_qVQ50WB-EeCWAtwB1MdlQA _qVN2gGB-EeCWAtwB1MdlQA">
     <ownedEnd xmi:id="_qVQ50WB-EeCWAtwB1MdlQA" name="sistema" type="_QE-SUGB9EeCWAtwB1MdlQA" association="_qVQ50GB-EeCWAtwB1MdlQA">
@@ -73,6 +85,12 @@
     <ownedEnd xmi:id="_qvZ4IWB-EeCWAtwB1MdlQA" name="grupo" type="_9ZRywGB9EeCWAtwB1MdlQA" association="_qvZ4IGB-EeCWAtwB1MdlQA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qvZ4ImB-EeCWAtwB1MdlQA" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qvZ4I2B-EeCWAtwB1MdlQA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fNmW8HZ5EeCAB-LG1BC73g" name="grupo_usuario_1" memberEnd="_fNmW8XZ5EeCAB-LG1BC73g _fNlI0HZ5EeCAB-LG1BC73g" navigableOwnedEnd="_fNmW8XZ5EeCAB-LG1BC73g">
+    <ownedEnd xmi:id="_fNmW8XZ5EeCAB-LG1BC73g" name="grupo" type="_9ZRywGB9EeCWAtwB1MdlQA" association="_fNmW8HZ5EeCAB-LG1BC73g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fNmW8nZ5EeCAB-LG1BC73g" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fNmW83Z5EeCAB-LG1BC73g" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
