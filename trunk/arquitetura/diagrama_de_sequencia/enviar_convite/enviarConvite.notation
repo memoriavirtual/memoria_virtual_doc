@@ -131,7 +131,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3UjkXU8EeCP-Ypy_RphLA" x="42" y="351" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="enviarConvite.uml#__ZlMMHU6EeCP-Ypy_RphLA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Zr54XU6EeCP-Ypy_RphLA" x="1065" y="18" height="535"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Zr54XU6EeCP-Ypy_RphLA" x="1018" y="28" height="535"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_r8g6EHU7EeCP-Ypy_RphLA" type="3001" fontName="Segoe UI" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r8hhIHU7EeCP-Ypy_RphLA" source="ShadowFigure">
@@ -158,7 +158,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t0nrMXU7EeCP-Ypy_RphLA" x="42" y="256" width="16" height="41"/>
         </children>
         <element xmi:type="uml:Lifeline" href="enviarConvite.uml#_r8ZlUHU7EeCP-Ypy_RphLA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r8g6EXU7EeCP-Ypy_RphLA" x="1215" y="28" height="550"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_r8g6EXU7EeCP-Ypy_RphLA" x="1188" y="22" height="550"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4mzal-GEeCN4rDPzmVTyg"/>
     </children>
@@ -235,7 +235,7 @@
     <element xmi:type="uml:Message" href="enviarConvite.uml#_ISGsEHU7EeCP-Ypy_RphLA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ISZnA3U7EeCP-Ypy_RphLA" points="[0, 7, -199, 1]$[199, 24, 0, 18]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IS4vMHU7EeCP-Ypy_RphLA" id="(0.625,0.10738255033557047)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IS4vMXU7EeCP-Ypy_RphLA" id="(0.0,0.2979591836734694)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IS4vMXU7EeCP-Ypy_RphLA" id="(0.0,0.2973523421588595)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_JflL0HU7EeCP-Ypy_RphLA" type="4005" source="_Bw1XcHU7EeCP-Ypy_RphLA" target="_7xZPcHU4EeCP-Ypy_RphLA">
     <children xmi:type="notation:DecorationNode" xmi:id="_Jfly4HU7EeCP-Ypy_RphLA" type="6003">
