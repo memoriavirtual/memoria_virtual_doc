@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_PV1FYHv9EeCgbve5riiHYw" name="model">
-  <packagedElement xmi:type="uml:Activity" xmi:id="_PV9BMHv9EeCgbve5riiHYw" name="activity0"/>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_PXeEIHv9EeCgbve5riiHYw" name="interaction0"/>
-</uml:Model>
