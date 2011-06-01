@@ -1,4 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Vn3WkFsAEeCyFZtoDfIdjQ" name="model">
   <packagedElement xmi:type="uml:UseCase" xmi:id="_XXycEFsAEeCyFZtoDfIdjQ" name="UseCase"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_QXVl8Yx1EeCXHpMX4pgEjw" name="Administrador">
+    <generalization xmi:id="_xucUkIx1EeCXHpMX4pgEjw" general="_jzKFcIx1EeCXHpMX4pgEjw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_SpiSEIx1EeCXHpMX4pgEjw" name="Gerenciar Instituição CDU09"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fIPOcIx1EeCXHpMX4pgEjw" name="A_actor_gerenciar instituição cdu09" memberEnd="_fIPOcYx1EeCXHpMX4pgEjw _fIPOdIx1EeCXHpMX4pgEjw">
+    <ownedEnd xmi:id="_fIPOcYx1EeCXHpMX4pgEjw" name="actor" type="_QXVl8Yx1EeCXHpMX4pgEjw" association="_fIPOcIx1EeCXHpMX4pgEjw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fIPOcox1EeCXHpMX4pgEjw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fIPOc4x1EeCXHpMX4pgEjw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_fIPOdIx1EeCXHpMX4pgEjw" name="gerenciar instituição cdu09" type="_SpiSEIx1EeCXHpMX4pgEjw" association="_fIPOcIx1EeCXHpMX4pgEjw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fIPOdYx1EeCXHpMX4pgEjw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fIPOdox1EeCXHpMX4pgEjw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jzKFcIx1EeCXHpMX4pgEjw" name="Gerente">
+    <generalization xmi:id="_xUzFgIx1EeCXHpMX4pgEjw" general="_kFlSMIx1EeCXHpMX4pgEjw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kFlSMIx1EeCXHpMX4pgEjw" name="Revisor">
+    <generalization xmi:id="_uqyWUIx1EeCXHpMX4pgEjw" general="_kWjtcIx1EeCXHpMX4pgEjw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kWjtcIx1EeCXHpMX4pgEjw" name="Catalogador">
+    <generalization xmi:id="_rZGjIIx1EeCXHpMX4pgEjw" general="_kkO9EIx1EeCXHpMX4pgEjw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kkO9EIx1EeCXHpMX4pgEjw" name="Usuário Comum"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_we3jEIx1EeCXHpMX4pgEjw" name="A_gerente_revisor" memberEnd="_we3jEYx1EeCXHpMX4pgEjw _we4KIIx1EeCXHpMX4pgEjw">
+    <ownedEnd xmi:id="_we3jEYx1EeCXHpMX4pgEjw" name="gerente" type="_jzKFcIx1EeCXHpMX4pgEjw" association="_we3jEIx1EeCXHpMX4pgEjw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_we3jEox1EeCXHpMX4pgEjw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_we3jE4x1EeCXHpMX4pgEjw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_we4KIIx1EeCXHpMX4pgEjw" name="revisor" type="_kFlSMIx1EeCXHpMX4pgEjw" association="_we3jEIx1EeCXHpMX4pgEjw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_we4KIYx1EeCXHpMX4pgEjw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_we4KIox1EeCXHpMX4pgEjw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_8EQ44Ix1EeCXHpMX4pgEjw" name="Gerente"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9PEfIIx1EeCXHpMX4pgEjw" name="" memberEnd="_9PEfIYx1EeCXHpMX4pgEjw _9PEfJIx1EeCXHpMX4pgEjw">
+    <ownedEnd xmi:id="_9PEfIYx1EeCXHpMX4pgEjw" name="administrador" type="_8EQ44Ix1EeCXHpMX4pgEjw" association="_9PEfIIx1EeCXHpMX4pgEjw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PEfIox1EeCXHpMX4pgEjw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PEfI4x1EeCXHpMX4pgEjw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_9PEfJIx1EeCXHpMX4pgEjw" name="gerenciar instituição cdu09" type="_SpiSEIx1EeCXHpMX4pgEjw" association="_9PEfIIx1EeCXHpMX4pgEjw">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PEfJYx1EeCXHpMX4pgEjw" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9PEfJox1EeCXHpMX4pgEjw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
