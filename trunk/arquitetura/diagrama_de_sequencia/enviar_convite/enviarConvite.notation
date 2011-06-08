@@ -91,7 +91,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7xZPcXU4EeCP-Ypy_RphLA" x="42" y="109" width="16" height="298"/>
         </children>
         <element xmi:type="uml:Lifeline" href="enviarConvite.uml#_Jzh_YHU3EeCP-Ypy_RphLA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jzne8XU3EeCP-Ypy_RphLA" x="795" y="33" height="515"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Jzne8XU3EeCP-Ypy_RphLA" x="824" y="28" height="515"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="__Zr54HU6EeCP-Ypy_RphLA" type="3001" fontName="Segoe UI" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__Zsg8HU6EeCP-Ypy_RphLA" source="ShadowFigure">
@@ -163,7 +163,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4mzal-GEeCN4rDPzmVTyg"/>
     </children>
     <element xmi:type="uml:Interaction" href="enviarConvite.uml#_Y4llQF-GEeCN4rDPzmVTyg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4mza1-GEeCN4rDPzmVTyg" width="1280" height="711"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y4mza1-GEeCN4rDPzmVTyg" x="132" y="102" width="1280" height="711"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_Y4mzbF-GEeCN4rDPzmVTyg"/>
   <element xmi:type="uml:Interaction" href="enviarConvite.uml#_Y4llQF-GEeCN4rDPzmVTyg"/>
