@@ -34,7 +34,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TR7m895HEeCYZJQaUZL0Rw" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="obterNovaSenha.uml#_TRapkN5HEeCYZJQaUZL0Rw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TR6_4N5HEeCYZJQaUZL0Rw" x="34" y="19" width="16" height="85"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TR6_4N5HEeCYZJQaUZL0Rw" x="34" y="19" width="16" height="145"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_fc4WUN5GEeCYZJQaUZL0Rw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fdokQd5GEeCYZJQaUZL0Rw" x="14" y="45" width="85" height="235"/>
@@ -61,7 +61,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UQcdod5HEeCYZJQaUZL0Rw" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="obterNovaSenha.uml#_UQVI4N5HEeCYZJQaUZL0Rw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UQbPgd5HEeCYZJQaUZL0Rw" x="70" y="36" width="16" height="73"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UQbPgd5HEeCYZJQaUZL0Rw" x="70" y="36" width="16" height="133"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_jQBQwN5GEeCYZJQaUZL0Rw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQHXYd5GEeCYZJQaUZL0Rw" x="206" y="40" width="157" height="270"/>
@@ -88,7 +88,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VPdDkd5HEeCYZJQaUZL0Rw" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="obterNovaSenha.uml#_VPWV4N5HEeCYZJQaUZL0Rw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VPb1cd5HEeCYZJQaUZL0Rw" x="58" y="24" width="16" height="97"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VPb1cd5HEeCYZJQaUZL0Rw" x="58" y="24" width="16" height="145"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_tMKw0N5GEeCYZJQaUZL0Rw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tMPCQd5GEeCYZJQaUZL0Rw" x="410" y="40" width="133" height="255"/>
@@ -165,8 +165,8 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_eGGUIt5HEeCYZJQaUZL0Rw" fontName="Ubuntu" fontHeight="11"/>
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_d9hm8N5HEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eGGUI95HEeCYZJQaUZL0Rw" points="[0, 3, 224, 0]$[-220, 15, 4, 12]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eGU9oN5HEeCYZJQaUZL0Rw" id="(0.5,0.9863013698630136)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eGU9od5HEeCYZJQaUZL0Rw" id="(0.75,0.8470588235294118)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eGU9oN5HEeCYZJQaUZL0Rw" id="(0.5,0.8120300751879699)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eGU9od5HEeCYZJQaUZL0Rw" id="(0.75,0.8275862068965517)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_fl89UN5HEeCYZJQaUZL0Rw" type="4003" source="_TR6Y0N5HEeCYZJQaUZL0Rw" target="_UQbPgN5HEeCYZJQaUZL0Rw">
     <children xmi:type="notation:DecorationNode" xmi:id="_fl9kYN5HEeCYZJQaUZL0Rw" type="6001">
@@ -179,8 +179,8 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_fl89Ut5HEeCYZJQaUZL0Rw" fontName="Ubuntu" fontHeight="11"/>
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_flqpcN5HEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fl89U95HEeCYZJQaUZL0Rw" points="[0, 5, -212, 5]$[212, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fmV-4N5HEeCYZJQaUZL0Rw" id="(1.0,0.15294117647058825)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fmV-4d5HEeCYZJQaUZL0Rw" id="(0.0,0.1780821917808219)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fmV-4N5HEeCYZJQaUZL0Rw" id="(1.0,0.0896551724137931)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fmV-4d5HEeCYZJQaUZL0Rw" id="(0.0,0.09774436090225563)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_rmf-EN5HEeCYZJQaUZL0Rw" type="4003" source="_UQbPgN5HEeCYZJQaUZL0Rw" target="_VPb1cN5HEeCYZJQaUZL0Rw">
     <children xmi:type="notation:DecorationNode" xmi:id="_rmglIN5HEeCYZJQaUZL0Rw" type="6001">
@@ -193,8 +193,8 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_rmf-Et5HEeCYZJQaUZL0Rw" fontName="Ubuntu" fontHeight="11"/>
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_rmU-8N5HEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_rmf-E95HEeCYZJQaUZL0Rw" points="[0, 1, -176, 1]$[176, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rm6NwN5HEeCYZJQaUZL0Rw" id="(1.0,0.273972602739726)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rm6Nwd5HEeCYZJQaUZL0Rw" id="(0.0,0.20618556701030927)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rm6NwN5HEeCYZJQaUZL0Rw" id="(1.0,0.15037593984962405)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_rm6Nwd5HEeCYZJQaUZL0Rw" id="(0.0,0.13793103448275862)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_OBrY0N5IEeCYZJQaUZL0Rw" type="4003" source="_VPb1cN5HEeCYZJQaUZL0Rw" target="_8YLykN5HEeCYZJQaUZL0Rw">
     <children xmi:type="notation:DecorationNode" xmi:id="_OBr_4N5IEeCYZJQaUZL0Rw" type="6001">
@@ -207,7 +207,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_OBrY0t5IEeCYZJQaUZL0Rw" fontName="Ubuntu" fontHeight="11"/>
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_OBd9cN5IEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OBrY095IEeCYZJQaUZL0Rw" points="[0, 0, -172, 0]$[172, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OCM9QN5IEeCYZJQaUZL0Rw" id="(1.0,0.061855670103092786)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OCM9QN5IEeCYZJQaUZL0Rw" id="(1.0,0.041379310344827586)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OCM9Qd5IEeCYZJQaUZL0Rw" id="(0.0,0.12)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_WKsHUN5IEeCYZJQaUZL0Rw" type="4004" source="_2vH4UN5HEeCYZJQaUZL0Rw" target="_VPb1cN5HEeCYZJQaUZL0Rw">
@@ -222,7 +222,7 @@
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_WKeE4N5IEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WKsHU95IEeCYZJQaUZL0Rw" points="[0, 0, 192, -4]$[-192, 4, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WLO54N5IEeCYZJQaUZL0Rw" id="(0.0,0.34328358208955223)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WLO54d5IEeCYZJQaUZL0Rw" id="(0.25,0.5154639175257731)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WLO54d5IEeCYZJQaUZL0Rw" id="(0.25,0.3448275862068966)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_cfXKYN5IEeCYZJQaUZL0Rw" type="4003" source="_VPb1cN5HEeCYZJQaUZL0Rw" target="_L1kGkN5IEeCYZJQaUZL0Rw">
     <children xmi:type="notation:DecorationNode" xmi:id="_cfXxcN5IEeCYZJQaUZL0Rw" type="6001">
@@ -235,7 +235,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_cfXKYt5IEeCYZJQaUZL0Rw" fontName="Ubuntu" fontHeight="11"/>
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_cfIg4N5IEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cfXKY95IEeCYZJQaUZL0Rw" points="[-1, 5, -368, 5]$[367, 0, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgEVAN5IEeCYZJQaUZL0Rw" id="(0.4375,0.8762886597938144)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgEVAN5IEeCYZJQaUZL0Rw" id="(0.4375,0.5862068965517241)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cgEVAd5IEeCYZJQaUZL0Rw" id="(0.0,0.88)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_pwr2gN5IEeCYZJQaUZL0Rw" type="4004" source="_VPb1cN5HEeCYZJQaUZL0Rw" target="_UQbPgN5HEeCYZJQaUZL0Rw">
@@ -249,7 +249,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_pwr2gt5IEeCYZJQaUZL0Rw" fontName="Ubuntu" fontHeight="11"/>
     <element xmi:type="uml:Message" href="obterNovaSenha.uml#_pwb-4N5IEeCYZJQaUZL0Rw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pwr2g95IEeCYZJQaUZL0Rw" points="[0, 0, 176, 32]$[-176, -32, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pxV90N5IEeCYZJQaUZL0Rw" id="(0.0,0.8762886597938144)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pxWk4N5IEeCYZJQaUZL0Rw" id="(1.0,1.0)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pxV90N5IEeCYZJQaUZL0Rw" id="(0.0,0.7448275862068966)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pxWk4N5IEeCYZJQaUZL0Rw" id="(1.0,0.7218045112781954)"/>
   </edges>
 </notation:Diagram>
