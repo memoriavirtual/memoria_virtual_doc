@@ -246,7 +246,7 @@
     <message xmi:id="_jvRdYK-HEeCua6J9iFR69Q" name="Message3" messageSort="reply" receiveEvent="_jvgG4K-HEeCua6J9iFR69Q" sendEvent="_jvb1cK-HEeCua6J9iFR69Q"/>
     <message xmi:id="_pGXd4K-HEeCua6J9iFR69Q" name="Message4" receiveEvent="_pGn8kK-HEeCua6J9iFR69Q" sendEvent="_pGjEEK-HEeCua6J9iFR69Q"/>
     <message xmi:id="_s9hVoK-HEeCua6J9iFR69Q" name="Message5" messageSort="reply" receiveEvent="_s9v_IK-HEeCua6J9iFR69Q" sendEvent="_s9rGoK-HEeCua6J9iFR69Q"/>
-    <message xmi:id="_0spkgK-HEeCua6J9iFR69Q" name=":String resposta" messageSort="asynchCall" receiveEvent="_0s2Y0K-HEeCua6J9iFR69Q" sendEvent="_0syHYK-HEeCua6J9iFR69Q"/>
+    <message xmi:id="_0spkgK-HEeCua6J9iFR69Q" name="" messageSort="asynchCall" receiveEvent="_0s2Y0K-HEeCua6J9iFR69Q" sendEvent="_0syHYK-HEeCua6J9iFR69Q"/>
     <message xmi:id="_6Op0gK-HEeCua6J9iFR69Q" name="Message6" messageSort="reply" receiveEvent="_6O5FEK-HEeCua6J9iFR69Q" sendEvent="_6O0MkK-HEeCua6J9iFR69Q"/>
     <message xmi:id="_8MVCIK-HEeCua6J9iFR69Q" name="Message7" messageSort="asynchCall" receiveEvent="_8MkSsK-HEeCua6J9iFR69Q" sendEvent="_8MgoUK-HEeCua6J9iFR69Q"/>
     <message xmi:id="_9uq-oK-HEeCua6J9iFR69Q" name="Message8" receiveEvent="_9u7dUK-HEeCua6J9iFR69Q" sendEvent="_9u19wK-HEeCua6J9iFR69Q"/>
@@ -254,7 +254,7 @@
     <message xmi:id="_rYUv0bA_EeCZbKyhBbaJ-A" name="Message10" messageSort="asynchCall" receiveEvent="_raTFwLA_EeCZbKyhBbaJ-A" sendEvent="_raGRcLA_EeCZbKyhBbaJ-A"/>
     <message xmi:id="_83QE0LA_EeCZbKyhBbaJ-A" name="Message11" receiveEvent="_83hxoLA_EeCZbKyhBbaJ-A" sendEvent="_83brALA_EeCZbKyhBbaJ-A"/>
     <message xmi:id="_ATgJQLBAEeCZbKyhBbaJ-A" name="Message12" messageSort="reply" receiveEvent="_ATvZ0LBAEeCZbKyhBbaJ-A" sendEvent="_ATqhULBAEeCZbKyhBbaJ-A"/>
-    <message xmi:id="_JrP7wLBAEeCZbKyhBbaJ-A" name=":String resposta" messageSort="asynchCall" receiveEvent="_JrfzYLBAEeCZbKyhBbaJ-A" sendEvent="_Jra64LBAEeCZbKyhBbaJ-A"/>
+    <message xmi:id="_JrP7wLBAEeCZbKyhBbaJ-A" name="" messageSort="asynchCall" receiveEvent="_JrfzYLBAEeCZbKyhBbaJ-A" sendEvent="_Jra64LBAEeCZbKyhBbaJ-A"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_xdlmQF-gEeCN4rDPzmVTyg" name="ExecutionEvent0"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_xdlmQV-gEeCN4rDPzmVTyg" name="ExecutionEvent1"/>

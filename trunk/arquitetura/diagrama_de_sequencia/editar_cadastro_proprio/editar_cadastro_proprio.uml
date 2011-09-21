@@ -54,10 +54,10 @@
     <message xmi:id="_k_1wsBQ0EeCha8w-2_vyag" name="Usuario := recuperarDadosUsuario();" messageSort="asynchCall" receiveEvent="_k_1wtBQ0EeCha8w-2_vyag" sendEvent="_k_1wshQ0EeCha8w-2_vyag"/>
     <message xmi:id="_oqFN0BQ0EeCha8w-2_vyag" name=":Usuario" messageSort="reply" receiveEvent="_oqFN1BQ0EeCha8w-2_vyag" sendEvent="_oqFN0hQ0EeCha8w-2_vyag"/>
     <message xmi:id="_reiScBQ0EeCha8w-2_vyag" name=":Usuario" messageSort="reply" receiveEvent="_reiSdBQ0EeCha8w-2_vyag" sendEvent="_reiSchQ0EeCha8w-2_vyag"/>
-    <message xmi:id="_zeiO4BQ0EeCha8w-2_vyag" name="editarCadastroProprio(Usuario);" messageSort="asynchCall" receiveEvent="_zeiO5BQ0EeCha8w-2_vyag" sendEvent="_zeiO4hQ0EeCha8w-2_vyag"/>
-    <message xmi:id="_2S_TgBQ0EeCha8w-2_vyag" name="editarCadastroProprio(Usuario);" messageSort="asynchCall" receiveEvent="_2S_ThBQ0EeCha8w-2_vyag" sendEvent="_2S_TghQ0EeCha8w-2_vyag"/>
-    <message xmi:id="_5R4GgBQ0EeCha8w-2_vyag" name=":String resposta" messageSort="reply" receiveEvent="_5R4GhBQ0EeCha8w-2_vyag" sendEvent="_5R4GghQ0EeCha8w-2_vyag"/>
-    <message xmi:id="_8mXWEBQ0EeCha8w-2_vyag" name=":String resposta" messageSort="reply" receiveEvent="_8mhHEhQ0EeCha8w-2_vyag" sendEvent="_8mhHEBQ0EeCha8w-2_vyag"/>
+    <message xmi:id="_zeiO4BQ0EeCha8w-2_vyag" name="atualizarDadosUsuario(Usuario);" messageSort="asynchCall" receiveEvent="_zeiO5BQ0EeCha8w-2_vyag" sendEvent="_zeiO4hQ0EeCha8w-2_vyag"/>
+    <message xmi:id="_2S_TgBQ0EeCha8w-2_vyag" name="atualizarDadosUsuario(Usuario);" messageSort="asynchCall" receiveEvent="_2S_ThBQ0EeCha8w-2_vyag" sendEvent="_2S_TghQ0EeCha8w-2_vyag"/>
+    <message xmi:id="_5R4GgBQ0EeCha8w-2_vyag" name="" messageSort="reply" receiveEvent="_5R4GhBQ0EeCha8w-2_vyag" sendEvent="_5R4GghQ0EeCha8w-2_vyag"/>
+    <message xmi:id="_8mXWEBQ0EeCha8w-2_vyag" name="" messageSort="reply" receiveEvent="_8mhHEhQ0EeCha8w-2_vyag" sendEvent="_8mhHEBQ0EeCha8w-2_vyag"/>
   </packagedElement>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_7DO-IBQuEeCha8w-2_vyag" name="ExecutionEvent"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_7DO-IRQuEeCha8w-2_vyag" name="ExecutionEvent0"/>
