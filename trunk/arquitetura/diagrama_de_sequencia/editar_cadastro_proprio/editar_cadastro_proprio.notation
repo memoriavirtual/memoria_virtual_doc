@@ -248,7 +248,7 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_8mqRAhQ0EeCha8w-2_vyag" fontHeight="8"/>
     <element xmi:type="uml:Message" href="editar_cadastro_proprio.uml#_8mXWEBQ0EeCha8w-2_vyag"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8mqRAxQ0EeCha8w-2_vyag" points="[-5, 0, 339, -8]$[-344, 8, 0, 0]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8nQt8BQ0EeCha8w-2_vyag" id="(0.3125,0.9707602339181286)"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8nQt8BQ0EeCha8w-2_vyag" id="(0.5,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8nQt8RQ0EeCha8w-2_vyag" id="(1.0,0.9886363636363636)"/>
   </edges>
 </notation:Diagram>
