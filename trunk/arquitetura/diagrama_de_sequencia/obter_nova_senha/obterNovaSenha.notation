@@ -50,7 +50,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wzDkgef1EeCqPaBHdPrHCA" x="34" y="239" width="16" height="177"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_fc4WUN5GEeCYZJQaUZL0Rw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fdokQd5GEeCYZJQaUZL0Rw" x="14" y="45" width="85" height="572"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fdokQd5GEeCYZJQaUZL0Rw" x="38" y="45" width="85" height="572"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_jQHXYN5GEeCYZJQaUZL0Rw" type="3001" fontName="Ubuntu" fontHeight="11" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jQH-cN5GEeCYZJQaUZL0Rw" source="ShadowFigure">
@@ -90,7 +90,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x7Fjkef1EeCqPaBHdPrHCA" x="70" y="252" width="16" height="169"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_jQBQwN5GEeCYZJQaUZL0Rw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQHXYd5GEeCYZJQaUZL0Rw" x="206" y="40" width="157" height="565"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jQHXYd5GEeCYZJQaUZL0Rw" x="230" y="40" width="157" height="565"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_tMPCQN5GEeCYZJQaUZL0Rw" type="3001" fontName="Ubuntu" fontHeight="11" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tMPpUN5GEeCYZJQaUZL0Rw" source="ShadowFigure">
@@ -130,7 +130,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0GXvYef1EeCqPaBHdPrHCA" x="58" y="252" width="16" height="169"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_tMKw0N5GEeCYZJQaUZL0Rw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tMPCQd5GEeCYZJQaUZL0Rw" x="470" y="40" width="133" height="529"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tMPCQd5GEeCYZJQaUZL0Rw" x="494" y="40" width="133" height="529"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_2vH4UN5HEeCYZJQaUZL0Rw" type="3001" fontName="Ubuntu" fontHeight="11" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2vH4Ut5HEeCYZJQaUZL0Rw" source="ShadowFigure">
@@ -170,7 +170,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2JEm8ef1EeCqPaBHdPrHCA" x="54" y="276" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_2vCYwN5HEeCYZJQaUZL0Rw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vH4Ud5HEeCYZJQaUZL0Rw" x="662" y="40" width="125" height="421"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2vH4Ud5HEeCYZJQaUZL0Rw" x="686" y="40" width="125" height="421"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_HzBeMN5IEeCYZJQaUZL0Rw" type="3001" fontName="Ubuntu" fontHeight="11" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HzCFQN5IEeCYZJQaUZL0Rw" source="ShadowFigure">
@@ -210,12 +210,12 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cYwOEef2EeCqPaBHdPrHCA" x="48" y="372" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="obterNovaSenha.uml#_Hy9MwN5IEeCYZJQaUZL0Rw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HzBeMd5IEeCYZJQaUZL0Rw" x="854" y="40" width="113" height="529"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HzBeMd5IEeCYZJQaUZL0Rw" x="878" y="40" width="113" height="529"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fr7yBvwVEd-DF68nrr3Dfw"/>
     </children>
     <element xmi:type="uml:Interaction" href="obterNovaSenha.uml#_fr580vwVEd-DF68nrr3Dfw"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fr581PwVEd-DF68nrr3Dfw" x="36" y="24" width="1261"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fr581PwVEd-DF68nrr3Dfw" x="-48" y="24" width="1345"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_fr580fwVEd-DF68nrr3Dfw"/>
   <element xmi:type="uml:Interaction" href="obterNovaSenha.uml#_fr580vwVEd-DF68nrr3Dfw"/>
@@ -319,7 +319,7 @@
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_Cz2QcOf2EeCqPaBHdPrHCA" type="4003" source="_wzDkgOf1EeCqPaBHdPrHCA" target="_x7FjkOf1EeCqPaBHdPrHCA">
     <children xmi:type="notation:DecorationNode" xmi:id="_Cz3ekOf2EeCqPaBHdPrHCA" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_Cz3ekef2EeCqPaBHdPrHCA" x="1" y="-13"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Cz3ekef2EeCqPaBHdPrHCA" x="-50" y="-17"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_Cz3ekuf2EeCqPaBHdPrHCA" type="6008">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Cz4FoOf2EeCqPaBHdPrHCA" x="1" y="-33"/>
@@ -333,7 +333,7 @@
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_NlNhQOf2EeCqPaBHdPrHCA" type="4003" source="_x7FjkOf1EeCqPaBHdPrHCA" target="_0GXvYOf1EeCqPaBHdPrHCA">
     <children xmi:type="notation:DecorationNode" xmi:id="_NlOIUOf2EeCqPaBHdPrHCA" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_NlOIUef2EeCqPaBHdPrHCA" x="1" y="-13"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NlOIUef2EeCqPaBHdPrHCA" x="-2" y="-17"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_NlOvYOf2EeCqPaBHdPrHCA" type="6008">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_NlOvYef2EeCqPaBHdPrHCA" x="1" y="-33"/>
