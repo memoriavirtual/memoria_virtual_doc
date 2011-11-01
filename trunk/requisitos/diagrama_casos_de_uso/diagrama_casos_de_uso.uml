@@ -590,4 +590,37 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1kN1RsaqEeC0OpKmIAotpQ" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9pAW8AS3EeGke9AiMcDADQ" name="Cadastrar Autor CDU 22"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_T1b84AS4EeGke9AiMcDADQ" name="Editar Autor CDU 23"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WIhZ0AS4EeGke9AiMcDADQ" name="Excluir Autor CDU 24"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_a3Rn8AS4EeGke9AiMcDADQ" name="A_catalogador_cadastrar autor cdu 22" memberEnd="_a3Rn8QS4EeGke9AiMcDADQ _a3Rn9AS4EeGke9AiMcDADQ">
+    <ownedEnd xmi:id="_a3Rn8QS4EeGke9AiMcDADQ" name="catalogador" type="_lJKFcL4BEeCe0Ob-k_1XyQ" association="_a3Rn8AS4EeGke9AiMcDADQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3Rn8gS4EeGke9AiMcDADQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a3Rn8wS4EeGke9AiMcDADQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_a3Rn9AS4EeGke9AiMcDADQ" name="cadastrar autor cdu 22" type="_9pAW8AS3EeGke9AiMcDADQ" association="_a3Rn8AS4EeGke9AiMcDADQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3Rn9QS4EeGke9AiMcDADQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a3Rn9gS4EeGke9AiMcDADQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bi70EAS4EeGke9AiMcDADQ" name="A_catalogador_excluir autor cdu 24" memberEnd="_bi70EQS4EeGke9AiMcDADQ _bi70FAS4EeGke9AiMcDADQ">
+    <ownedEnd xmi:id="_bi70EQS4EeGke9AiMcDADQ" name="catalogador" type="_lJKFcL4BEeCe0Ob-k_1XyQ" association="_bi70EAS4EeGke9AiMcDADQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bi70EgS4EeGke9AiMcDADQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bi70EwS4EeGke9AiMcDADQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_bi70FAS4EeGke9AiMcDADQ" name="excluir autor cdu 24" type="_WIhZ0AS4EeGke9AiMcDADQ" association="_bi70EAS4EeGke9AiMcDADQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bi70FQS4EeGke9AiMcDADQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bi70FgS4EeGke9AiMcDADQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_cRKMAAS4EeGke9AiMcDADQ" name="A_catalogador_editar autor cdu 23" memberEnd="_cRKMAQS4EeGke9AiMcDADQ _cRKMBAS4EeGke9AiMcDADQ">
+    <ownedEnd xmi:id="_cRKMAQS4EeGke9AiMcDADQ" name="catalogador" type="_lJKFcL4BEeCe0Ob-k_1XyQ" association="_cRKMAAS4EeGke9AiMcDADQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cRKMAgS4EeGke9AiMcDADQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cRKMAwS4EeGke9AiMcDADQ" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_cRKMBAS4EeGke9AiMcDADQ" name="editar autor cdu 23" type="_T1b84AS4EeGke9AiMcDADQ" association="_cRKMAAS4EeGke9AiMcDADQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cRKMBQS4EeGke9AiMcDADQ" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cRKMBgS4EeGke9AiMcDADQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
