@@ -233,10 +233,10 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mGEb9RRsEeGDhb8Kp_WDGg" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="excluirInstituicao.uml#_mF8gIBRsEeGDhb8Kp_WDGg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGD04RRsEeGDhb8Kp_WDGg" x="42" y="169" width="16" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGD04RRsEeGDhb8Kp_WDGg" x="65" y="169" width="16" height="76"/>
         </children>
         <element xmi:type="uml:Lifeline" href="excluirInstituicao.uml#__NUCoBRrEeGDhb8Kp_WDGg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NgP4RRrEeGDhb8Kp_WDGg" x="1140" y="6" height="618"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__NgP4RRrEeGDhb8Kp_WDGg" x="1140" y="23" width="146" height="601"/>
       </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DD7XShDcEeG2gvMlxfRslQ"/>
     </children>
