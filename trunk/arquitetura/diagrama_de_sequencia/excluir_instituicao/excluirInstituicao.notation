@@ -220,7 +220,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mGEb9RRsEeGDhb8Kp_WDGg" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="excluirInstituicao.uml#_mF8gIBRsEeGDhb8Kp_WDGg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGD04RRsEeGDhb8Kp_WDGg" x="65" y="169" width="16" height="76"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mGD04RRsEeGDhb8Kp_WDGg" x="65" y="164" width="16" height="76"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_L6QVkBX8EeGGW8dQ6cFFxw" type="3006" fontName="Segoe UI" lineColor="0">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_L6RjsBX8EeGGW8dQ6cFFxw" source="ShadowFigure">
@@ -327,7 +327,7 @@
     <element xmi:type="uml:Message" href="excluirInstituicao.uml#_l5EagBLnEeGsAqn_bZm1eg"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_l5TEAxLnEeGsAqn_bZm1eg" points="[3, 4, -174, 0]$[175, -1, -2, -5]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l6eIsBLnEeGsAqn_bZm1eg" id="(0.8125,0.013157894736842105)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l6eIsRLnEeGsAqn_bZm1eg" id="(0.5,0.39473684210526316)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_l6eIsRLnEeGsAqn_bZm1eg" id="(0.5,0.4605263157894737)"/>
   </edges>
   <edges xmi:type="notation:Edge" xmi:id="_z_9KwBLpEeGsAqn_bZm1eg" type="4003" source="_fR188BLpEeGsAqn_bZm1eg" target="_gLZbIBLpEeGsAqn_bZm1eg">
     <children xmi:type="notation:DecorationNode" xmi:id="_z_-Y4BLpEeGsAqn_bZm1eg" type="6001">

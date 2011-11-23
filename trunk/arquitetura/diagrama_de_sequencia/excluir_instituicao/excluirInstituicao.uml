@@ -64,9 +64,9 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5MZ28BLoEeGsAqn_bZm1eg" name="MessageSend6" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_5MYo0BLoEeGsAqn_bZm1eg" message="_5MXasBLoEeGsAqn_bZm1eg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5MbFEBLoEeGsAqn_bZm1eg" name="MessageRecv6" covered="_xPvrwBLPEeGsAqn_bZm1eg" event="_5MaeABLoEeGsAqn_bZm1eg" message="_5MXasBLoEeGsAqn_bZm1eg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ilVjcBLoEeGsAqn_bZm1eg" name="MessageRecv5" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_ilU8YBLoEeGsAqn_bZm1eg" message="_ilQq8BLoEeGsAqn_bZm1eg"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JrdxgBX2EeGrt80BLcUVRA" name="Message0Send6" covered="__NUCoBRrEeGDhb8Kp_WDGg" event="_JrbVQBX2EeGrt80BLcUVRA" message="_JrXD0BX2EeGrt80BLcUVRA"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk2H8BRsEeGDhb8Kp_WDGg" name="Message0Send1" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_wk1g4BRsEeGDhb8Kp_WDGg" message="_wkuzMBRsEeGDhb8Kp_WDGg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_mF8gIRRsEeGDhb8Kp_WDGg" name="ActionExecSpec10Finish" covered="__NUCoBRrEeGDhb8Kp_WDGg" event="_mF5c0BRsEeGDhb8Kp_WDGg" execution="_mF8gIBRsEeGDhb8Kp_WDGg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk2H8BRsEeGDhb8Kp_WDGg" name="Message0Send1" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_wk1g4BRsEeGDhb8Kp_WDGg" message="_wkuzMBRsEeGDhb8Kp_WDGg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JrdxgBX2EeGrt80BLcUVRA" name="Message0Send6" covered="__NUCoBRrEeGDhb8Kp_WDGg" event="_JrbVQBX2EeGrt80BLcUVRA" message="_JrXD0BX2EeGrt80BLcUVRA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wk2H8hRsEeGDhb8Kp_WDGg" name="Message0Recv1" covered="_xPvrwBLPEeGsAqn_bZm1eg" event="_wk2H8RRsEeGDhb8Kp_WDGg" message="_wkuzMBRsEeGDhb8Kp_WDGg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_rMN2YRRsEeGDhb8Kp_WDGg" name="Message0Recv0" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_rMN2YBRsEeGDhb8Kp_WDGg" message="_rMMoQBRsEeGDhb8Kp_WDGg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sjze0BX1EeGrt80BLcUVRA" name="Message0Recv4" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_sjy3wBX1EeGrt80BLcUVRA" message="_sjvNYBX1EeGrt80BLcUVRA"/>
@@ -109,11 +109,11 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ybh0ABRrEeGDhb8Kp_WDGg" name="Message0Recv" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_YbhM8RRrEeGDhb8Kp_WDGg" message="_Ybf-0BRrEeGDhb8Kp_WDGg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_wxsCgRLqEeGsAqn_bZm1eg" name="ActionExecSpec9Finish" covered="_yWPZwBLPEeGsAqn_bZm1eg" event="_wxqNUBLqEeGsAqn_bZm1eg" execution="_wxsCgBLqEeGsAqn_bZm1eg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_tXJ1URLqEeGsAqn_bZm1eg" name="ActionExecSpec8Finish" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_tXIAIBLqEeGsAqn_bZm1eg" execution="_tXJ1UBLqEeGsAqn_bZm1eg"/>
-    <message xmi:id="_rgxkgBLUEeGsAqn_bZm1eg" name="1.listarInstituicoes()" receiveEvent="_rg1O4BLUEeGsAqn_bZm1eg" sendEvent="_rg0AwBLUEeGsAqn_bZm1eg"/>
+    <message xmi:id="_rgxkgBLUEeGsAqn_bZm1eg" name="1.listarInstituicoesMB()" receiveEvent="_rg1O4BLUEeGsAqn_bZm1eg" sendEvent="_rg0AwBLUEeGsAqn_bZm1eg"/>
     <message xmi:id="_SSwncBLVEeGsAqn_bZm1eg" name="2.getInstituicoes()" receiveEvent="_SSzDsBLVEeGsAqn_bZm1eg" sendEvent="_SSx1kBLVEeGsAqn_bZm1eg"/>
     <message xmi:id="_a4NxoBLmEeGsAqn_bZm1eg" name="3.Retorna lista de Instituições." messageSort="asynchCall" receiveEvent="_a4RcABLmEeGsAqn_bZm1eg" sendEvent="_a4Pm0BLmEeGsAqn_bZm1eg"/>
     <message xmi:id="_vbF_0BLmEeGsAqn_bZm1eg" name="4. Escolher Instituicao a ser excluida." messageSort="asynchCall" receiveEvent="_vbKRQBLmEeGsAqn_bZm1eg" sendEvent="_vbIcEBLmEeGsAqn_bZm1eg"/>
-    <message xmi:id="_OHQyMBLnEeGsAqn_bZm1eg" name="5.listarAdministradores()" receiveEvent="_OHUckBLnEeGsAqn_bZm1eg" sendEvent="_OHTOcBLnEeGsAqn_bZm1eg"/>
+    <message xmi:id="_OHQyMBLnEeGsAqn_bZm1eg" name="5.listarAdministradoresMB()" receiveEvent="_OHUckBLnEeGsAqn_bZm1eg" sendEvent="_OHTOcBLnEeGsAqn_bZm1eg"/>
     <message xmi:id="_l5EagBLnEeGsAqn_bZm1eg" name="6.listarAdministradores()" receiveEvent="_l5Ir8BLnEeGsAqn_bZm1eg" sendEvent="_l5G2wBLnEeGsAqn_bZm1eg"/>
     <message xmi:id="_ilQq8BLoEeGsAqn_bZm1eg" name="7.retorna lista de gerentes validadores" messageSort="asynchCall" receiveEvent="_ilVjcBLoEeGsAqn_bZm1eg" sendEvent="_ilSgIBLoEeGsAqn_bZm1eg"/>
     <message xmi:id="_5MXasBLoEeGsAqn_bZm1eg" name="8.Escolher gerente valiador." messageSort="asynchCall" receiveEvent="_5MbFEBLoEeGsAqn_bZm1eg" sendEvent="_5MZ28BLoEeGsAqn_bZm1eg"/>
