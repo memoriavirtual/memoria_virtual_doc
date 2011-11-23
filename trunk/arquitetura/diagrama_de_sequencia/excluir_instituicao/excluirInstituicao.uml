@@ -109,8 +109,8 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Ybh0ABRrEeGDhb8Kp_WDGg" name="Message0Recv" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_YbhM8RRrEeGDhb8Kp_WDGg" message="_Ybf-0BRrEeGDhb8Kp_WDGg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_wxsCgRLqEeGsAqn_bZm1eg" name="ActionExecSpec9Finish" covered="_yWPZwBLPEeGsAqn_bZm1eg" event="_wxqNUBLqEeGsAqn_bZm1eg" execution="_wxsCgBLqEeGsAqn_bZm1eg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_tXJ1URLqEeGsAqn_bZm1eg" name="ActionExecSpec8Finish" covered="_xiclUBLPEeGsAqn_bZm1eg" event="_tXIAIBLqEeGsAqn_bZm1eg" execution="_tXJ1UBLqEeGsAqn_bZm1eg"/>
-    <message xmi:id="_rgxkgBLUEeGsAqn_bZm1eg" name="1.listarInstituicoesMB()" receiveEvent="_rg1O4BLUEeGsAqn_bZm1eg" sendEvent="_rg0AwBLUEeGsAqn_bZm1eg"/>
-    <message xmi:id="_SSwncBLVEeGsAqn_bZm1eg" name="2.listarInstituicoes()" receiveEvent="_SSzDsBLVEeGsAqn_bZm1eg" sendEvent="_SSx1kBLVEeGsAqn_bZm1eg"/>
+    <message xmi:id="_rgxkgBLUEeGsAqn_bZm1eg" name="1.listarInstituicoesMB(String)" receiveEvent="_rg1O4BLUEeGsAqn_bZm1eg" sendEvent="_rg0AwBLUEeGsAqn_bZm1eg"/>
+    <message xmi:id="_SSwncBLVEeGsAqn_bZm1eg" name="2.listarInstituicoes(String)" receiveEvent="_SSzDsBLVEeGsAqn_bZm1eg" sendEvent="_SSx1kBLVEeGsAqn_bZm1eg"/>
     <message xmi:id="_a4NxoBLmEeGsAqn_bZm1eg" name="3.Retorna lista de Instituições." messageSort="asynchCall" receiveEvent="_a4RcABLmEeGsAqn_bZm1eg" sendEvent="_a4Pm0BLmEeGsAqn_bZm1eg"/>
     <message xmi:id="_vbF_0BLmEeGsAqn_bZm1eg" name="4. Escolher Instituicao a ser excluida." messageSort="asynchCall" receiveEvent="_vbKRQBLmEeGsAqn_bZm1eg" sendEvent="_vbIcEBLmEeGsAqn_bZm1eg"/>
     <message xmi:id="_OHQyMBLnEeGsAqn_bZm1eg" name="5.listarAdministradoresMB()" receiveEvent="_OHUckBLnEeGsAqn_bZm1eg" sendEvent="_OHTOcBLnEeGsAqn_bZm1eg"/>
