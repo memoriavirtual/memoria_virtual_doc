@@ -152,6 +152,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-GoOEayGEeC_KIEyBOiFPQ" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-GoOEqyGEeC_KIEyBOiFPQ" value="1"/>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_uChzMEz2EeGG9ovm0rnr1A" name="validade"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_-GqqUKyGEeC_KIEyBOiFPQ" name="acesso_usuario_0" memberEnd="_-GqqUayGEeC_KIEyBOiFPQ _-GoOEKyGEeC_KIEyBOiFPQ">
     <ownedEnd xmi:id="_-GqqUayGEeC_KIEyBOiFPQ" name="acesso" type="_1E8yMayGEeC_KIEyBOiFPQ" association="_-GqqUKyGEeC_KIEyBOiFPQ">
@@ -201,6 +202,7 @@
         <value xsi:nil="true"/>
       </defaultValue>
     </ownedAttribute>
+    <ownedAttribute xmi:id="_zI53IEz2EeGG9ovm0rnr1A" name="validade"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_UtjTcKyOEeC_KIEyBOiFPQ" name="" memberEnd="_UtjTcayOEeC_KIEyBOiFPQ _UtiFUKyOEeC_KIEyBOiFPQ" navigableOwnedEnd="_UtiFUKyOEeC_KIEyBOiFPQ">
     <ownedEnd xmi:id="_UtjTcayOEeC_KIEyBOiFPQ" name="instituicao" type="_70pgMKyNEeC_KIEyBOiFPQ" association="_UtjTcKyOEeC_KIEyBOiFPQ">
@@ -239,6 +241,23 @@
     <ownedEnd xmi:id="_0dOCIUd5EeGsh7pl9mctwA" name="autorAcao" type="_PHYosGB9EeCWAtwB1MdlQA" association="_0dOCIEd5EeGsh7pl9mctwA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0dOCIkd5EeGsh7pl9mctwA" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0dOCI0d5EeGsh7pl9mctwA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_w-LhcUz1EeGG9ovm0rnr1A" name="Aprovacao">
+    <ownedAttribute xmi:id="_5Uj9kEz1EeGG9ovm0rnr1A" name="data"/>
+    <ownedAttribute xmi:id="_6cZvYEz1EeGG9ovm0rnr1A" name="aprovador"/>
+    <ownedAttribute xmi:id="_7eNKoEz1EeGG9ovm0rnr1A" name="dataExpiracao"/>
+    <ownedAttribute xmi:id="_-qrGoEz1EeGG9ovm0rnr1A" name="chaveEstrangeira"/>
+    <ownedAttribute xmi:id="_EVTHIEz2EeGG9ovm0rnr1A" name="tabelaEstrangeira"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TlmocEz2EeGG9ovm0rnr1A" name="aprovacao_usuario_0" memberEnd="_TlmocUz2EeGG9ovm0rnr1A _TlkzQEz2EeGG9ovm0rnr1A" navigableOwnedEnd="_TlmocUz2EeGG9ovm0rnr1A">
+    <ownedEnd xmi:id="_TlmocUz2EeGG9ovm0rnr1A" name="aprovador" type="_w-LhcUz1EeGG9ovm0rnr1A" aggregation="shared" association="_TlmocEz2EeGG9ovm0rnr1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tlmockz2EeGG9ovm0rnr1A" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tlmoc0z2EeGG9ovm0rnr1A"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_TlkzQEz2EeGG9ovm0rnr1A" name="usuario" type="_PHYosGB9EeCWAtwB1MdlQA" association="_TlmocEz2EeGG9ovm0rnr1A">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TlkzQUz2EeGG9ovm0rnr1A" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TlkzQkz2EeGG9ovm0rnr1A" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
