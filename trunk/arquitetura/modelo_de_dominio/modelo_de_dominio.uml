@@ -246,9 +246,11 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_w-LhcUz1EeGG9ovm0rnr1A" name="Aprovacao">
     <ownedAttribute xmi:id="_5Uj9kEz1EeGG9ovm0rnr1A" name="data"/>
     <ownedAttribute xmi:id="_6cZvYEz1EeGG9ovm0rnr1A" name="aprovador"/>
-    <ownedAttribute xmi:id="_7eNKoEz1EeGG9ovm0rnr1A" name="dataExpiracao"/>
+    <ownedAttribute xmi:id="_7eNKoEz1EeGG9ovm0rnr1A" name="expiracao"/>
     <ownedAttribute xmi:id="_-qrGoEz1EeGG9ovm0rnr1A" name="chaveEstrangeira"/>
     <ownedAttribute xmi:id="_EVTHIEz2EeGG9ovm0rnr1A" name="tabelaEstrangeira"/>
+    <ownedAttribute xmi:id="_OVXwYVmYEeGTH7XOoNeIOg" name="id"/>
+    <ownedAttribute xmi:id="_Qr90UFmYEeGTH7XOoNeIOg" name="aprovador" isUnique="false"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_TlmocEz2EeGG9ovm0rnr1A" name="aprovacao_usuario_0" memberEnd="_TlmocUz2EeGG9ovm0rnr1A _TlkzQEz2EeGG9ovm0rnr1A" navigableOwnedEnd="_TlmocUz2EeGG9ovm0rnr1A">
     <ownedEnd xmi:id="_TlmocUz2EeGG9ovm0rnr1A" name="aprovador" type="_w-LhcUz1EeGG9ovm0rnr1A" aggregation="shared" association="_TlmocEz2EeGG9ovm0rnr1A">

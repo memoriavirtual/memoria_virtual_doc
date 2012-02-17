@@ -268,6 +268,14 @@
         <element xmi:type="uml:Property" href="modelo_de_dominio.uml#_EVTHIEz2EeGG9ovm0rnr1A"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_EVWKcUz2EeGG9ovm0rnr1A"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_OXB9QFmYEeGTH7XOoNeIOg" type="3012" fontName="Sans" fontHeight="12" lineColor="0">
+        <element xmi:type="uml:Property" href="modelo_de_dominio.uml#_OVXwYVmYEeGTH7XOoNeIOg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OXB9QVmYEeGTH7XOoNeIOg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QsCFwFmYEeGTH7XOoNeIOg" type="3012" fontName="Sans" fontHeight="12" lineColor="0">
+        <element xmi:type="uml:Property" href="modelo_de_dominio.uml#_Qr90UFmYEeGTH7XOoNeIOg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QsCFwVmYEeGTH7XOoNeIOg"/>
+      </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_w-_ZxUz1EeGG9ovm0rnr1A"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_w-_Zxkz1EeGG9ovm0rnr1A"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_w-_Zx0z1EeGG9ovm0rnr1A"/>
