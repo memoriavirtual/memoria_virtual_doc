@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_7PWZsWR3EeGGKrRUOeGPdw" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_7SRK0GR3EeGGKrRUOeGPdw" name="CadastrarAutor">
+    <lifeline xmi:id="_-MBmMGR3EeGGKrRUOeGPdw" name=":Usuario &lt;&lt;Ator>>"/>
+    <lifeline xmi:id="_ynn5cGR4EeGGKrRUOeGPdw" name="CadastrarAutorMB  &lt;&lt;controle>>"/>
+    <lifeline xmi:id="_EhcasGR5EeGGKrRUOeGPdw" name="CadastrarAutor  &lt;&lt;fachada>>"/>
+    <lifeline xmi:id="_jo-TYGR5EeGGKrRUOeGPdw" name="Lifeline"/>
+  </packagedElement>
+</uml:Model>
