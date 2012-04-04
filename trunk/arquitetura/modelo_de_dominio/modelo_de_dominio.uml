@@ -262,4 +262,15 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TlkzQkz2EeGG9ovm0rnr1A" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NWnBgH3IEeGLLqi7D-lHIw" name="Autor">
+    <ownedAttribute xmi:id="_jIAw8H3LEeGLLqi7D-lHIw" name="    tipoAutoria" visibility="private"/>
+    <ownedAttribute xmi:id="_DsBOsH3MEeGLLqi7D-lHIw" name="  nome" visibility="private"/>
+    <ownedAttribute xmi:id="_Q5hKwH3MEeGLLqi7D-lHIw" name="sobrenome" visibility="private"/>
+    <ownedAttribute xmi:id="_ek9AAH3MEeGLLqi7D-lHIw" name="codinome" visibility="private"/>
+    <ownedAttribute xmi:id="_rRb5sH3MEeGLLqi7D-lHIw" name="atividade" visibility="private"/>
+    <ownedAttribute xmi:id="_zMtHIH3MEeGLLqi7D-lHIw" name="nascimento" visibility="private"/>
+    <ownedAttribute xmi:id="_BbSswH3NEeGLLqi7D-lHIw" name="obito" visibility="private"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_Wv9roH3KEeGLLqi7D-lHIw" name="Class1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Og4xYH3KEeGLLqi7D-lHIw" name=""/>
 </uml:Model>
