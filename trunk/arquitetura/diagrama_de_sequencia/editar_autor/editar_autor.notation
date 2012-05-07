@@ -51,7 +51,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GszuIJgCEeGj2-SLEQEZ5Q" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="editar_autor.uml#_Gsp9IJgCEeGj2-SLEQEZ5Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gsx48ZgCEeGj2-SLEQEZ5Q" x="42" y="302" width="16" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gsx48ZgCEeGj2-SLEQEZ5Q" x="42" y="257" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_autor.uml#_P2isEJf9EeG10sZzGcMKFQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2qA0Zf9EeG10sZzGcMKFQ" x="30" y="31" height="441"/>
@@ -104,7 +104,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NhqGEJgCEeGj2-SLEQEZ5Q" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="editar_autor.uml#_NhfG8JgCEeGj2-SLEQEZ5Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nhnp0ZgCEeGj2-SLEQEZ5Q" x="57" y="302" width="16" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nhnp0ZgCEeGj2-SLEQEZ5Q" x="57" y="257" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_autor.uml#_XIyxsJf9EeG10sZzGcMKFQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XI0m4Zf9EeG10sZzGcMKFQ" x="190" y="31" width="131" height="436"/>
@@ -157,7 +157,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OQeT4ZgCEeGj2-SLEQEZ5Q" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="editar_autor.uml#_OQVJ8JgCEeGj2-SLEQEZ5Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OQcesZgCEeGj2-SLEQEZ5Q" x="47" y="302" width="16" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OQcesZgCEeGj2-SLEQEZ5Q" x="47" y="257" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_autor.uml#_y_AqoJf9EeG10sZzGcMKFQ"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y_DG4Zf9EeG10sZzGcMKFQ" x="380" y="31" width="111" height="436"/>
