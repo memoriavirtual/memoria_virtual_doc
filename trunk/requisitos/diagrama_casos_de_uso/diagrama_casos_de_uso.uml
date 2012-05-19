@@ -623,4 +623,16 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cRKMBgS4EeGke9AiMcDADQ" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_YEb30ZnwEeGTdfFG4ZHQCA" name="Tempo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lKiLYJnwEeGTdfFG4ZHQCA" name="Limpar Pendentes CDU 23"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qseJ8JnwEeGTdfFG4ZHQCA" name="" memberEnd="_qseJ8ZnwEeGTdfFG4ZHQCA _qseJ9JnwEeGTdfFG4ZHQCA">
+    <ownedEnd xmi:id="_qseJ8ZnwEeGTdfFG4ZHQCA" name="tempo" type="_YEb30ZnwEeGTdfFG4ZHQCA" association="_qseJ8JnwEeGTdfFG4ZHQCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qseJ8pnwEeGTdfFG4ZHQCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qseJ85nwEeGTdfFG4ZHQCA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_qseJ9JnwEeGTdfFG4ZHQCA" name="limpar pendentes" type="_lKiLYJnwEeGTdfFG4ZHQCA" association="_qseJ8JnwEeGTdfFG4ZHQCA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qseJ9ZnwEeGTdfFG4ZHQCA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qseJ9pnwEeGTdfFG4ZHQCA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
