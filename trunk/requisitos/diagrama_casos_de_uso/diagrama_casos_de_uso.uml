@@ -413,6 +413,7 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_iPcfQcUFEeCsgtnpI2sC-g" name="     Catalogar Bens    CDU 10 ">
     <extend xmi:id="__OmrUMUHEeCsgtnpI2sC-g" extendedCase="_3jZIkMUGEeCsgtnpI2sC-g" extensionLocation="__P2BcMUHEeCsgtnpI2sC-g"/>
     <extend xmi:id="_bRd5IMUIEeCsgtnpI2sC-g" extendedCase="_ImY6EMUIEeCsgtnpI2sC-g" extensionLocation="_bRwNAMUIEeCsgtnpI2sC-g"/>
+    <extend xmi:id="_ee0IMcYMEeGQK7XfCUPhDg" extendedCase="_9pAW8AS3EeGke9AiMcDADQ" extensionLocation="_egDeUMYMEeGQK7XfCUPhDg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_9aUVIMUFEeCsgtnpI2sC-g" name="A_catalogar bens cdu 03//04 _catalogar bens cdu 03//04 " memberEnd="_9aUVIcUFEeCsgtnpI2sC-g _9aUVJMUFEeCsgtnpI2sC-g">
     <ownedEnd xmi:id="_9aUVIcUFEeCsgtnpI2sC-g" name="catalogar bens cdu 03//04 " type="_iPcfQcUFEeCsgtnpI2sC-g" association="_9aUVIMUFEeCsgtnpI2sC-g">
@@ -590,7 +591,9 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1kN1RsaqEeC0OpKmIAotpQ" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9pAW8AS3EeGke9AiMcDADQ" name="Cadastrar Autor CDU 22"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9pAW8AS3EeGke9AiMcDADQ" name="Cadastrar Autor CDU 22">
+    <extensionPoint xmi:id="_egDeUMYMEeGQK7XfCUPhDg" name="point"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_T1b84AS4EeGke9AiMcDADQ" name="Editar Autor CDU 23"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_WIhZ0AS4EeGke9AiMcDADQ" name="Excluir Autor CDU 24"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_a3Rn8AS4EeGke9AiMcDADQ" name="A_catalogador_cadastrar autor cdu 22" memberEnd="_a3Rn8QS4EeGke9AiMcDADQ _a3Rn9AS4EeGke9AiMcDADQ">

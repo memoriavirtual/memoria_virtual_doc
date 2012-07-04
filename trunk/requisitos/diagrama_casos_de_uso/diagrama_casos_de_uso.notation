@@ -435,7 +435,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihlYKMUFEeCsgtnpI2sC-g"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_iPcfQcUFEeCsgtnpI2sC-g"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihfRgcUFEeCsgtnpI2sC-g" x="640" y="333" width="156" height="36"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihfRgcUFEeCsgtnpI2sC-g" x="1044" y="288" width="156" height="36"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_9Z6lIMUIEeCsgtnpI2sC-g" type="2013" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9Z6lIsUIEeCsgtnpI2sC-g" source="ShadowFigure">
@@ -601,6 +601,10 @@
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_9twUEgS3EeGke9AiMcDADQ" type="5016"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_9tw7IAS3EeGke9AiMcDADQ" type="7009">
+      <children xmi:type="notation:Shape" xmi:id="_ek9McMYMEeGQK7XfCUPhDg" type="3007" fontName="Ubuntu" fontHeight="11" lineColor="0">
+        <element xmi:type="uml:ExtensionPoint" href="diagrama_casos_de_uso.uml#_egDeUMYMEeGQK7XfCUPhDg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_elJZsMYMEeGQK7XfCUPhDg"/>
+      </children>
       <styles xmi:type="notation:SortingStyle" xmi:id="_9tw7IQS3EeGke9AiMcDADQ"/>
       <styles xmi:type="notation:FilteringStyle" xmi:id="_9tw7IgS3EeGke9AiMcDADQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9tw7IwS3EeGke9AiMcDADQ"/>
@@ -1107,5 +1111,18 @@
     <element xmi:type="uml:Association" href="diagrama_casos_de_uso.uml#_qseJ8JnwEeGTdfFG4ZHQCA"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qsles5nwEeGTdfFG4ZHQCA" points="[30, -5, -183, 1]$[214, 11, 1, 17]"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qssMYJnwEeGTdfFG4ZHQCA" id="(0.1411764705882353,0.48333333333333334)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_efjvEMYMEeGQK7XfCUPhDg" type="4009" source="_ihfRgMUFEeCsgtnpI2sC-g" target="_9tf1YAS3EeGke9AiMcDADQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_efk9MMYMEeGQK7XfCUPhDg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_efk9McYMEeGQK7XfCUPhDg" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_efk9MsYMEeGQK7XfCUPhDg" type="6031">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eflkQMYMEeGQK7XfCUPhDg" y="-20"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_efjvEcYMEeGQK7XfCUPhDg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_efjvEsYMEeGQK7XfCUPhDg" fontName="Ubuntu" fontHeight="11"/>
+    <element xmi:type="uml:Extend" href="diagrama_casos_de_uso.uml#_ee0IMcYMEeGQK7XfCUPhDg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_efjvE8YMEeGQK7XfCUPhDg" points="[-8, 19, 123, -315]$[-125, 333, 6, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_egBpIMYMEeGQK7XfCUPhDg" id="(0.949685534591195,0.4090909090909091)"/>
   </edges>
 </notation:Diagram>
