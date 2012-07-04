@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_J2drUMXkEeGFI4vYEJKNhA" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_J2e5cMXkEeGFI4vYEJKNhA" name="Interaction1">
+    <lifeline xmi:id="_iNwmUMXkEeGFI4vYEJKNhA" name="Lifeline"/>
+    <lifeline xmi:id="_j-b5wMXkEeGFI4vYEJKNhA" name="Lifeline0"/>
+    <lifeline xmi:id="_kpUCwMXkEeGFI4vYEJKNhA" name="Lifeline1"/>
+  </packagedElement>
+</uml:Model>
