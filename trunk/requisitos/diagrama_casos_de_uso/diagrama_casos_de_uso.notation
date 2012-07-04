@@ -435,7 +435,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihlYKMUFEeCsgtnpI2sC-g"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_iPcfQcUFEeCsgtnpI2sC-g"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihfRgcUFEeCsgtnpI2sC-g" x="1044" y="288" width="156" height="36"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ihfRgcUFEeCsgtnpI2sC-g" x="1044" y="264" width="156" height="64"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_9Z6lIMUIEeCsgtnpI2sC-g" type="2013" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9Z6lIsUIEeCsgtnpI2sC-g" source="ShadowFigure">
@@ -454,7 +454,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Z6lLMUIEeCsgtnpI2sC-g"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_9ZoRQMUIEeCsgtnpI2sC-g"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Z6lIcUIEeCsgtnpI2sC-g" x="475" y="433" width="161" height="36"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9Z6lIcUIEeCsgtnpI2sC-g" x="475" y="408" width="161" height="65"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_ahWa8MahEeC0OpKmIAotpQ" type="2013" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ahgL8MahEeC0OpKmIAotpQ" source="ShadowFigure">
@@ -473,7 +473,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ahgL-sahEeC0OpKmIAotpQ"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_aeOOcMahEeC0OpKmIAotpQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ahWa8cahEeC0OpKmIAotpQ" x="475" y="373" width="156" height="41"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ahWa8cahEeC0OpKmIAotpQ" x="480" y="336" width="156" height="66"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_HbYIQMakEeC0OpKmIAotpQ" type="2013" fontName="Segoe UI" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HbYIQsakEeC0OpKmIAotpQ" source="ShadowFigure">

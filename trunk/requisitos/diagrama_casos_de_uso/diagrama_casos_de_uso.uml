@@ -410,7 +410,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eT661r7kEeCqreTMrDpLvQ" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_iPcfQcUFEeCsgtnpI2sC-g" name="     Catalogar Bens    CDU 10 ">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_iPcfQcUFEeCsgtnpI2sC-g" name="Cadastrar Bem Patrimonial       CDU 10 ">
     <extend xmi:id="__OmrUMUHEeCsgtnpI2sC-g" extendedCase="_3jZIkMUGEeCsgtnpI2sC-g" extensionLocation="__P2BcMUHEeCsgtnpI2sC-g"/>
     <extend xmi:id="_bRd5IMUIEeCsgtnpI2sC-g" extendedCase="_ImY6EMUIEeCsgtnpI2sC-g" extensionLocation="_bRwNAMUIEeCsgtnpI2sC-g"/>
     <extend xmi:id="_ee0IMcYMEeGQK7XfCUPhDg" extendedCase="_9pAW8AS3EeGke9AiMcDADQ" extensionLocation="_egDeUMYMEeGQK7XfCUPhDg"/>
@@ -451,7 +451,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eSahpsUIEeCsgtnpI2sC-g" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_9ZoRQMUIEeCsgtnpI2sC-g" name="      Excluir Bens                      CDU 12                "/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9ZoRQMUIEeCsgtnpI2sC-g" name="      Excluir Bem Patrimonial                      CDU 12                "/>
   <packagedElement xmi:type="uml:Association" xmi:id="_Tax0QMUJEeCsgtnpI2sC-g" name="A_excluir ou editar bem patrimonial cdu 06 ou 07_excluir ou editar bem patrimonial cdu 06 ou 07" memberEnd="_Tax0QcUJEeCsgtnpI2sC-g _Tax0RMUJEeCsgtnpI2sC-g">
     <ownedEnd xmi:id="_Tax0QcUJEeCsgtnpI2sC-g" name="excluir ou editar bem patrimonial cdu 06 ou 07" type="_9ZoRQMUIEeCsgtnpI2sC-g" association="_Tax0QMUJEeCsgtnpI2sC-g">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tax0QsUJEeCsgtnpI2sC-g" value="1"/>
@@ -493,7 +493,7 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GupDZsUKEeCsgtnpI2sC-g" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_aeOOcMahEeC0OpKmIAotpQ" name="     Editar Bens       CDU 13 "/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_aeOOcMahEeC0OpKmIAotpQ" name="Editar Bem Patrimonial        CDU 13 "/>
   <packagedElement xmi:type="uml:Association" xmi:id="_p4mRwMahEeC0OpKmIAotpQ" name="A_  editar bens      cdu 07 _catalogador" memberEnd="_p4mRwcahEeC0OpKmIAotpQ _p4mRxMahEeC0OpKmIAotpQ">
     <ownedEnd xmi:id="_p4mRwcahEeC0OpKmIAotpQ" name="  editar bens      cdu 07 " type="_aeOOcMahEeC0OpKmIAotpQ" association="_p4mRwMahEeC0OpKmIAotpQ">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p4mRwsahEeC0OpKmIAotpQ" value="1"/>
