@@ -171,7 +171,7 @@
     <message xmi:id="_SSwncBLVEeGsAqn_bZm1eg" name="listarInstituicoes(String)" receiveEvent="_SSzDsBLVEeGsAqn_bZm1eg" sendEvent="_SSx1kBLVEeGsAqn_bZm1eg"/>
     <message xmi:id="_a4NxoBLmEeGsAqn_bZm1eg" name="" messageSort="asynchCall" receiveEvent="_a4RcABLmEeGsAqn_bZm1eg" sendEvent="_a4Pm0BLmEeGsAqn_bZm1eg"/>
     <message xmi:id="_vbF_0BLmEeGsAqn_bZm1eg" name="4. Escolher Instituicao a ser excluida." messageSort="asynchCall" receiveEvent="_vbKRQBLmEeGsAqn_bZm1eg" sendEvent="_vbIcEBLmEeGsAqn_bZm1eg"/>
-    <message xmi:id="_OHQyMBLnEeGsAqn_bZm1eg" name="listarValidadores()" receiveEvent="_OHUckBLnEeGsAqn_bZm1eg" sendEvent="_OHTOcBLnEeGsAqn_bZm1eg"/>
+    <message xmi:id="_OHQyMBLnEeGsAqn_bZm1eg" name="recuperarPossiveisAprovadores()" receiveEvent="_OHUckBLnEeGsAqn_bZm1eg" sendEvent="_OHTOcBLnEeGsAqn_bZm1eg"/>
     <message xmi:id="_l5EagBLnEeGsAqn_bZm1eg" name="listarValidadores()" receiveEvent="_l5Ir8BLnEeGsAqn_bZm1eg" sendEvent="_l5G2wBLnEeGsAqn_bZm1eg"/>
     <message xmi:id="_ilQq8BLoEeGsAqn_bZm1eg" name="7.retorna lista de gerentes validadores" messageSort="asynchCall" receiveEvent="_ilVjcBLoEeGsAqn_bZm1eg" sendEvent="_ilSgIBLoEeGsAqn_bZm1eg"/>
     <message xmi:id="_5MXasBLoEeGsAqn_bZm1eg" name="8.Escolher gerente valiador." messageSort="asynchCall" receiveEvent="_5MbFEBLoEeGsAqn_bZm1eg" sendEvent="_5MZ28BLoEeGsAqn_bZm1eg"/>
@@ -194,8 +194,8 @@
     <message xmi:id="_IkiwABaWEeGcxayZRAJ0Ow" name="Retorna lista de Instituições." messageSort="reply" receiveEvent="_Ik1q8BaWEeGcxayZRAJ0Ow" sendEvent="_Ik0c0BaWEeGcxayZRAJ0Ow"/>
     <message xmi:id="_TkBVUBaWEeGcxayZRAJ0Ow" name="Escolher Instituicao a ser excluida." messageSort="reply" receiveEvent="_TkDxkBaWEeGcxayZRAJ0Ow" sendEvent="_TkDKgBaWEeGcxayZRAJ0Ow"/>
     <message xmi:id="_Y-h2MBaWEeGcxayZRAJ0Ow" name="" messageSort="reply" receiveEvent="_Y-mHoBaWEeGcxayZRAJ0Ow" sendEvent="_Y-k5gRaWEeGcxayZRAJ0Ow"/>
-    <message xmi:id="_UjtFIEd0EeGsh7pl9mctwA" name="listarValidadores()" receiveEvent="_UkK_MEd0EeGsh7pl9mctwA" sendEvent="_Ujzy0Ed0EeGsh7pl9mctwA"/>
-    <message xmi:id="_d0q6MEd0EeGsh7pl9mctwA" name="retorna lista de administradores do Sistema" messageSort="reply" receiveEvent="_d0ukkEd0EeGsh7pl9mctwA" sendEvent="_d0t9gEd0EeGsh7pl9mctwA"/>
+    <message xmi:id="_UjtFIEd0EeGsh7pl9mctwA" name="recuperarPossiveisAprovadores()" receiveEvent="_UkK_MEd0EeGsh7pl9mctwA" sendEvent="_Ujzy0Ed0EeGsh7pl9mctwA"/>
+    <message xmi:id="_d0q6MEd0EeGsh7pl9mctwA" name="" messageSort="reply" receiveEvent="_d0ukkEd0EeGsh7pl9mctwA" sendEvent="_d0t9gEd0EeGsh7pl9mctwA"/>
     <message xmi:id="_LZZtsFJ1EeGEpr6GlWoKaw" name="" receiveEvent="_LZjeslJ1EeGEpr6GlWoKaw" sendEvent="_LZjesFJ1EeGEpr6GlWoKaw"/>
     <message xmi:id="_n4xRUFJ1EeGEpr6GlWoKaw" name="" messageSort="reply" receiveEvent="_n46bQ1J1EeGEpr6GlWoKaw" sendEvent="_n46bQVJ1EeGEpr6GlWoKaw"/>
     <message xmi:id="_zOrmEF2sEeGiDIChLNqIDQ" name="registrarAprovacao(Usuario,Instituicao,Date)" receiveEvent="_zOxssl2sEeGiDIChLNqIDQ" sendEvent="_zOxssF2sEeGiDIChLNqIDQ"/>
