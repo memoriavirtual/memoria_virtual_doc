@@ -638,4 +638,6 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qseJ9pnwEeGTdfFG4ZHQCA" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lDNhccwvEeGAkr7_Qp20xw" name="Associar Autor   CDU 024" clientDependency="_sD6kEMwvEeGAkr7_Qp20xw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_sD6kEMwvEeGAkr7_Qp20xw" name="&lt;&lt;extend>>" supplier="_iPcfQcUFEeCsgtnpI2sC-g" client="_lDNhccwvEeGAkr7_Qp20xw"/>
 </uml:Model>
