@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Ogzw4GB9EeCWAtwB1MdlQA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Ogzw4GB9EeCWAtwB1MdlQA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_PISnoGB9EeCWAtwB1MdlQA" type="2008" fontName="Sans" fontHeight="12" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PIp0AGB9EeCWAtwB1MdlQA" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PIp0AWB9EeCWAtwB1MdlQA" key="ShadowFigure_Value" value="false"/>
@@ -1816,5 +1816,15 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_b6LFMtb3EeGwlZde-Zh7-w" points="[51, 42, -386, -319]$[430, 347, -7, -14]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b6ZusNb3EeGwlZde-Zh7-w" id="(0.8089887640449438,0.8911917098445595)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_b6Zusdb3EeGwlZde-Zh7-w" id="(0.36585365853658536,0.14)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_itXc4PhMEeGRYKu22oy0pg" type="4002" source="_JcsQAMl_EeGoU_KfQl0xfA" target="_A-NNcMpTEeGcFdgLFpvXSA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_itYD8PhMEeGRYKu22oy0pg" type="6007">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_itYD8fhMEeGRYKu22oy0pg" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_itXc4fhMEeGRYKu22oy0pg" fontName="Ubuntu" fontHeight="11"/>
+    <element xmi:type="uml:Generalization" href="modelo_de_dominio.uml#_itUZkPhMEeGRYKu22oy0pg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_itXc4vhMEeGRYKu22oy0pg" points="[24, -1, -1395, 288]$[1345, -43, -74, 246]$[1415, -277, -4, 12]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_itcVYPhMEeGRYKu22oy0pg" id="(0.9163763066202091,0.0438871473354232)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_itcVYfhMEeGRYKu22oy0pg" id="(0.8666666666666667,0.9090909090909091)"/>
   </edges>
 </notation:Diagram>
