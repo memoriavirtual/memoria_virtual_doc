@@ -728,4 +728,42 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b6EXgNb3EeGwlZde-Zh7-w" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_j_-RkEoMEeKVtu-cUIfESw" name="Assunto">
+    <ownedAttribute xmi:id="_6anSoEoMEeKVtu-cUIfESw" name="descritor" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__QElsEoMEeKVtu-cUIfESw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__QUdUEoMEeKVtu-cUIfESw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="__Q_LsEoMEeKVtu-cUIfESw">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_02ydsEoMEeKVtu-cUIfESw" name="Descritor">
+    <ownedAttribute xmi:id="_JxNCIEoNEeKVtu-cUIfESw" name="descritor" visibility="public">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_K7H3kEoNEeKVtu-cUIfESw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_K7JswEoNEeKVtu-cUIfESw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_K7N-MEoNEeKVtu-cUIfESw">
+        <value xsi:nil="true"/>
+      </defaultValue>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PilK4EoNEeKVtu-cUIfESw" name="descritor_bemPatrimonial_1" memberEnd="_PilK4UoNEeKVtu-cUIfESw _Pikj0EoNEeKVtu-cUIfESw" navigableOwnedEnd="_PilK4UoNEeKVtu-cUIfESw _Pikj0EoNEeKVtu-cUIfESw">
+    <ownedEnd xmi:id="_PilK4UoNEeKVtu-cUIfESw" name="descritor" type="_02ydsEoMEeKVtu-cUIfESw" association="_PilK4EoNEeKVtu-cUIfESw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PilK4koNEeKVtu-cUIfESw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PilK40oNEeKVtu-cUIfESw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_Pikj0EoNEeKVtu-cUIfESw" name="bemPatrimonial" type="_JcnXgMl_EeGoU_KfQl0xfA" association="_PilK4EoNEeKVtu-cUIfESw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pikj0UoNEeKVtu-cUIfESw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Pikj0koNEeKVtu-cUIfESw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oC9wcEoNEeKVtu-cUIfESw" name="assunto_bemPatrimonial_1" memberEnd="_oC9wcUoNEeKVtu-cUIfESw _oC9JYEoNEeKVtu-cUIfESw" navigableOwnedEnd="_oC9JYEoNEeKVtu-cUIfESw _oC9wcUoNEeKVtu-cUIfESw">
+    <ownedEnd xmi:id="_oC9wcUoNEeKVtu-cUIfESw" name="assunto" type="_j_-RkEoMEeKVtu-cUIfESw" association="_oC9wcEoNEeKVtu-cUIfESw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oC9wckoNEeKVtu-cUIfESw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oC9wc0oNEeKVtu-cUIfESw" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_oC9JYEoNEeKVtu-cUIfESw" name="bemPatrimonial" type="_JcnXgMl_EeGoU_KfQl0xfA" association="_oC9wcEoNEeKVtu-cUIfESw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oC9JYUoNEeKVtu-cUIfESw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oC9JYkoNEeKVtu-cUIfESw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
