@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_NYZEEJf8EeG10sZzGcMKFQ" type="PapyrusUMLSequenceDiagram" name="editar_autor" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_NYZEEJf8EeG10sZzGcMKFQ" type="PapyrusUMLSequenceDiagram" name="editar_autor" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_NYZrIJf8EeG10sZzGcMKFQ" type="2001" fontName="Ubuntu" fontHeight="11" lineColor="0">
     <children xmi:type="notation:DecorationNode" xmi:id="_NYZrIZf8EeG10sZzGcMKFQ" type="5001"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_NYZrIpf8EeG10sZzGcMKFQ" type="7001">
@@ -13,6 +13,9 @@
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P2trMJf9EeG10sZzGcMKFQ" source="QualifiedName">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P2trMZf9EeG10sZzGcMKFQ" key="QualifiedNameDepth" value="1000"/>
         </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o0-jYJp2EeKD-8Ekv1quew" source="CustomExtensionInfo">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o0_KcJp2EeKD-8Ekv1quew" key="manual.label.size" value="true"/>
+        </eAnnotations>
         <children xmi:type="notation:DecorationNode" xmi:id="_P2trMpf9EeG10sZzGcMKFQ" type="5002"/>
         <children xmi:type="notation:Shape" xmi:id="_O7B0IJf_EeG10sZzGcMKFQ" type="3003" fontName="Ubuntu" fontHeight="11" lineColor="0">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O7CbMJf_EeG10sZzGcMKFQ" source="ShadowFigure">
@@ -25,7 +28,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O7DCRJf_EeG10sZzGcMKFQ" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:BehaviorExecutionSpecification" href="editar_autor.uml#_O66fYJf_EeG10sZzGcMKFQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O7B0IZf_EeG10sZzGcMKFQ" x="42" y="27" width="16" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_O7B0IZf_EeG10sZzGcMKFQ" x="54" y="27" width="16" height="50"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_v14PIJgAEeGj2-SLEQEZ5Q" type="3006" fontName="Ubuntu" fontHeight="11" lineColor="0">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v16rYJgAEeGj2-SLEQEZ5Q" source="ShadowFigure">
@@ -38,7 +41,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v19HoJgAEeGj2-SLEQEZ5Q" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="editar_autor.uml#_v1ra0JgAEeGj2-SLEQEZ5Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v14PIZgAEeGj2-SLEQEZ5Q" x="42" y="142" width="16" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v14PIZgAEeGj2-SLEQEZ5Q" x="54" y="142" width="16" height="50"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_Gsx48JgCEeGj2-SLEQEZ5Q" type="3006" fontName="Ubuntu" fontHeight="11" lineColor="0">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GsygAJgCEeGj2-SLEQEZ5Q" source="ShadowFigure">
@@ -51,10 +54,10 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GszuIJgCEeGj2-SLEQEZ5Q" key="QualifiedNameDepth" value="1000"/>
           </eAnnotations>
           <element xmi:type="uml:ActionExecutionSpecification" href="editar_autor.uml#_Gsp9IJgCEeGj2-SLEQEZ5Q"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gsx48ZgCEeGj2-SLEQEZ5Q" x="42" y="257" width="16" height="50"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gsx48ZgCEeGj2-SLEQEZ5Q" x="54" y="257" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="editar_autor.uml#_P2isEJf9EeG10sZzGcMKFQ"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2qA0Zf9EeG10sZzGcMKFQ" x="30" y="31" height="441"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P2qA0Zf9EeG10sZzGcMKFQ" x="30" y="31" width="123" height="464"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_XI0m4Jf9EeG10sZzGcMKFQ" type="3001" fontName="Ubuntu" fontHeight="11" lineColor="0">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XI2cEJf9EeG10sZzGcMKFQ" source="ShadowFigure">
