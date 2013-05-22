@@ -269,7 +269,7 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="__v5RcL7bEeCqreTMrDpLvQ" name="Realizar Login        CDU 08"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_GeRN8L7cEeCqreTMrDpLvQ" name="Realizar Logoff       CDU 21"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_GeRN8L7cEeCqreTMrDpLvQ" name="Realizar Logoff       CDU 11"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_L6e_AL7cEeCqreTMrDpLvQ" name="A_gerente_realizar login cdu 02" memberEnd="_L6fmEL7cEeCqreTMrDpLvQ _L6fmE77cEeCqreTMrDpLvQ">
     <ownedEnd xmi:id="_L6fmEL7cEeCqreTMrDpLvQ" name="gerente" type="_hr0b4L4BEeCe0Ob-k_1XyQ" association="_L6e_AL7cEeCqreTMrDpLvQ">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L6fmEb7cEeCqreTMrDpLvQ" value="1"/>
@@ -594,8 +594,8 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_9pAW8AS3EeGke9AiMcDADQ" name="Cadastrar Autor CDU 22">
     <extensionPoint xmi:id="_egDeUMYMEeGQK7XfCUPhDg" name="point"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_T1b84AS4EeGke9AiMcDADQ" name="Editar Autor CDU 23"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WIhZ0AS4EeGke9AiMcDADQ" name="Excluir Autor CDU 24"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_T1b84AS4EeGke9AiMcDADQ" name="Editar Autor CDU 20"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WIhZ0AS4EeGke9AiMcDADQ" name="Excluir Autor CDU 21"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_a3Rn8AS4EeGke9AiMcDADQ" name="A_catalogador_cadastrar autor cdu 22" memberEnd="_a3Rn8QS4EeGke9AiMcDADQ _a3Rn9AS4EeGke9AiMcDADQ">
     <ownedEnd xmi:id="_a3Rn8QS4EeGke9AiMcDADQ" name="catalogador" type="_lJKFcL4BEeCe0Ob-k_1XyQ" association="_a3Rn8AS4EeGke9AiMcDADQ">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a3Rn8gS4EeGke9AiMcDADQ" value="1"/>
@@ -627,7 +627,7 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_YEb30ZnwEeGTdfFG4ZHQCA" name="Tempo"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_lKiLYJnwEeGTdfFG4ZHQCA" name="Limpar Pendentes CDU 23"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_lKiLYJnwEeGTdfFG4ZHQCA" name="Limpar Pendencias CDU 23"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_qseJ8JnwEeGTdfFG4ZHQCA" name="" memberEnd="_qseJ8ZnwEeGTdfFG4ZHQCA _qseJ9JnwEeGTdfFG4ZHQCA">
     <ownedEnd xmi:id="_qseJ8ZnwEeGTdfFG4ZHQCA" name="tempo" type="_YEb30ZnwEeGTdfFG4ZHQCA" association="_qseJ8JnwEeGTdfFG4ZHQCA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qseJ8pnwEeGTdfFG4ZHQCA" value="1"/>
