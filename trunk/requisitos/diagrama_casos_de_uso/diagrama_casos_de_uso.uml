@@ -638,4 +638,17 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qseJ9pnwEeGTdfFG4ZHQCA" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_W7njcPewEeKur_7XC6HYuA" name="Administrador"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bggq8PewEeKur_7XC6HYuA" name="Cadastrar Instituiçã"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ioUbIPewEeKur_7XC6HYuA" name="Cadastrar Instituição CDU 06"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7iqY0PewEeKur_7XC6HYuA" name="A_cadastrar instituição cdu 06_administrador" memberEnd="_7iqY0fewEeKur_7XC6HYuA _7iqY1PewEeKur_7XC6HYuA">
+    <ownedEnd xmi:id="_7iqY0fewEeKur_7XC6HYuA" name="cadastrar instituição cdu 06" type="_ioUbIPewEeKur_7XC6HYuA" association="_7iqY0PewEeKur_7XC6HYuA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7iqY0vewEeKur_7XC6HYuA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7iqY0_ewEeKur_7XC6HYuA" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:id="_7iqY1PewEeKur_7XC6HYuA" name="administrador" type="_W7njcPewEeKur_7XC6HYuA" association="_7iqY0PewEeKur_7XC6HYuA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7iqY1fewEeKur_7XC6HYuA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7iqY1vewEeKur_7XC6HYuA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
