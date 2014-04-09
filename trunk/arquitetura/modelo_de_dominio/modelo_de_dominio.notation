@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Ogzw4GB9EeCWAtwB1MdlQA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_Ogzw4GB9EeCWAtwB1MdlQA" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_PISnoGB9EeCWAtwB1MdlQA" type="2008" fontName="Sans" fontHeight="12" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PIp0AGB9EeCWAtwB1MdlQA" source="ShadowFigure">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PIp0AWB9EeCWAtwB1MdlQA" key="ShadowFigure_Value" value="false"/>
@@ -1352,6 +1352,24 @@
     <element xmi:type="uml:Class" href="modelo_de_dominio.uml#_02ydsEoMEeKVtu-cUIfESw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_03FYoUoMEeKVtu-cUIfESw" x="2920" y="195"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_4yWsMMAVEeO5g-MecXIQqw" type="Note" fontName="Ubuntu" fontHeight="11" description="Na tabela Aprovacao, os atributos chaveEstrangeira e tabelaEstrangeira referem-se à chave e à tabela da entidade que originou a aprovação." transparency="0" lineColor="0" lineWidth="1">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4ygdMMAVEeO5g-MecXIQqw" source="PapyrusCSSForceValue">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4ygdMcAVEeO5g-MecXIQqw" key="bold" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4yhEQMAVEeO5g-MecXIQqw" key="italic" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4yhEQcAVEeO5g-MecXIQqw" key="fontColor" value="true"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_43lKcMAVEeO5g-MecXIQqw" key="fillColor" value="true"/>
+    </eAnnotations>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_4yhEQsAVEeO5g-MecXIQqw" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_4yhEQ8AVEeO5g-MecXIQqw" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <styles xmi:type="notation:TextStyle" xmi:id="_4yWsMcAVEeO5g-MecXIQqw"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_4yWsMsAVEeO5g-MecXIQqw"/>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4yWsM8AVEeO5g-MecXIQqw" x="62" y="44" width="241" height="115"/>
+  </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_Ogzw4WB9EeCWAtwB1MdlQA"/>
   <element xmi:type="uml:Model" href="modelo_de_dominio.uml#_Ogqm8GB9EeCWAtwB1MdlQA"/>
   <edges xmi:type="notation:Connector" xmi:id="_BvcH0KyHEeC_KIEyBOiFPQ" type="4001" source="_PISnoGB9EeCWAtwB1MdlQA" target="_1FVzwKyGEeC_KIEyBOiFPQ" lineColor="0">
@@ -1942,5 +1960,30 @@
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oDEeIkoNEeKVtu-cUIfESw" points="[0, 0, -1311, -310]$[67, 245, -1244, -65]$[1311, 310, 0, 0]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oDyP0EoNEeKVtu-cUIfESw" id="(0.5078534031413613,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oDy24EoNEeKVtu-cUIfESw" id="(0.14052287581699346,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lTId8MAWEeO5g-MecXIQqw" type="4001" source="_w-8WcEz1EeGG9ovm0rnr1A" target="_4yWsMMAVEeO5g-MecXIQqw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTJFAMAWEeO5g-MecXIQqw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lTJFAcAWEeO5g-MecXIQqw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTJFAsAWEeO5g-MecXIQqw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lTJFA8AWEeO5g-MecXIQqw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTJFBMAWEeO5g-MecXIQqw" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lTJFBcAWEeO5g-MecXIQqw" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTJFBsAWEeO5g-MecXIQqw" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lTJFB8AWEeO5g-MecXIQqw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTJFCMAWEeO5g-MecXIQqw" type="6033">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lTJFCcAWEeO5g-MecXIQqw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lTJFCsAWEeO5g-MecXIQqw" type="6034">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lTJFC8AWEeO5g-MecXIQqw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lTId8cAWEeO5g-MecXIQqw"/>
+    <element xmi:type="uml:Association" href="modelo_de_dominio.uml#_lTGBsMAWEeO5g-MecXIQqw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lTId8sAWEeO5g-MecXIQqw" points="[-3, -5, 56, 85]$[-86, -99, -27, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lTZjsMAWEeO5g-MecXIQqw" id="(0.44680851063829785,0.035897435897435895)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lTZjscAWEeO5g-MecXIQqw" id="(0.14937759336099585,0.2782608695652174)"/>
   </edges>
 </notation:Diagram>
