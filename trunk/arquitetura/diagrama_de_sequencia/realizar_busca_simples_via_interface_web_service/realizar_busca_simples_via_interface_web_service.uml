@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_xvyjMNYgEeO2095WyxCnuQ" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_xwRrYNYgEeO2095WyxCnuQ" name="Interaction1">
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yVFMINYhEeO2095WyxCnuQ" name="MessageSend1" covered="_8sF4sNYgEeO2095WyxCnuQ" message="_yVDW8NYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_fGl-ANYhEeO2095WyxCnuQ" name="ActionExecSpec" covered="_8sF4sNYgEeO2095WyxCnuQ" finish="_L36tMNYiEeO2095WyxCnuQ" start="_yVFMINYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_hPdH8NYhEeO2095WyxCnuQ" name="ActionExecSpec0" covered="_AfdcoNYhEeO2095WyxCnuQ" finish="_L36GINYiEeO2095WyxCnuQ" start="_yVFzMNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_yVFzMNYhEeO2095WyxCnuQ" name="MessageRecv1" covered="_AfdcoNYhEeO2095WyxCnuQ" message="_yVDW8NYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0xjOkNYhEeO2095WyxCnuQ" name="MessageSend2" covered="_AfdcoNYhEeO2095WyxCnuQ" message="_0xhZYNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_hhTF4NYhEeO2095WyxCnuQ" name="ActionExecSpec1" covered="_HufPINYhEeO2095WyxCnuQ" finish="_7NkPwNYhEeO2095WyxCnuQ" start="_0xj1oNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0xj1oNYhEeO2095WyxCnuQ" name="MessageRecv2" covered="_HufPINYhEeO2095WyxCnuQ" message="_0xhZYNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2eIsMNYhEeO2095WyxCnuQ" name="MessageSend3" covered="_HufPINYhEeO2095WyxCnuQ" message="_2eHeENYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_h8GLgNYhEeO2095WyxCnuQ" name="ActionExecSpec2" covered="_JzoWsNYhEeO2095WyxCnuQ" finish="_7Nld4NYhEeO2095WyxCnuQ" start="_2eJ6UNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KfLYoNYiEeO2095WyxCnuQ" name="MessageSend4" covered="_JzoWsNYhEeO2095WyxCnuQ" message="_KfKxkNYiEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7NkPwNYhEeO2095WyxCnuQ" name="MessageRecv3" covered="_HufPINYhEeO2095WyxCnuQ" message="_GrvjQNYiEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GrwKUNYiEeO2095WyxCnuQ" name="MessageRecv4" covered="_AfdcoNYhEeO2095WyxCnuQ" message="_GrvjQNYiEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L36tMNYiEeO2095WyxCnuQ" name="MessageRecv6" covered="_8sF4sNYgEeO2095WyxCnuQ" message="_L344ANYiEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sKy0INYhEeO2095WyxCnuQ" name="MessageSend0" covered="_AfdcoNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3V0oNYhEeO2095WyxCnuQ" name="MessageSend" covered="_8sF4sNYgEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7Nld4NYhEeO2095WyxCnuQ" name="MessageSend" covered="_JzoWsNYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2eJ6UNYhEeO2095WyxCnuQ" name="MessageRecv" covered="_JzoWsNYhEeO2095WyxCnuQ" message="_2eHeENYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KfL_sNYiEeO2095WyxCnuQ" name="MessageRecv5" covered="_HufPINYhEeO2095WyxCnuQ" message="_KfKxkNYiEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sKzbMNYhEeO2095WyxCnuQ" name="MessageRecv0" covered="_HufPINYhEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_L36GINYiEeO2095WyxCnuQ" name="MessageSend5" covered="_AfdcoNYhEeO2095WyxCnuQ" message="_L344ANYiEeO2095WyxCnuQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3WbsNYhEeO2095WyxCnuQ" name="MessageRecv" covered="_AfdcoNYhEeO2095WyxCnuQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_8sF4sNYgEeO2095WyxCnuQ" name="Sistema Externo&lt;&lt;Ator>>" coveredBy="_fGl-ANYhEeO2095WyxCnuQ _k3V0oNYhEeO2095WyxCnuQ _yVFMINYhEeO2095WyxCnuQ _L36tMNYiEeO2095WyxCnuQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_AfdcoNYhEeO2095WyxCnuQ" name="Interface Web Service&lt;&lt;Soap>>&lt;&lt;Rest>>" coveredBy="_hPdH8NYhEeO2095WyxCnuQ _k3WbsNYhEeO2095WyxCnuQ _sKy0INYhEeO2095WyxCnuQ _yVFzMNYhEeO2095WyxCnuQ _0xjOkNYhEeO2095WyxCnuQ _GrwKUNYiEeO2095WyxCnuQ _L36GINYiEeO2095WyxCnuQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HufPINYhEeO2095WyxCnuQ" name="RealizarBuscaSimples&lt;&lt;Fachada>>" coveredBy="_hhTF4NYhEeO2095WyxCnuQ _sKzbMNYhEeO2095WyxCnuQ _0xj1oNYhEeO2095WyxCnuQ _2eIsMNYhEeO2095WyxCnuQ _7NkPwNYhEeO2095WyxCnuQ _KfL_sNYiEeO2095WyxCnuQ"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_JzoWsNYhEeO2095WyxCnuQ" name="EntityManager" coveredBy="_h8GLgNYhEeO2095WyxCnuQ _2eJ6UNYhEeO2095WyxCnuQ _7Nld4NYhEeO2095WyxCnuQ _KfLYoNYiEeO2095WyxCnuQ"/>
+    <message xmi:type="uml:Message" xmi:id="_yVDW8NYhEeO2095WyxCnuQ" name="1:buscaBensPatrimoniais()" receiveEvent="_yVFzMNYhEeO2095WyxCnuQ" sendEvent="_yVFMINYhEeO2095WyxCnuQ"/>
+    <message xmi:type="uml:Message" xmi:id="_0xhZYNYhEeO2095WyxCnuQ" name="2:buscaBensPatrimoniais()" receiveEvent="_0xj1oNYhEeO2095WyxCnuQ" sendEvent="_0xjOkNYhEeO2095WyxCnuQ"/>
+    <message xmi:type="uml:Message" xmi:id="_2eHeENYhEeO2095WyxCnuQ" name="3:queryBensPatrimoniais()" receiveEvent="_2eJ6UNYhEeO2095WyxCnuQ" sendEvent="_2eIsMNYhEeO2095WyxCnuQ"/>
+    <message xmi:type="uml:Message" xmi:id="_GrvjQNYiEeO2095WyxCnuQ" name="5:BensPatrimoniais" messageSort="asynchCall" receiveEvent="_GrwKUNYiEeO2095WyxCnuQ" sendEvent="_7NkPwNYhEeO2095WyxCnuQ"/>
+    <message xmi:type="uml:Message" xmi:id="_KfKxkNYiEeO2095WyxCnuQ" name="4:BensPatrimimoniais" messageSort="asynchCall" receiveEvent="_KfL_sNYiEeO2095WyxCnuQ" sendEvent="_KfLYoNYiEeO2095WyxCnuQ"/>
+    <message xmi:type="uml:Message" xmi:id="_L344ANYiEeO2095WyxCnuQ" name="6:BensPatrimimoniais" messageSort="asynchCall" receiveEvent="_L36tMNYiEeO2095WyxCnuQ" sendEvent="_L36GINYiEeO2095WyxCnuQ"/>
+  </packagedElement>
+</uml:Model>

@@ -2,14 +2,14 @@
 <di:SashWindowsMngr xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.eclipse.org/papyrus/0.7.0/sashdi">
   <pageList>
     <availablePage>
-      <emfPageIdentifier href="diagrama_casos_de_uso.notation#_Vp0eYFsAEeCyFZtoDfIdjQ"/>
+      <emfPageIdentifier href="realizar_busca_simples_via_interface_web_service.notation#_xwfGwNYgEeO2095WyxCnuQ"/>
     </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="diagrama_casos_de_uso.notation#_Vp0eYFsAEeCyFZtoDfIdjQ"/>
+          <emfPageIdentifier href="realizar_busca_simples_via_interface_web_service.notation#_xwfGwNYgEeO2095WyxCnuQ"/>
         </children>
       </children>
     </windows>
