@@ -585,7 +585,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEpTQ9YaEeOUkOrWEyMJtQ"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_TEaCsNYaEeOUkOrWEyMJtQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEosMdYaEeOUkOrWEyMJtQ" x="1075" y="368" width="204" height="49"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TEosMdYaEeOUkOrWEyMJtQ" x="1075" y="368" width="289" height="49"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_ZSadENYaEeOUkOrWEyMJtQ" type="2013">
     <children xmi:type="notation:DecorationNode" xmi:id="_ZSadEtYaEeOUkOrWEyMJtQ" type="5016"/>
@@ -595,7 +595,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZSadFtYaEeOUkOrWEyMJtQ"/>
     </children>
     <element xmi:type="uml:UseCase" href="diagrama_casos_de_uso.uml#_ZSVkkNYaEeOUkOrWEyMJtQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZSadEdYaEeOUkOrWEyMJtQ" x="1075" y="441" width="216" height="52"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZSadEdYaEeOUkOrWEyMJtQ" x="1075" y="441" width="272" height="52"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_Vp0eYVsAEeCyFZtoDfIdjQ"/>
   <element xmi:type="uml:Model" href="diagrama_casos_de_uso.uml#_Vn3WkFsAEeCyFZtoDfIdjQ"/>
