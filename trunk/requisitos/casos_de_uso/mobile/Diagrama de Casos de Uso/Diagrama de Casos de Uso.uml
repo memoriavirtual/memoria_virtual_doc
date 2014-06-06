@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_s3-_YOwcEeOe9be91TOxuQ" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_C0XhsOweEeOe9be91TOxuQ" name="Usuário"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__OpXMOwoEeOe9be91TOxuQ" name="Gerenciar Cadastro Bens Patrimoniais"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_g1n7sO0XEeOwdYVNwQNniw" name="Enviar Bem Patrimonial a Servidor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lTIBwO0XEeOwdYVNwQNniw" name="Servidor Memoria Virtual"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_oARkgO0XEeOwdYVNwQNniw" name="Logar no Sistema"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tn0b0O0XEeOwdYVNwQNniw" name="" memberEnd="_tn0b0e0XEeOwdYVNwQNniw _tn0b1O0XEeOwdYVNwQNniw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tn0b0e0XEeOwdYVNwQNniw" name="usuário" type="_C0XhsOweEeOe9be91TOxuQ" association="_tn0b0O0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tn0b0u0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tn0b0-0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tn0b1O0XEeOwdYVNwQNniw" name="enviar bem patrimonial a servidor" type="_g1n7sO0XEeOwdYVNwQNniw" association="_tn0b0O0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tn0b1e0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tn0b1u0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_u3lakO0XEeOwdYVNwQNniw" name="" memberEnd="_u3lake0XEeOwdYVNwQNniw _u3lalO0XEeOwdYVNwQNniw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u3lake0XEeOwdYVNwQNniw" name="enviar bem patrimonial a servidor" type="_g1n7sO0XEeOwdYVNwQNniw" association="_u3lakO0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u3laku0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u3lak-0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u3lalO0XEeOwdYVNwQNniw" name="servidor memoria virtual" type="_lTIBwO0XEeOwdYVNwQNniw" association="_u3lakO0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u3lale0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u3lalu0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xjdyAO0XEeOwdYVNwQNniw" name="" memberEnd="_xjdyAe0XEeOwdYVNwQNniw _xjdyBO0XEeOwdYVNwQNniw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xjdyAe0XEeOwdYVNwQNniw" name="usuário" type="_C0XhsOweEeOe9be91TOxuQ" association="_xjdyAO0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjdyAu0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xjdyA-0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xjdyBO0XEeOwdYVNwQNniw" name="logar no sistema" type="_oARkgO0XEeOwdYVNwQNniw" association="_xjdyAO0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xjdyBe0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xjdyBu0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y4TeAO0XEeOwdYVNwQNniw" name="" memberEnd="_y4TeAe0XEeOwdYVNwQNniw _y4TeBO0XEeOwdYVNwQNniw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y4TeAe0XEeOwdYVNwQNniw" name="gerenciar cadastrar bens patrimoniais" type="__OpXMOwoEeOe9be91TOxuQ" association="_y4TeAO0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4TeAu0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4TeA-0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y4TeBO0XEeOwdYVNwQNniw" name="usuário" type="_C0XhsOweEeOe9be91TOxuQ" association="_y4TeAO0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4TeBe0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y4TeBu0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4HEB4O0XEeOwdYVNwQNniw" name="" memberEnd="_4HEB4e0XEeOwdYVNwQNniw _4HEB5O0XEeOwdYVNwQNniw">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4HEB4e0XEeOwdYVNwQNniw" name="enviar bem patrimonial a servidor" type="_g1n7sO0XEeOwdYVNwQNniw" association="_4HEB4O0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4HEB4u0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4HEB4-0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4HEB5O0XEeOwdYVNwQNniw" name="logar no sistema" type="_oARkgO0XEeOwdYVNwQNniw" association="_4HEB4O0XEeOwdYVNwQNniw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4HEB5e0XEeOwdYVNwQNniw" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4HEB5u0XEeOwdYVNwQNniw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
