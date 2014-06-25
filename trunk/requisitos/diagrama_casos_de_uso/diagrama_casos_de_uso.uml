@@ -687,4 +687,5 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l7I1tvGFEeOsg9edINGxnw" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_v2PdIPxrEeOzQYz6pPjgEg" name="UseCase2"/>
 </uml:Model>
