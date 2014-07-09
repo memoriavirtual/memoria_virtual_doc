@@ -9,7 +9,7 @@
     <windows>
       <children xsi:type="di:TabFolder">
         <children>
-          <emfPageIdentifier href="enviarDadosServidor.notation#_Y4mzYF-GEeCN4rDPzmVTyg"/>
+          <emfPageIdentifier href="enviar_dados_servidor.notation#_Y4mzYF-GEeCN4rDPzmVTyg"/>
         </children>
       </children>
     </windows>
