@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20110701" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_KaSxMAe9EeSeuvvu2UT3Gg" name="model">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_MwwSQAe9EeSeuvvu2UT3Gg" name="Usuario"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_NKCU8Ae9EeSeuvvu2UT3Gg" name="Servidor Memoria Virtual"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_N_O3kAe9EeSeuvvu2UT3Gg" name="EnviarBemPatrimonialParaServidor"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Od9a8Ae9EeSeuvvu2UT3Gg" name="GerenciarCadastroBensPatrimoniais"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PFvzsAe9EeSeuvvu2UT3Gg" name="LogarNoSistema"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_k8alAAe9EeSeuvvu2UT3Gg" name="" memberEnd="_k8alAQe9EeSeuvvu2UT3Gg _k8alBAe9EeSeuvvu2UT3Gg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k8alAQe9EeSeuvvu2UT3Gg" name="enviarbempatrimonialparaservidor" type="_N_O3kAe9EeSeuvvu2UT3Gg" association="_k8alAAe9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k8alAge9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k8alAwe9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_k8alBAe9EeSeuvvu2UT3Gg" name="usuario" type="_MwwSQAe9EeSeuvvu2UT3Gg" association="_k8alAAe9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k8alBQe9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k8alBge9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mWHi4Ae9EeSeuvvu2UT3Gg" name="" memberEnd="_mWHi4Qe9EeSeuvvu2UT3Gg _mWHi5Ae9EeSeuvvu2UT3Gg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mWHi4Qe9EeSeuvvu2UT3Gg" name="enviarbempatrimonialparaservidor" type="_N_O3kAe9EeSeuvvu2UT3Gg" association="_mWHi4Ae9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mWHi4ge9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mWHi4we9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mWHi5Ae9EeSeuvvu2UT3Gg" name="servidor memoria virtual" type="_NKCU8Ae9EeSeuvvu2UT3Gg" association="_mWHi4Ae9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mWHi5Qe9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mWHi5ge9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o4QIcAe9EeSeuvvu2UT3Gg" name="" memberEnd="_o4QvgAe9EeSeuvvu2UT3Gg _o4Qvgwe9EeSeuvvu2UT3Gg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o4QvgAe9EeSeuvvu2UT3Gg" name="enviarbempatrimonialparaservidor" type="_N_O3kAe9EeSeuvvu2UT3Gg" association="_o4QIcAe9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o4QvgQe9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o4Qvgge9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_o4Qvgwe9EeSeuvvu2UT3Gg" name="logarnosistema" type="_PFvzsAe9EeSeuvvu2UT3Gg" association="_o4QIcAe9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_o4QvhAe9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o4QvhQe9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qKAEMAe9EeSeuvvu2UT3Gg" name="" memberEnd="_qKAEMQe9EeSeuvvu2UT3Gg _qKAENAe9EeSeuvvu2UT3Gg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qKAEMQe9EeSeuvvu2UT3Gg" name="usuario" type="_MwwSQAe9EeSeuvvu2UT3Gg" association="_qKAEMAe9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qKAEMge9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qKAEMwe9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qKAENAe9EeSeuvvu2UT3Gg" name="gerenciarcadastrobenspatrimoniais" type="_Od9a8Ae9EeSeuvvu2UT3Gg" association="_qKAEMAe9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qKAENQe9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qKAENge9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_rURe8Ae9EeSeuvvu2UT3Gg" name="" memberEnd="_rURe8Qe9EeSeuvvu2UT3Gg _rURe9Ae9EeSeuvvu2UT3Gg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rURe8Qe9EeSeuvvu2UT3Gg" name="logarnosistema" type="_PFvzsAe9EeSeuvvu2UT3Gg" association="_rURe8Ae9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rURe8ge9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rURe8we9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_rURe9Ae9EeSeuvvu2UT3Gg" name="usuario" type="_MwwSQAe9EeSeuvvu2UT3Gg" association="_rURe8Ae9EeSeuvvu2UT3Gg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rURe9Qe9EeSeuvvu2UT3Gg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rURe9ge9EeSeuvvu2UT3Gg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
