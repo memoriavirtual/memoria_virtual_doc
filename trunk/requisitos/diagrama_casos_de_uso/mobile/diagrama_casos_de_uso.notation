@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xmi:id="_KaUmYAe9EeSeuvvu2UT3Gg" type="UseCase" name="NewDiagram" measurementUnit="Pixel">
-  <children xmi:type="notation:Shape" xmi:id="_Mw1KwAe9EeSeuvvu2UT3Gg" type="2011">
+  <children xmi:type="notation:Shape" xmi:id="_Mw1KwAe9EeSeuvvu2UT3Gg" type="2011" lineWidth="1">
     <children xmi:type="notation:DecorationNode" xmi:id="_Mw1Kwge9EeSeuvvu2UT3Gg" type="5014">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_Mw1x0Ae9EeSeuvvu2UT3Gg" x="20" y="60"/>
     </children>
@@ -13,7 +13,7 @@
     <element xmi:type="uml:Actor" href="diagrama_casos_de_uso.uml#_MwwSQAe9EeSeuvvu2UT3Gg"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mw1KwQe9EeSeuvvu2UT3Gg" x="595" y="233"/>
   </children>
-  <children xmi:type="notation:Shape" xmi:id="_NKF_UAe9EeSeuvvu2UT3Gg" type="2011">
+  <children xmi:type="notation:Shape" xmi:id="_NKF_UAe9EeSeuvvu2UT3Gg" type="2011" lineWidth="1">
     <children xmi:type="notation:DecorationNode" xmi:id="_NKF_Uge9EeSeuvvu2UT3Gg" type="5014">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_NKF_Uwe9EeSeuvvu2UT3Gg" x="-33" y="60"/>
     </children>
