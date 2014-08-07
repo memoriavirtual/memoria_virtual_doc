@@ -676,7 +676,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0My_5tYaEeOUkOrWEyMJtQ" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_gvP_oPGFEeOsg9edINGxnw" name="Listar Auditoria de Bem Patrimoal"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_gvP_oPGFEeOsg9edINGxnw" name="Listar Alterações do Bem Patrimonial"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_l7I1sPGFEeOsg9edINGxnw" name="A_catalogador_listar auditoria de bem patrimoal" memberEnd="_l7I1sfGFEeOsg9edINGxnw _l7I1tPGFEeOsg9edINGxnw">
     <ownedEnd xmi:type="uml:Property" xmi:id="_l7I1sfGFEeOsg9edINGxnw" name="catalogador" type="_lJKFcL4BEeCe0Ob-k_1XyQ" association="_l7I1sPGFEeOsg9edINGxnw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l7I1svGFEeOsg9edINGxnw" value="1"/>
