@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_uJR_cFoKEeS3PPARLyX5pg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_uNCeEFoKEeS3PPARLyX5pg" name="Processo entre o Dispositivo Móvel e o MV">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_KKFXwFoLEeS3PPARLyX5pg" name="Dispositivo Móvel" node="_3KuKwFoKEeS3PPARLyX5pg _xNpvYFoKEeS3PPARLyX5pg _djutAFoLEeS3PPARLyX5pg">
+      <edge xmi:type="uml:ControlFlow" xmi:id="_fUA-4FoLEeS3PPARLyX5pg" target="_djutAFoLEeS3PPARLyX5pg" source="_3KuKwFoKEeS3PPARLyX5pg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_f2zi4FoLEeS3PPARLyX5pg" target="_aSrzAFoLEeS3PPARLyX5pg" source="_djutAFoLEeS3PPARLyX5pg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_3KuKwFoKEeS3PPARLyX5pg" name="Cadastrar Bens Patrimoniais no Dispositivo Móvel" incoming="_8S17IFoKEeS3PPARLyX5pg" outgoing="_fUA-4FoLEeS3PPARLyX5pg"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_xNpvYFoKEeS3PPARLyX5pg" name="InitialNode1" outgoing="_8S17IFoKEeS3PPARLyX5pg"/>
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_djutAFoLEeS3PPARLyX5pg" name="Enviar Dados para o Servidor" incoming="_fUA-4FoLEeS3PPARLyX5pg" outgoing="_f2zi4FoLEeS3PPARLyX5pg"/>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_Sx0poFoLEeS3PPARLyX5pg" name="Servidor MV" node="_aSrzAFoLEeS3PPARLyX5pg">
+      <node xmi:type="uml:CreateObjectAction" xmi:id="_aSrzAFoLEeS3PPARLyX5pg" name="Receber e Validar os Bens Patrimoniais" incoming="_f2zi4FoLEeS3PPARLyX5pg"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8S17IFoKEeS3PPARLyX5pg" target="_3KuKwFoKEeS3PPARLyX5pg" source="_xNpvYFoKEeS3PPARLyX5pg"/>
+  </packagedElement>
+</uml:Model>
