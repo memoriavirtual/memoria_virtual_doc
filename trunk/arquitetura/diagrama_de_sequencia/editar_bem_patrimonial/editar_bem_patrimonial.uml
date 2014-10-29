@@ -51,7 +51,7 @@
     <message xmi:type="uml:Message" xmi:id="_E6dLENCsEeO3BNCrLWxp-A" name="1:editar()" receiveEvent="_E6dyINCsEeO3BNCrLWxp-A" sendEvent="_E6dLEdCsEeO3BNCrLWxp-A"/>
     <message xmi:type="uml:Message" xmi:id="_JnjzYNCsEeO3BNCrLWxp-A" name="2:editarBemPatrimonial(bemPatrimonial)" receiveEvent="_JnkacdCsEeO3BNCrLWxp-A" sendEvent="_JnkacNCsEeO3BNCrLWxp-A"/>
     <message xmi:type="uml:Message" xmi:id="_OaCq8NCsEeO3BNCrLWxp-A" name="3:cadastrarMultimidia(midia)" receiveEvent="_OaDSANCsEeO3BNCrLWxp-A" sendEvent="_OaCq8dCsEeO3BNCrLWxp-A"/>
-    <message xmi:type="uml:Message" xmi:id="_Uq_EkNCsEeO3BNCrLWxp-A" name="4:editarMultimidia(midia)" receiveEvent="_UrASsNCsEeO3BNCrLWxp-A" sendEvent="_Uq_roNCsEeO3BNCrLWxp-A"/>
+    <message xmi:type="uml:Message" xmi:id="_Uq_EkNCsEeO3BNCrLWxp-A" name="4:alterarMultimidia(midia)" receiveEvent="_UrASsNCsEeO3BNCrLWxp-A" sendEvent="_Uq_roNCsEeO3BNCrLWxp-A"/>
     <message xmi:type="uml:Message" xmi:id="_eeZfYNCsEeO3BNCrLWxp-A" name="5:getInstituicao(id)" receiveEvent="_eeaGcdCsEeO3BNCrLWxp-A" sendEvent="_eeaGcNCsEeO3BNCrLWxp-A"/>
     <message xmi:type="uml:Message" xmi:id="_oEQmYNCsEeO3BNCrLWxp-A" name="6:mensagemSucesso(mensagem)" receiveEvent="_oER0gNCsEeO3BNCrLWxp-A" sendEvent="_oERNcNCsEeO3BNCrLWxp-A"/>
   </packagedElement>
