@@ -152,7 +152,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vrLlVvwHEd-fetgvrW1lDA"/>
     </children>
     <element xmi:type="uml:Interaction" href="realizarBuscaSimples.uml#_vrJwIvwHEd-fetgvrW1lDA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vrKXMfwHEd-fetgvrW1lDA" x="7" width="1249"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vrKXMfwHEd-fetgvrW1lDA" x="6" y="201" width="1249"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_vrJwIfwHEd-fetgvrW1lDA"/>
   <element xmi:type="uml:Interaction" href="realizarBuscaSimples.uml#_vrJwIvwHEd-fetgvrW1lDA"/>
