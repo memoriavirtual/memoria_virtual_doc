@@ -680,4 +680,16 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fn8mQS7DEeSLyOyaNZTiwQ" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_c6RUEGdjEeSkFM7QhsGQ5g" name="Revisor"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_zstxIGdjEeSkFM7QhsGQ5g" name="Revisar Bem Patrimonial  CDU 17"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7mwPgGdjEeSkFM7QhsGQ5g" name="" memberEnd="_7mwPgWdjEeSkFM7QhsGQ5g _7mwPhGdjEeSkFM7QhsGQ5g">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7mwPgWdjEeSkFM7QhsGQ5g" name="revisar bem patrimonial  cdu 17" type="_zstxIGdjEeSkFM7QhsGQ5g" association="_7mwPgGdjEeSkFM7QhsGQ5g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mwPgmdjEeSkFM7QhsGQ5g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mwPg2djEeSkFM7QhsGQ5g" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7mwPhGdjEeSkFM7QhsGQ5g" name="revisor" type="_c6RUEGdjEeSkFM7QhsGQ5g" association="_7mwPgGdjEeSkFM7QhsGQ5g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7mwPhWdjEeSkFM7QhsGQ5g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mwPhmdjEeSkFM7QhsGQ5g" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
