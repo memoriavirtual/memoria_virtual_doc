@@ -692,4 +692,15 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7mwPhmdjEeSkFM7QhsGQ5g" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_-MJ_IOkCEeS-CYLtQErESg" name="Versionamento do bem Patrimonial"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ExxBMOkDEeS-CYLtQErESg" name="" memberEnd="_ExxBMekDEeS-CYLtQErESg _ExxBNOkDEeS-CYLtQErESg">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ExxBMekDEeS-CYLtQErESg" name="usecase3" type="_-MJ_IOkCEeS-CYLtQErESg" association="_ExxBMOkDEeS-CYLtQErESg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ExxBMukDEeS-CYLtQErESg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ExxBM-kDEeS-CYLtQErESg" value="1"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ExxBNOkDEeS-CYLtQErESg" name="tempo" type="_YEb30ZnwEeGTdfFG4ZHQCA" association="_ExxBMOkDEeS-CYLtQErESg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ExxBNekDEeS-CYLtQErESg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ExxBNukDEeS-CYLtQErESg" value="1"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
