@@ -693,14 +693,14 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_-MJ_IOkCEeS-CYLtQErESg" name="Versionamento do bem Patrimonial"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_ExxBMOkDEeS-CYLtQErESg" name="" memberEnd="_ExxBMekDEeS-CYLtQErESg _ExxBNOkDEeS-CYLtQErESg">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_ExxBMekDEeS-CYLtQErESg" name="usecase3" type="_-MJ_IOkCEeS-CYLtQErESg" association="_ExxBMOkDEeS-CYLtQErESg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ExxBMukDEeS-CYLtQErESg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ExxBM-kDEeS-CYLtQErESg" value="1"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XI3kQOkXEeS_UcXNCKVMqQ" name="" memberEnd="_XI4LUOkXEeS_UcXNCKVMqQ _XI4LU-kXEeS_UcXNCKVMqQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XI4LUOkXEeS_UcXNCKVMqQ" name="versionamento do bem patrimonial" type="_-MJ_IOkCEeS-CYLtQErESg" association="_XI3kQOkXEeS_UcXNCKVMqQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XI4LUekXEeS_UcXNCKVMqQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XI4LUukXEeS_UcXNCKVMqQ" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_ExxBNOkDEeS-CYLtQErESg" name="tempo" type="_YEb30ZnwEeGTdfFG4ZHQCA" association="_ExxBMOkDEeS-CYLtQErESg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ExxBNekDEeS-CYLtQErESg" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ExxBNukDEeS-CYLtQErESg" value="1"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XI4LU-kXEeS_UcXNCKVMqQ" name="catalogador" type="_lJKFcL4BEeCe0Ob-k_1XyQ" association="_XI3kQOkXEeS_UcXNCKVMqQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XI4LVOkXEeS_UcXNCKVMqQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XI4LVekXEeS_UcXNCKVMqQ" value="1"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>

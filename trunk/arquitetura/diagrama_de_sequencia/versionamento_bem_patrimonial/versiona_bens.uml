@@ -24,9 +24,9 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Au1CAHVZEeS6cevOVaV7Qw" name="MessageSend" covered="_VVXdoHVYEeS6cevOVaV7Qw"/>
     <message xmi:type="uml:Message" xmi:id="_L1i3wHVZEeS6cevOVaV7Qw" name="2:GetBensNaoRevisados"/>
     <message xmi:type="uml:Message" xmi:id="_Skxv4HVZEeS6cevOVaV7Qw" name="3:BensNaoRevisados" messageSort="asynchCall"/>
-    <message xmi:type="uml:Message" xmi:id="_iYWEYHVbEeS6cevOVaV7Qw" name="3:AlteraBemPatrimonial" receiveEvent="_iYWEYnVbEeS6cevOVaV7Qw" sendEvent="_iYWEYXVbEeS6cevOVaV7Qw"/>
-    <message xmi:type="uml:Message" xmi:id="_vwtMoHVbEeS6cevOVaV7Qw" name="4:SalvaVersaoBemPatrimonial" receiveEvent="_vwtMonVbEeS6cevOVaV7Qw" sendEvent="_vwtMoXVbEeS6cevOVaV7Qw"/>
+    <message xmi:type="uml:Message" xmi:id="_iYWEYHVbEeS6cevOVaV7Qw" name="2:AlteraBemPatrimonial" receiveEvent="_iYWEYnVbEeS6cevOVaV7Qw" sendEvent="_iYWEYXVbEeS6cevOVaV7Qw"/>
+    <message xmi:type="uml:Message" xmi:id="_vwtMoHVbEeS6cevOVaV7Qw" name="3:SalvaVersaoBemPatrimonial" receiveEvent="_vwtMonVbEeS6cevOVaV7Qw" sendEvent="_vwtMoXVbEeS6cevOVaV7Qw"/>
     <message xmi:type="uml:Message" xmi:id="_rhLw8OkGEeS-CYLtQErESg" name="1:SelecionaBematrimonial" receiveEvent="_rhmAoOkGEeS-CYLtQErESg" sendEvent="_rhkygOkGEeS-CYLtQErESg"/>
-    <message xmi:type="uml:Message" xmi:id="_0MAMAOkGEeS-CYLtQErESg" name="2:DevolveBemPatrimonial" messageSort="reply" receiveEvent="_0MMZQOkGEeS-CYLtQErESg" sendEvent="_0MJ9AOkGEeS-CYLtQErESg"/>
+    <message xmi:type="uml:Message" xmi:id="_0MAMAOkGEeS-CYLtQErESg" name="" messageSort="reply" receiveEvent="_0MMZQOkGEeS-CYLtQErESg" sendEvent="_0MJ9AOkGEeS-CYLtQErESg"/>
   </packagedElement>
 </uml:Model>
