@@ -8,16 +8,4 @@
 	</buildSpec>
 	<natures>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>casos_teste/CDT_excluir_bem_patrimonial.ods</name>
-			<type>1</type>
-			<location>C:/Users/Diego/Desktop/CDT_excluir_bem_patrimonial.ods</location>
-		</link>
-		<link>
-			<name>casos_teste/Mobile/CDT_excluir_bem_patrimonial_mobile.ods</name>
-			<type>1</type>
-			<location>C:/Users/Diego/Desktop/CDT_excluir_bem_patrimonial.ods</location>
-		</link>
-	</linkedResources>
 </projectDescription>
