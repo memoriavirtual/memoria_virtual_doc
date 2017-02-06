@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Vn3WkFsAEeCyFZtoDfIdjQ" name="model">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Vn3WkFsAEeCyFZtoDfIdjQ" name="model">
   <ownedComment xmi:type="uml:Comment" xmi:id="_WvT3IJdWEeChtfr8XCFF7g">
     <body>O cadastro da Instituição continua no sistema.</body>
   </ownedComment>
@@ -702,5 +702,15 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XI4LVOkXEeS_UcXNCKVMqQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XI4LVekXEeS_UcXNCKVMqQ" value="1"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_bjrD4OF_Eea-B8K60FuLqg" name="Listar Autores CDU 25">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2JwxsOF_Eea-B8K60FuLqg" name=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8GnxsOF_Eea-B8K60FuLqg" memberEnd="_8GqN8OF_Eea-B8K60FuLqg _8GqN8eF_Eea-B8K60FuLqg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Go_0OF_Eea-B8K60FuLqg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Gpm4OF_Eea-B8K60FuLqg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8GqN8OF_Eea-B8K60FuLqg" name="listar autores cdu 25" type="_bjrD4OF_Eea-B8K60FuLqg" association="_8GnxsOF_Eea-B8K60FuLqg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8GqN8eF_Eea-B8K60FuLqg" name="comum" type="_ckEc4L7bEeCqreTMrDpLvQ" association="_8GnxsOF_Eea-B8K60FuLqg"/>
   </packagedElement>
 </uml:Model>
