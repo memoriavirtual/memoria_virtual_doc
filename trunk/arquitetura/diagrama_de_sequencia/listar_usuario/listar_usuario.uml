@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HHOIYLQmEeeaCKBHWXZkiw" name="RootElement">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_HLlrALQmEeeaCKBHWXZkiw">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-  </packageImport>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_d4WWkLmnEeeNMsjgI64z-Q" name="RootElement">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_oIeikLmnEeeNMsjgI64z-Q" name="Interaction1">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_u8yvALmnEeeNMsjgI64z-Q" name="Usuário&lt;&lt;Ator>>" coveredBy="_WTmWQLmoEeeNMsjgI64z-Q _azdz0LmoEeeNMsjgI64z-Q _pSPKgLmoEeeNMsjgI64z-Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_LmM_cLmoEeeNMsjgI64z-Q" name="ListarUsuariosMB&lt;&lt;Controle>>" coveredBy="_XQnYILmoEeeNMsjgI64z-Q _azfB8LmoEeeNMsjgI64z-Q _fdONMLmoEeeNMsjgI64z-Q _lR0CALmoEeeNMsjgI64z-Q _pSNVULmoEeeNMsjgI64z-Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_SrbVsLmoEeeNMsjgI64z-Q" name="ListarUsuario&lt;&lt;Fachada>>" coveredBy="_YDdxYLmoEeeNMsjgI64z-Q _fdO0QLmoEeeNMsjgI64z-Q _lRyM0LmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_XQnYILmoEeeNMsjgI64z-Q" name="ActionExecSpec0" covered="_LmM_cLmoEeeNMsjgI64z-Q" finish="_lR0CALmoEeeNMsjgI64z-Q" start="_azfB8LmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_azfB8LmoEeeNMsjgI64z-Q" name="MessageRecv" covered="_LmM_cLmoEeeNMsjgI64z-Q" message="_azbXkLmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_azdz0LmoEeeNMsjgI64z-Q" name="MessageSend" covered="_u8yvALmnEeeNMsjgI64z-Q" message="_azbXkLmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_WTmWQLmoEeeNMsjgI64z-Q" name="ActionExecSpec" covered="_u8yvALmnEeeNMsjgI64z-Q" finish="_pSPKgLmoEeeNMsjgI64z-Q" start="_azdz0LmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fdONMLmoEeeNMsjgI64z-Q" name="MessageSend0" covered="_LmM_cLmoEeeNMsjgI64z-Q" message="_fdM_ELmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_YDdxYLmoEeeNMsjgI64z-Q" name="ActionExecSpec1" covered="_SrbVsLmoEeeNMsjgI64z-Q" finish="_lRyM0LmoEeeNMsjgI64z-Q" start="_fdO0QLmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fdO0QLmoEeeNMsjgI64z-Q" name="MessageRecv0" covered="_SrbVsLmoEeeNMsjgI64z-Q" message="_fdM_ELmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pSNVULmoEeeNMsjgI64z-Q" name="MessageSend2" covered="_LmM_cLmoEeeNMsjgI64z-Q" message="_pSK5ELmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_pSPKgLmoEeeNMsjgI64z-Q" name="MessageRecv2" covered="_u8yvALmnEeeNMsjgI64z-Q" message="_pSK5ELmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lR0CALmoEeeNMsjgI64z-Q" name="MessageRecv1" covered="_LmM_cLmoEeeNMsjgI64z-Q" message="_lRuicLmoEeeNMsjgI64z-Q"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lRyM0LmoEeeNMsjgI64z-Q" name="MessageSend1" covered="_SrbVsLmoEeeNMsjgI64z-Q" message="_lRuicLmoEeeNMsjgI64z-Q"/>
+    <message xmi:type="uml:Message" xmi:id="_azbXkLmoEeeNMsjgI64z-Q" name="1. Clica na aba USUÁRIOS" receiveEvent="_azfB8LmoEeeNMsjgI64z-Q" sendEvent="_azdz0LmoEeeNMsjgI64z-Q"/>
+    <message xmi:type="uml:Message" xmi:id="_fdM_ELmoEeeNMsjgI64z-Q" name="2. getUserList( )" receiveEvent="_fdO0QLmoEeeNMsjgI64z-Q" sendEvent="_fdONMLmoEeeNMsjgI64z-Q"/>
+    <message xmi:type="uml:Message" xmi:id="_lRuicLmoEeeNMsjgI64z-Q" name="2.1 Retorna a lista de usuários" messageSort="reply" receiveEvent="_lR0CALmoEeeNMsjgI64z-Q" sendEvent="_lRyM0LmoEeeNMsjgI64z-Q"/>
+    <message xmi:type="uml:Message" xmi:id="_pSK5ELmoEeeNMsjgI64z-Q" name="3. Exibe a lista na tela" messageSort="reply" receiveEvent="_pSPKgLmoEeeNMsjgI64z-Q" sendEvent="_pSNVULmoEeeNMsjgI64z-Q"/>
+  </packagedElement>
 </uml:Model>
